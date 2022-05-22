@@ -1,1 +1,3 @@
 # cmtr-static-public
+
+test
