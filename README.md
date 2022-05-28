@@ -1,3 +1,3 @@
 # cmtr-static-public
 
-test
+For more information see [WIki](https://github.com/cmtr/cmtr-static-public/wiki).
