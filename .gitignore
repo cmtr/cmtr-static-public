@@ -1,3 +1,5 @@
+# General
+*.log
 
 # CMS
 cms/builder/node_modules
