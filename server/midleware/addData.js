@@ -6,7 +6,7 @@ const axois = require('axios');
 const marked = require('marked');
 
 const githubRoot = 'https://raw.githubusercontent.com/cmtr/cmtr-static-public/main/content/content/';
-const fileRoot = '/home/harald/Workspace/public-site/cms-public/content/';
+const fileRoot = __dirname + '/../../content/content/';
 const index = 'index.json';
 
 const isProd = process.env.STAGE === 'PROD';
