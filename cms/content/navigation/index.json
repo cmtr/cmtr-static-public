@@ -1,0 +1,17 @@
+{
+	"mvp": {
+		"type": "map",
+		"source": "navigation/mvp.json"
+	},
+	"full": {
+		"type": "map",
+		"source": "navigation/full.json"
+	},
+	"portfolio":{
+		"type": "link",
+		"key": "portfolio",
+		"title": "Portfolio",
+		"href": "/portfolio",
+		"comment": "Placeholder until portfolio func is in place"
+	}
+}
