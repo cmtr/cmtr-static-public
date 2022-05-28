@@ -1,0 +1,16 @@
+{
+	"id": "annabliko",
+	"name": "Anna Blikø",
+	"title": "Design, Communications & Media Advisor",
+	"image": {
+		"src": "/assets/img/team/anna-bliko-002.png",
+		"alt": "team member"
+	},
+	"social": [
+		{
+			"key": "linkedin",
+			"logoClass": "bi bi-linkedin",
+			"href": "https://www.linkedin.com/in/anna-blik%C3%B8-84460016/"
+		}
+	]
+}
