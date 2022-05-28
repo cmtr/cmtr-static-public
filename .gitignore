@@ -2,6 +2,9 @@
 # CMS
 cms/builder/node_modules
 
-# Server# Logs
+# Server
 server/node_modules
 
+# Extract
+extract/node_modules
+extract/output
