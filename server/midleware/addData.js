@@ -5,9 +5,14 @@ const fp = require('lodash/fp');
 const axois = require('axios');
 const marked = require('marked');
 
-const githubRoot = 'https://raw.githubusercontent.com/cmtr/cmtr-static-public/main/content/content/';
-const fileRoot = __dirname + '/../../content/content/';
+// Content location
+const repositoryRoot = 'https://raw.githubusercontent.com/cmtr/cmtr-static-public/';
+const repositoryBranch = 'main';
+const repositoryLocation = '/content/content/'
+const productionRoot = repositoryRoot + repositoryBranch + repositoryLocation;
+const devRoot = __dirname + '/../..' + repositoryLocation;
 const index = 'index.json';
+
 
 const isProd = process.env.STAGE === 'PROD';
 
@@ -130,7 +135,7 @@ const build = (root) => promiseFlow(
 let data = undefined;
 
 
-const root = isProd ? githubRoot : fileRoot;
+const root = isProd ? productionRoot : devRoot;
 const refresh = isProd
 	? (req) => data === undefined || req.query.refresh
 	: () => true;
