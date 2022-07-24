@@ -1,13 +1,551 @@
 ---
 about:
-  type: map
-  source: about/index.yml
+  about:
+    image:
+      type: ref
+      source: images.stockImages.unsplashed023
+    text:
+      type: external-field
+      target: body
+      source: about/company_intro.md
+      title: Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+      body: ""
+    counters:
+      - logoClass: bi bi-emoji-smile
+        title: Happy Clients
+        count: 120
+      - logoClass: bi bi-journal-richtext
+        title: Projects
+        count: 85
+      - logoClass: bi bi-clock
+        title: Years of experience
+        count: 35
+      - logoClass: bi bi-emoji-smile
+        title: Awards
+        count: 48
+  aboutBoxes:
+    - id: ourmission
+      type: external-field
+      target: paragraph
+      source: about/mission.md
+      logoClass: ri-brush-4-line
+      image:
+        type: ref
+        source: images.stockImages.unsplashed014
+      title: Our Mission
+      paragraph: ""
+      href: /about/ourmission
+    - id: ourvalues
+      type: external-field
+      target: paragraph
+      source: about/values.md
+      logoClass: ri-calendar-check-line
+      image:
+        type: ref
+        source: images.stockImages.unsplashed012
+      title: Our Values
+      paragraph: ""
+      href: /about/ourvalues
+    - id: ourvision
+      type: external-field
+      target: paragraph
+      source: about/vision.md
+      logoClass: ri-movie-2-line
+      image:
+        type: ref
+        source: images.stockImages.unsplashed011
+      title: Our Vision
+      paragraph: ""
+      href: /about/ourvision
+  aboutContent:
+    - id: waywework
+      type: external-field
+      target: body
+      source: about/the_way_we_work.md
+      body: ""
+      title: The Way We Work
+      subTitle: An Introduction to the CMTr.io Mindset
+      authors: []
+      tags: []
+      images:
+        head:
+          type: ref
+          source: images.stockImages.unsplashed012
+      relatedArticles:
+        type: ref
+        source: about.aboutContentRelatedArticles
+    - id: whoweare
+      type: external-field
+      target: body
+      source: about/who_we_are.md
+      body: ""
+      title: Who we are
+      subTitle: Your Independent Generalist Advisory Service
+      authors: []
+      tags: []
+      images:
+        head:
+          type: ref
+          source: images.stockImages.unsplashed001
+      relatedArticles:
+        type: ref
+        source: about.aboutContentRelatedArticles
+    - id: ourmission
+      type: external-field
+      target: body
+      source: about/our_mission.md
+      body: ""
+      title: Our Mission
+      subTitle: ""
+      authors: []
+      tags: []
+      images:
+        head:
+          type: ref
+          source: images.stockImages.unsplashed014
+      relatedArticles:
+        type: ref
+        source: about.aboutContentRelatedArticles
+    - id: ourvalues
+      type: external-field
+      target: body
+      source: about/our_values.md
+      body: ""
+      title: Our Values
+      subTitle: Where we want to go
+      authors: []
+      tags: []
+      images:
+        head:
+          type: ref
+          source: images.stockImages.unsplashed012
+      relatedArticles:
+        type: ref
+        source: about.aboutContentRelatedArticles
+    - id: ourvision
+      type: external-field
+      target: body
+      source: about/our_vision.md
+      body: ""
+      title: Our Vision
+      subTitle: ""
+      authors: []
+      tags: []
+      images:
+        head:
+          type: ref
+          source: images.stockImages.unsplashed011
+      relatedArticles:
+        type: ref
+        source: about.aboutContentRelatedArticles
+  aboutContentRelatedArticles:
+    - type: link
+      title: About Us - This Is Us
+      href: /about/thisisus
+    - type: link
+      title: About Us - Who We Are
+      href: /about/whoweare
+    - type: link
+      title: About Us - The Way We Work
+      href: /about/waywework
+    - type: link
+      title: About Us - Our Story
+      href: /about/ourstory
+    - type: link
+      title: About Us - Our Values
+      href: /about/ourvalues
+    - type: link
+      title: About Us - Our Mission
+      href: /about/ourmission
+    - type: link
+      title: About Us - Our Vision
+      href: /about/ourvision
+  team:
+    title: Team
+    paragraph: Check our Team
+    team:
+      annabliko:
+        id: annabliko
+        name: Anna Blikø
+        title: Design, Communications & Media Advisor
+        image:
+          src: /assets/img/team/anna-bliko-002.png
+          alt: team member
+        social:
+          - key: linkedin
+            logoClass: bi bi-linkedin
+            href: https://www.linkedin.com/in/anna-blik%C3%B8-84460016/
+      haraldbliko:
+        id: haraldbliko
+        name: Harald Blikø
+        title: Product, Project & Technical Advisor
+        image:
+          src: /assets/img/team/harald-bliko-007.jpg
+          alt: team member
+        social:
+          - key: linkedin
+            logoClass: bi bi-linkedin
+            href: https://www.linkedin.com/in/haraldbliko/
+  testimonials:
+    - image:
+        src: /assets/img/testimonials/testimonials-1.jpg
+        alt: client
+      name: Saul Goodman
+      title: CEO & Founder
+      paragraph: Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+    - image:
+        src: /assets/img/testimonials/testimonials-2.jpg
+        alt: client
+      name: Sara Wilsson
+      title: Designer
+      paragraph: Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+    - image:
+        src: /assets/img/testimonials/testimonials-4.jpg
+        alt: client
+      name: Matt Brandon
+      title: Freelancer
+      paragraph: Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+    - image:
+        src: /assets/img/testimonials/testimonials-5.jpg
+        alt: client
+      name: John Larson
+      title: Entrepreneur
+      paragraph: Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+    - image:
+        src: /assets/img/testimonials/testimonials-3.jpg
+        alt: client
+      name: Jena Karlis
+      title: Store Owner
+      paragraph: Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
 services:
-  type: map
-  source: services/index.yml
+  features:
+    - logoClass: ri-gps-line
+      feature: Project, Program & Portfolio Management
+      image:
+        type: ref
+        source: images.assets.asset001
+      body: ""
+      type: external-field
+      target: body
+      source: services/intro_project_mgmt.md
+      href: /services/projectmanagement
+    - logoClass: ri-sun-line
+      feature: Business Analysis & Research
+      image:
+        type: ref
+        source: images.assets.asset003
+      body: ""
+      type: external-field
+      target: body
+      source: services/intro_analysis_research.md
+      href: /services/analysisresearch
+    - logoClass: ri-store-line
+      feature: UX Reseach, Analysis & Design
+      image:
+        type: ref
+        source: images.assets.asset004
+      body: ""
+      type: external-field
+      target: body
+      source: services/intro_ux_design.md
+      href: /services/uxdesign
+    - logoClass: ri-body-scan-line
+      feature: Facilitation & Couching
+      image:
+        type: ref
+        source: images.assets.asset002
+      body: ""
+      type: external-field
+      target: body
+      source: services/intro_facilitation.md
+      href: /services/facilitationcoaching
+  services:
+    title: Services
+    paragraph: Check our Advisory Services
+    services:
+      - logoClass: bi bi-heart
+        title: Product Management
+        paragraph: Services, applications, frameworks, etc. They all have to be developed.
+        href: '#'
+      - logoClass: bi bi-lightbulb
+        title: UX Design
+        paragraph: All good services and products starts with a good design system.
+        href: '#'
+      - logoClass: bi bi-life-preserver
+        title: Peer Review
+        paragraph: '"Trust, but verify" - "Доверяй, но проверяй" - a Russian probverd to that can save you life.'
+        href: '#'
+      - logoClass: bi bi-kanban
+        title: Project, Program & Portfolio Management
+        paragraph: With unfamiliarity comes projects. Done right they can be a power change agent.
+        href: '#'
+      - logoClass: bi bi-lightbulb
+        title: |-
+          Business, User & Marketing
+          Analysis & Research
+        paragraph: Understanding is the first step of idenityfing how to be of service.
+        href: '#'
+      - logoClass: bi bi-people
+        title: Facilitation & Couching
+        paragraph: A guiding hand to bring the out the best of your peoples ideas, knowhow and expertise.
+        href: '#'
+  serviceRelatedArticles:
+    - type: link
+      title: Project, Program & Portfolio Management Services
+      href: /services/projectmanagement
+    - type: link
+      title: Business Analysis & Research Services
+      href: /services/analysisresearch
+    - type: link
+      title: UX Reseach, Analysis & Design Services
+      href: /services/uxdesign
+    - type: link
+      title: Facilitation & Couching Services
+      href: /services/facilitationcoaching
+    - type: link
+      title: About Us - This Is Us
+      href: /about/thisisus
+    - type: link
+      title: About Us - Who We Are
+      href: /about/whoweare
+    - type: link
+      title: About Us - The Way We Work
+      href: /about/waywework
+    - type: link
+      title: About Us - Our Story
+      href: /about/ourstory
+    - type: link
+      title: About Us - Our Values
+      href: /about/ourvalues
+    - type: link
+      title: About Us - Our Mission
+      href: /about/ourmission
+    - type: link
+      title: About Us - Our Vision
+      href: /about/ourvision
+  serviceContent:
+    - id: uxdesign
+      body: ""
+      type: external-field
+      target: body
+      source: services/ux_design.md
+      title: UX Design
+      subTitle: How we help you identify and address your users true needs.
+      authors: []
+      tags: []
+      images:
+        head:
+          type: ref
+          source: images.stockImages.unsplashed022
+      relatedArticles:
+        type: ref
+        source: services.serviceRelatedArticles
+    - id: analysisresearch
+      body: ""
+      type: external-field
+      target: body
+      source: services/analysis_research.md
+      title: Business Analysis & Research
+      subTitle: How we help you understand what the situation actualy is.
+      authors: []
+      tags: []
+      images:
+        head:
+          type: ref
+          source: images.stockImages.unsplashed018
+      relatedArticles:
+        type: ref
+        source: services.serviceRelatedArticles
+    - id: projectmanagement
+      body: ""
+      type: external-field
+      target: body
+      source: services/project_mgmt.md
+      title: Project, Program & Portfolio Management
+      subTitle: How we can help you with address your Project, Program & Portfolio Management needs.
+      authors: []
+      tags: []
+      images:
+        head:
+          type: ref
+          source: images.stockImages.unsplashed021
+      relatedArticles:
+        type: ref
+        source: services.serviceRelatedArticles
+    - id: facilitationcoaching
+      body: ""
+      type: external-field
+      target: body
+      source: services/facilitation_coaching.md
+      title: Facilitation & Coaching
+      subTitle: How we can help you releasing your own or your teams full potential.
+      authors: []
+      tags: []
+      images:
+        head:
+          type: ref
+          source: images.stockImages.unsplashed017
+      relatedArticles:
+        type: ref
+        source: services.serviceRelatedArticles
 publications:
-  type: map
-  source: publications/index.yml
+  - id: strgpyr1
+    type: external-field
+    target: body
+    body: ""
+    source: publications/spa/introduction.md
+    title: 'Part 1: Introduction to Strategic Pyramid Analysis'
+    subTitle: This is the first arcticle in a series about how to perform Strateigy Pyramid Analysis.
+    paragraph: ""
+    tags:
+      - Strategy
+      - Management
+      - Analysis
+    authors:
+      - type: ref
+        source: about.team.team.haraldbliko
+    images:
+      head:
+        type: ref
+        source: images.stockImages.unsplashed013
+      thumbnail:
+        type: ref
+        source: images.stockImages.unsplashed002
+    relatedArticles:
+      - href: /publication/strgpyr2
+        title: Rel
+  - id: strgpyr2
+    type: external-field
+    target: body
+    body: ""
+    source: publications/spa/strategic_pyramid_analysis.md
+    title: 'Part 2: Introduction to the Strategic Pyramid'
+    subTitle: This is the second arcticle in a series about how to perform Strateigy Pyramid Analysis.
+    paragraph: ""
+    tags:
+      - Strategy
+      - Management
+      - Analysis
+    authors:
+      - type: ref
+        source: about.team.team.haraldbliko
+    images:
+      head:
+        type: ref
+        source: images.stockImages.unsplashed015
+      thumbnail:
+        type: ref
+        source: images.stockImages.unsplashed002
+  - id: strgpyr3
+    type: external-field
+    target: body
+    body: ""
+    source: publications/spa/defining_your_values.md
+    title: 'Part 3: Defining Your Values'
+    subTitle: This is the third arcticle in a series about how to perform Strateigy Pyramid Analysis.
+    paragraph: ""
+    tags:
+      - Strategy
+      - Management
+      - Analysis
+    authors:
+      - type: ref
+        source: about.team.team.haraldbliko
+    images:
+      head:
+        type: ref
+        source: images.stockImages.unsplashed004
+      thumbnail:
+        type: ref
+        source: images.stockImages.unsplashed002
+  - id: strgpyr4
+    type: external-field
+    target: body
+    body: ""
+    source: publications/spa/defining_your_mission.md
+    title: 'Part 4: Defining Your Mission'
+    subTitle: This is the fourth arcticle in a series about how to perform Strateigy Pyramid Analysis.
+    paragraph: ""
+    tags:
+      - Strategy
+      - Management
+      - Analysis
+    authors:
+      - type: ref
+        source: about.team.team.haraldbliko
+    images:
+      head:
+        type: ref
+        source: images.stockImages.unsplashed005
+      thumbnail:
+        type: ref
+        source: images.stockImages.unsplashed002
+  - id: strgpyr5
+    type: external-field
+    target: body
+    body: ""
+    source: publications/spa/defining_your_vision.md
+    title: 'Part 5: Defining Your Vision'
+    subTitle: This is the fifth arcticle in a series about how to perform Strateigy Pyramid Analysis.
+    paragraph: ""
+    tags:
+      - Strategy
+      - Management
+      - Analysis
+    authors:
+      - type: ref
+        source: about.team.team.haraldbliko
+    images:
+      head:
+        type: ref
+        source: images.stockImages.unsplashed006
+      thumbnail:
+        type: ref
+        source: images.stockImages.unsplashed002
+  - id: strgpyr6
+    type: external-field
+    target: body
+    body: ""
+    source: publications/spa/defining_your_objectives.md
+    title: 'Part 6: Defining Your Objectives'
+    subTitle: This is the sixth arcticle in a series about how to perform Strateigy Pyramid Analysis.
+    paragraph: ""
+    tags:
+      - Strategy
+      - Management
+      - Analysis
+    authors:
+      - type: ref
+        source: about.team.team.haraldbliko
+    images:
+      head:
+        type: ref
+        source: images.stockImages.unsplashed007
+      thumbnail:
+        type: ref
+        source: images.stockImages.unsplashed002
+  - id: strgpyr7
+    type: external-field
+    target: body
+    body: ""
+    source: publications/spa/defining_your_actions_and_metrics.md
+    title: 'Part 7: Defining Your Actions & Metrics'
+    subTitle: This is the seventh arcticle in a series about how to perform Strateigy Pyramid Analysis.
+    paragraph: ""
+    tags:
+      - Strategy
+      - Management
+      - Analysis
+    authors:
+      - type: ref
+        source: about.team.team.haraldbliko
+    images:
+      head:
+        type: ref
+        source: images.stockImages.unsplashed010
+      thumbnail:
+        type: ref
+        source: images.stockImages.unsplashed002
 home:
   title: CMTr.io - When the going get's weird, the weird turn pro.
   hero:
@@ -75,8 +613,171 @@ common:
     description: ""
     keywords: ""
 navigation:
-  type: map
-  source: navigation/index.yml
+  mvp:
+    navbar:
+      logo:
+        title: CMTr.io
+        href: /
+      navbar:
+        - type: scrollto
+          key: home
+          title: Home
+          href: '#hero'
+        - type: link
+          key: about
+          title: About
+          href: '#about'
+        - type: link
+          key: services
+          title: Services
+          href: '#features'
+        - type: link
+          key: team
+          title: Team
+          href: '#team'
+        - type: scrollto
+          key: contact
+          title: Contact
+          href: '#contact'
+        - type: scrollto
+          key: getstarted
+          title: Get Started
+          href: '#contact'
+          class: getstarted
+    usefullLinks:
+      title: Usefull Links
+      items:
+        - key: home
+          title: Home
+          href: '#hero'
+        - key: about
+          title: About Us
+          href: '#about'
+        - key: services
+          title: Services
+          href: '#features'
+        - key: team
+          title: Our Team
+          href: '#team'
+    ourServices:
+      title: Our Services
+      items:
+        - key: Management
+          title: Project & Product Management
+          href: '#features'
+        - key: analysis
+          title: Analysis & Research
+          href: '#features'
+        - key: facilitaion
+          title: Facilitation & Coaching
+          href: '#features'
+        - key: design
+          title: UX / UI Design
+          href: '#features'
+  full:
+    navbar:
+      logo:
+        title: CMTr.io
+        href: /
+      navbar:
+        - type: link
+          key: home
+          title: Home
+          href: /
+        - type: dropdown
+          key: services
+          title: Services
+          href: /services
+          items:
+            - type: link
+              key: services
+              title: Project, Program & Portfolio Management
+              href: /services/projectmanagement
+            - type: link
+              key: services
+              title: Business Analysis & Research
+              href: /services/analysisresearch
+            - type: link
+              key: services
+              title: UX Reseach, Analysis & Design
+              href: /services/uxdesign
+            - type: link
+              key: services
+              title: Facilitation & Couching
+              href: /services/facilitationcoaching
+        - type: link
+          key: publication
+          title: publications
+          href: /publication
+        - type: dropdown
+          key: about
+          title: About
+          href: /about
+          items:
+            - type: link
+              title: Who We Are
+              href: /about/whoweare
+            - type: link
+              title: The Way We Work
+              href: /about/waywework
+            - type: dropdown
+              title: Values, Mission & Vision
+              href: /about#about-boxes
+              items:
+                - type: link
+                  title: Our Values
+                  href: /about/ourvalues
+                - type: link
+                  title: Our Mission
+                  href: /about/ourmission
+                - type: link
+                  title: Our Vision
+                  href: /about/ourvision
+        - type: scrollto
+          key: contact
+          title: Contact
+          href: '#contact'
+        - type: scrollto
+          key: getstarted
+          title: Get Started
+          href: '#contact'
+          class: getstarted
+    usefullLinks:
+      title: Usefull Links
+      items:
+        - key: home
+          title: Home
+          href: /
+        - key: about
+          title: About Us
+          href: /about
+        - key: services
+          title: Services
+          href: /services
+        - key: publication
+          title: Publication
+          href: /publication
+    ourServices:
+      title: Our Services
+      items:
+        - key: services
+          title: Project, Program & Portfolio Management
+          href: /services/projectmanagement
+        - key: services
+          title: Business Analysis & Research
+          href: /services/analysisresearch
+        - key: services
+          title: UX Reseach, Analysis & Design
+          href: /services/uxdesign
+        - key: services
+          title: Facilitation & Couching
+          href: /services/facilitationcoaching
+  portfolio:
+    type: link
+    key: portfolio
+    title: Portfolio
+    href: /portfolio
+    comment: Placeholder until portfolio func is in place
 images:
   type: map
   source: images/index.yml
