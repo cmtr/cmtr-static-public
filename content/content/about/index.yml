@@ -31,7 +31,7 @@ aboutContentRelatedArticles:
     href: /about/ourvision
 team:
   type: map
-  source: about/team/index.json
+  source: about/team.yml
 testimonials:
   - image:
       src: /assets/img/testimonials/testimonials-1.jpg
