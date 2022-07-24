@@ -1,3 +1,4 @@
+---
 about:
   type: map
   source: about/index.yml
@@ -8,11 +9,71 @@ publications:
   type: map
   source: publications/index.yml
 home:
-  type: map
-  source: page/home.yml
+  title: CMTr.io - When the going get's weird, the weird turn pro.
+  hero:
+    title: CMTr.io
+    subTitle: Helping business do the unfamiliar
+  clients:
+    - src: /assets/img/clients/client-1.png
+      alt: client
+    - src: /assets/img/clients/client-2.png
+      alt: client
+    - src: /assets/img/clients/client-3.png
+      alt: client
+    - src: /assets/img/clients/client-4.png
+      alt: client
+    - src: /assets/img/clients/client-5.png
+      alt: client
+    - src: /assets/img/clients/client-6.png
+      alt: client
 common:
-  type: map
-  source: page/common.yml
+  title: CMTr.io - When the going get's weird, the weird turn pro.
+  company:
+    legalName: CMTr AS
+    businessName: CMTr.io
+    href: https://cmtr.io
+    address:
+      street: Nedre Banegate 3
+      zipCode: 4014
+      city: Stavanger
+      country: Norway
+    email:
+      - key: main
+        displayName: Contact
+        email: contact (at) cmtr.io
+    phone:
+      - key: main
+        displayName: Main
+        countryCode: "47"
+        number: 986 84 197
+    social:
+      - key: twitter
+        logoClass: bx bxl-twitter
+        class: twitter
+        href: '#'
+      - key: facebook
+        logoClass: bx bxl-facebook
+        class: facebook
+        href: '#'
+      - key: instagram
+        logoClass: bx bxl-instagram
+        class: instagram
+        href: '#'
+      - key: google-plus
+        logoClass: bx bxl-google-plus
+        class: google-plus
+        href: '#'
+      - key: linkedin
+        logoClass: bx bxl-linkedin
+        class: linkedin
+        href: '#'
+  newsletter:
+    title: Our Newsletter
+    paragraph: Stay up to date with what's happing by joining our newsletter.
+    subscribe: Subscribe
+  meta:
+    description: ""
+    keywords: ""
 navigation:
   type: map
   source: navigation/index.yml
