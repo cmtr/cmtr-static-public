@@ -1,9 +1,9 @@
 about:
-  $JsonFile: about/about.json
+  $YamlFile: about/about.yml
 aboutBoxes:
-  $JsonFile: about/about-boxes.json
+  $YamlFile: about/about-boxes.yml
 aboutContent:
-  $JsonFile: about/about-content.json
+  $YamlFile: about/about-content.yml
 aboutContentRelatedArticles:
   - type: link
     title: About Us - This Is Us
@@ -27,7 +27,7 @@ aboutContentRelatedArticles:
     title: About Us - Our Vision
     href: /about/ourvision
 team:
-  $JsonFile: about/team/index.json
+  $YamlFile: about/team/index.yml
 testimonials:
   - image:
       src: /assets/img/testimonials/testimonials-1.jpg
