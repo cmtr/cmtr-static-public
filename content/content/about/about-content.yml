@@ -1,0 +1,63 @@
+---
+- id: waywework
+  body:
+    $File: about/the_way_we_work.md
+  title: The Way We Work
+  subTitle: An Introduction to the CMTr.io Mindset
+  authors: []
+  tags: []
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed012
+  relatedArticles:
+    $Ref: about.aboutContentRelatedArticles
+- id: whoweare
+  body:
+    $File: about/who_we_are.md
+  title: Who we are
+  subTitle: Your Independent Generalist Advisory Service
+  authors: []
+  tags: []
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed001
+  relatedArticles:
+    $Ref: about.aboutContentRelatedArticles
+- id: ourmission
+  body:
+    $File: about/our_mission.md
+  title: Our Mission
+  subTitle:
+  authors: []
+  tags: []
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed014
+  relatedArticles:
+    $Ref: about.aboutContentRelatedArticles
+- id: ourvalues
+  type: external-field
+  target: body
+  body:
+    $File: about/our_values.md
+  title: Our Values
+  subTitle: Where we want to go
+  authors: []
+  tags: []
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed012
+  relatedArticles:
+    $Ref: about.aboutContentRelatedArticles
+- id: ourvision
+  body:
+    $File: about/our_vision.md
+  title: Our Vision
+  subTitle:
+  authors: []
+  tags: []
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed011
+  relatedArticles:
+    $Ref: about.aboutContentRelatedArticles
