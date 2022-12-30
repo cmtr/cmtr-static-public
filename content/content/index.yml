@@ -1,15 +1,15 @@
 ---
 about:
-  $Ref: about/index.json
+  $JsonFile: about/index.json
 services:
-  $Ref: services/index.json
+  $JsonFile: services/index.json
 publications:
-  $Ref: publications/index.json
+  $JsonFile: publications/index.json
 home:
-  $Ref: page/home.json
+  $JsonFile: page/home.json
 common:
-  $Ref: page/common.json
+  $JsonFile: page/common.json
 navigation:
-  $Ref: navigation/index.json
+  $JsonFile: navigation/index.json
 images:
-  $Ref: images/index.json
+  $JsonFile: images/index.json
