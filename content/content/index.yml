@@ -1,0 +1,15 @@
+---
+about:
+  $Ref: about/index.json
+services:
+  $Ref: services/index.json
+publications:
+  $Ref: publications/index.json
+home:
+  $Ref: page/home.json
+common:
+  $Ref: page/common.json
+navigation:
+  $Ref: navigation/index.json
+images:
+  $Ref: images/index.json
