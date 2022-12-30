@@ -1,0 +1,10 @@
+mvp:
+  $YamlFile: navigation/mvp.yml
+full:
+  $YamlFile: navigation/full.yml
+portfolio:
+  type: link
+  key: portfolio
+  title: Portfolio
+  href: /portfolio
+  comment: Placeholder until portfolio func is in place
