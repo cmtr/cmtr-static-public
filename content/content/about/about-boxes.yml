@@ -1,0 +1,25 @@
+---
+- id: ourmission
+  logoClass: ri-brush-4-line
+  image:
+    $Ref: images.stockImages.unsplashed014
+  title: Our Mission
+  paragraph:
+    $File: about/mission.md
+  href: /about/ourmission
+- id: ourvalues
+  logoClass: ri-calendar-check-line
+  image:
+    $Ref: images.stockImages.unsplashed012
+  title: Our Values
+  paragraph:
+    $File: about/values.md
+  href: /about/ourvalues
+- id: ourvision
+  logoClass: ri-movie-2-line
+  image:
+    $Ref: images.stockImages.unsplashed011
+  title: Our Vision
+  paragraph:
+    $File: about/vision.md
+  href: /about/ourvision
