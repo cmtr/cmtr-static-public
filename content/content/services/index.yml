@@ -1,0 +1,116 @@
+---
+features:
+  $YamlFile: services/features.yml
+services:
+  title: Services
+  paragraph: Check our Advisory Services
+  services:
+    - logoClass: bi bi-heart
+      title: Product Management
+      paragraph: Services, applications, frameworks, etc. They all have to be developed.
+      href: '#'
+    - logoClass: bi bi-lightbulb
+      title: UX Design
+      paragraph: All good services and products starts with a good design system.
+      href: '#'
+    - logoClass: bi bi-life-preserver
+      title: Peer Review
+      paragraph: '"Trust, but verify" - "Доверяй, но проверяй" - a Russian probverd to that can save you life.'
+      href: '#'
+    - logoClass: bi bi-kanban
+      title: Project, Program & Portfolio Management
+      paragraph: With unfamiliarity comes projects. Done right they can be a power change agent.
+      href: '#'
+    - logoClass: bi bi-lightbulb
+      title: |-
+        Business, User & Marketing
+        Analysis & Research
+      paragraph: Understanding is the first step of idenityfing how to be of service.
+      href: '#'
+    - logoClass: bi bi-people
+      title: Facilitation & Couching
+      paragraph: A guiding hand to bring the out the best of your peoples ideas, knowhow and expertise.
+      href: '#'
+serviceRelatedArticles:
+  - type: link
+    title: Project, Program & Portfolio Management Services
+    href: /services/projectmanagement
+  - type: link
+    title: Business Analysis & Research Services
+    href: /services/analysisresearch
+  - type: link
+    title: UX Reseach, Analysis & Design Services
+    href: /services/uxdesign
+  - type: link
+    title: Facilitation & Couching Services
+    href: /services/facilitationcoaching
+  - type: link
+    title: About Us - This Is Us
+    href: /about/thisisus
+  - type: link
+    title: About Us - Who We Are
+    href: /about/whoweare
+  - type: link
+    title: About Us - The Way We Work
+    href: /about/waywework
+  - type: link
+    title: About Us - Our Story
+    href: /about/ourstory
+  - type: link
+    title: About Us - Our Values
+    href: /about/ourvalues
+  - type: link
+    title: About Us - Our Mission
+    href: /about/ourmission
+  - type: link
+    title: About Us - Our Vision
+    href: /about/ourvision
+serviceContent:
+  - id: uxdesign
+    body:
+      $File: services/ux_design.md
+    title: UX Design
+    subTitle: How we help you identify and address your users true needs.
+    authors: []
+    tags: []
+    images:
+      head:
+        $Ref: images.stockImages.unsplashed022
+    relatedArticles:
+      $Ref: services.serviceRelatedArticles
+  - id: analysisresearch
+    body:
+      $File: services/analysis_research.md
+    title: Business Analysis & Research
+    subTitle: How we help you understand what the situation actualy is.
+    authors: []
+    tags: []
+    images:
+      head:
+        $Ref: images.stockImages.unsplashed018
+    relatedArticles:
+      $Ref: services.serviceRelatedArticles
+  - id: projectmanagement
+    body:
+      $File: services/project_mgmt.md
+    title: Project, Program & Portfolio Management
+    subTitle: How we can help you with address your Project, Program & Portfolio Management needs.
+    authors: []
+    tags: []
+    images:
+      head:
+        $Ref: images.stockImages.unsplashed021
+    relatedArticles:
+      $Ref: services.serviceRelatedArticles
+  - id: facilitationcoaching
+    body:
+      $File: services/facilitation_coaching.md
+    title: Facilitation & Coaching
+    subTitle: How we can help you releasing your own or your teams full potential.
+    authors: []
+    tags: []
+    images:
+      head:
+        $Ref: images.stockImages.unsplashed017
+    relatedArticles:
+      $Ref: services.serviceRelatedArticles
