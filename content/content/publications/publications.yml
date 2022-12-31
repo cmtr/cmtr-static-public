@@ -1,0 +1,124 @@
+- id: strgpyr1
+  body:
+    $File: publications/spa/introduction.md
+  title: 'Part 1: Introduction to Strategic Pyramid Analysis'
+  subTitle: This is the first arcticle in a series about how to perform Strateigy Pyramid Analysis.
+  paragraph:
+  tags:
+    - Strategy
+    - Management
+    - Analysis
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed013
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+  relatedArticles:
+    - href: /publication/strgpyr2
+      title: Rel
+- id: strgpyr2
+  body:
+    $File: publications/spa/strategic_pyramid_analysis.md
+  title: 'Part 2: Introduction to the Strategic Pyramid'
+  subTitle: This is the second arcticle in a series about how to perform Strateigy Pyramid Analysis.
+  paragraph:
+  tags:
+    - Strategy
+    - Management
+    - Analysis
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed015
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+- id: strgpyr3
+  body:
+    $File: publications/spa/defining_your_values.md
+  title: 'Part 3: Defining Your Values'
+  subTitle: This is the third arcticle in a series about how to perform Strateigy Pyramid Analysis.
+  paragraph:
+  tags:
+    - Strategy
+    - Management
+    - Analysis
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed004
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+- id: strgpyr4
+  type: external-field
+  target: body
+  body:
+    $File: publications/spa/defining_your_mission.md
+  title: 'Part 4: Defining Your Mission'
+  subTitle: This is the fourth arcticle in a series about how to perform Strateigy Pyramid Analysis.
+  paragraph:
+  tags:
+    - Strategy
+    - Management
+    - Analysis
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed005
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+- id: strgpyr5
+  body:
+    $File: publications/spa/defining_your_vision.md
+  title: 'Part 5: Defining Your Vision'
+  subTitle: This is the fifth arcticle in a series about how to perform Strateigy Pyramid Analysis.
+  paragraph:
+  tags:
+    - Strategy
+    - Management
+    - Analysis
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed006
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+- id: strgpyr6
+  body:
+    $File: publications/spa/defining_your_objectives.md
+  title: 'Part 6: Defining Your Objectives'
+  subTitle: This is the sixth arcticle in a series about how to perform Strateigy Pyramid Analysis.
+  paragraph:
+  tags:
+    - Strategy
+    - Management
+    - Analysis
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed007
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+- id: strgpyr7
+  body:
+    $File: publications/spa/defining_your_actions_and_metrics.md
+  title: 'Part 7: Defining Your Actions & Metrics'
+  subTitle: This is the seventh arcticle in a series about how to perform Strateigy Pyramid Analysis.
+  paragraph:
+  tags:
+    - Strategy
+    - Management
+    - Analysis
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed010
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
