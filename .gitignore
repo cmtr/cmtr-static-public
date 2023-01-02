@@ -2,7 +2,7 @@
 *.log
 
 # CMS
-cms/builder/node_modules
+content/builder/node_modules
 
 # Server
 server/node_modules

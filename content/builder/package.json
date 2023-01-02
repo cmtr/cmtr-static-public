@@ -25,6 +25,7 @@
   "homepage": "https://github.com/cmtr/cms-public#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "yaml-util": "github:cmtr/yaml-util#main"
   }
 }
