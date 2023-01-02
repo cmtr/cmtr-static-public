@@ -1,0 +1,77 @@
+---
+config:
+  !File: ./config.yml
+contents:
+  !File: ./contents.yml
+
+site:
+  - id: home
+    template: template
+    context:
+      $Ref: /global
+    output:
+      type: html
+      name: index
+
+# About
+  - id: about
+    template: template
+    context:
+      $Ref: /global
+    output:
+      type: html
+      name: about
+
+# Service
+  - id: service
+    template: template
+    context:
+      $Ref: /global
+    output:
+      type: html
+      name: service
+  - id: projectmanagement
+    template: template
+    context:
+      $Ref: /global
+    output:
+      type: html
+      name: service/projectmanagement
+  - id: uxdesign
+    template: template
+    context:
+      $Ref: /global
+    output:
+      type: html
+      name: service/uxdesign
+  - id: analysisresearch
+    template: template
+    context:
+      $Ref: /global
+    output:
+      type: html
+      name: service/analysisresearch
+  - id: facilitationcoaching
+    template: template
+    context:
+      $Ref: /global
+    output:
+      type: html
+      name: service/facilitationcoaching
+
+
+# Publications
+  - id: publication
+    template: template
+    context:
+      $Ref: /global
+    output:
+      type: html
+      name: publication
+  - id: publication_article
+    template: template
+    context:
+      $Ref: /global
+    output:
+      type: html
+      name: publication/article
