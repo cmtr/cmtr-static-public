@@ -1,10 +1,10 @@
 ---
 config:
-  !File: ./config.yml
-contents:
-  !File: ./contents.yml
+  $File: ./config.yml
+content:
+  $File: ./contents.yml
 
-site:
+render:
   - id: home
     template: template
     context:
@@ -12,7 +12,7 @@ site:
     output:
       type: html
       name: index
-
+temp:
 # About
   - id: about
     template: template
