@@ -4036,7 +4036,6 @@ context: &ref_19
         source: assets
         tags: []
 views:
-  test: ./test-view.ejs
   index: ./views/index.ejs
   error: ./views/error.ejs
   about:
@@ -4053,64 +4052,74 @@ views:
     details: ./views/portfolio/details.ejs
 render:
   - id: home
-    template: ./test-view.ejs
-    context:
-      page: home
-    output:
-      type: html
-      name: ./output/index.html
-temp:
-  - id: home
-    template: ./views/index.ejs
+    template:
+      type: EJS
+      path: ./views/index.ejs
     context: *ref_19
     output:
-      type: html
-      name: ./output/index.html
+      type: FILE
+      path: ./output/index.html
   - id: about
     context: *ref_19
-    template: ./views/index.ejs
+    template:
+      type: EJS
+      path: ./views/index.ejs
     output:
       type: FILE
-      name: ./output/about.html
+      path: ./output/about.html
   - id: service
     context: *ref_19
-    template: ./views/services/index.ejs
+    template:
+      type: EJS
+      path: ./views/services/index.ejs
     output:
       type: FILE
-      name: ./output/service.html
+      path: ./output/service.html
   - id: projectmanagement
     context: *ref_19
-    template: ./views/services/details.ejs
+    template:
+      type: EJS
+      path: ./views/services/details.ejs
     output:
       type: FILE
-      name: ./output/service/projectmanagement.html
+      path: ./output/service/projectmanagement.html
   - id: uxdesign
     context: *ref_19
-    template: ./views/services/details.ejs
+    template:
+      type: EJS
+      path: ./views/services/details.ejs
     output:
       type: html
-      name: ./output/service/uxdesign.html
+      path: ./output/service/uxdesign.html
   - id: analysisresearch
     context: *ref_19
-    template: ./views/services/details.ejs
+    template:
+      type: EJS
+      path: ./views/services/details.ejs
     output:
       type: FILE
-      name: ./output/service/analysisresearch.html
+      path: ./output/service/analysisresearch.html
   - id: facilitationcoaching
     context: *ref_19
-    template: ./views/services/details.ejs
+    template:
+      type: EJS
+      path: ./views/services/details.ejs
     output:
       type: FILE
-      name: ./output/service/facilitationcoaching.html
+      path: ./output/service/facilitationcoaching.html
   - id: publication
     context: *ref_19
-    template: ./views/services/details.ejs
+    template:
+      type: EJS
+      path: ./views/services/details.ejs
     output:
       type: FIlE
-      name: ./output/publication.html
+      path: ./output/publication.html
   - id: publication_article
     context: *ref_19
-    template: ./views/publication/details.ejs
+    template:
+      type: EJS
+      path: ./views/publication/details.ejs
     output:
       type: FILE
-      name: ./output/publication/article.html
+      path: ./output/publication/article.html

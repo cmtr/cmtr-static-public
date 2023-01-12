@@ -21,73 +21,91 @@ views:
 render:
   - id: home
     template:
-      $Ref: views.index
+      type: EJS
+      path:
+        $Ref: views.index
     context:
       $Ref: context
     output:
-      type: html
-      name: ./output/index.html
+      type: FILE
+      path: ./output/index.html
   - id: about
     context:
       $Ref: context
     template:
-      $Ref: views.about.index
+      type: EJS
+      path:
+        $Ref: views.about.index
     output:
       type: FILE
-      name: ./output/about.html
+      path: ./output/about.html
   - id: service
     context:
       $Ref: context
     template:
-      $Ref: views.service.index
+      type: EJS
+      path:
+        $Ref: views.service.index
     output:
       type: FILE
-      name: ./output/service.html
+      path: ./output/service.html
   - id: projectmanagement
     context:
       $Ref: context
     template:
-      $Ref: views.service.details
+      type: EJS
+      path:
+        $Ref: views.service.details
     output:
       type: FILE
-      name: ./output/service/projectmanagement.html
+      path: ./output/service/projectmanagement.html
   - id: uxdesign
     context:
       $Ref: context
     template:
-      $Ref: views.service.details
+      type: EJS
+      path:
+        $Ref: views.service.details
     output:
       type: html
-      name: ./output/service/uxdesign.html
+      path: ./output/service/uxdesign.html
   - id: analysisresearch
     context:
       $Ref: context
     template:
-      $Ref: views.service.details
+      type: EJS
+      path:
+        $Ref: views.service.details
     output:
       type: FILE
-      name: ./output/service/analysisresearch.html
+      path: ./output/service/analysisresearch.html
   - id: facilitationcoaching
     context:
       $Ref: context
     template:
-      $Ref: views.service.details
+      type: EJS
+      path:
+        $Ref: views.service.details
     output:
       type: FILE
-      name: ./output/service/facilitationcoaching.html
+      path: ./output/service/facilitationcoaching.html
   - id: publication
     context:
       $Ref: context
     template:
-      $Ref: views.service.details
+      type: EJS
+      path:
+        $Ref: views.service.details
     output:
       type: FIlE
-      name: ./output/publication.html
+      path: ./output/publication.html
   - id: publication_article
     context:
       $Ref: context
     template:
-      $Ref: views.publications.details
+      type: EJS
+      path:
+        $Ref: views.publications.details
     output:
       type: FILE
-      name: ./output/publication/article.html
+      path: ./output/publication/article.html
