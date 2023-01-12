@@ -1,25 +1,14 @@
-const { readFileSync, writeFileSync } = require("fs");
-const _ = require("lodash");
-const yaml = require("js-yaml");
-const YamlUtil = require("yaml-util");
+const buildContext = require("./build");
 
-const rootDirectory = __dirname + "/../content/"
-const path = rootDirectory + "./index.yml";
-const payload = yaml.load(readFileSync(path, { encoding: "utf-8" }));
-console.log("Original:\n");
-console.log(payload);
+const rootDirectory = __dirname + "/../"
+const contentPath = rootDirectory + "content/index.yml"
+const contextPath = rootDirectory + "./output/context.yml";
 
-console.log(`\nTransformed:\n`);
-const transform = _.flow(
-	YamlUtil.yamlFile(rootDirectory),
-	YamlUtil.jsonFile(rootDirectory),
-	YamlUtil.file(rootDirectory),
-	YamlUtil.ref
-);
+buildContext(contentPath, contextPath, { rootDirectory: rootDirectory + "./content/"});
 
-const transformed = transform(payload);
-console.log(transformed);
+const renderConfigPath = rootDirectory + "./page.yml"
+const renderConfigOutputPath = rootDirectory + "./output/page.yml";
 
-const outputYaml = yaml.dump(transformed);
+const renderConfig = buildContext(renderConfigPath, renderConfigOutputPath, { rootDirectory })
 
-writeFileSync("output.yml", outputYaml, { encoding: "utf-8"});
+console.log(renderConfig);

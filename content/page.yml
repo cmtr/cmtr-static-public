@@ -1,77 +1,93 @@
 ---
-config:
-  $File: ./config.yml
-content:
-  $File: ./contents.yml
+context:
+  $YamlFile: ./output/context.yml
+
+views:
+  index: ./views/index.ejs
+  error: ./views/error.ejs
+  about:
+    index: ./views/index.ejs
+    team: ./views/teams.ejs
+  publications:
+    index: ./views/publication/index.ejs
+    details: ./views/publication/details.ejs
+  service:
+    index: ./views/services/index.ejs
+    details: ./views/services/details.ejs
+  portfolio:
+    index: ./views/portfolio/index.ejs
+    details: ./views/portfolio/details.ejs
 
 render:
   - id: home
-    template: template
+    template:
+      $Ref: views.index
     context:
-      $Ref: /global
+      $Ref: context
     output:
       type: html
-      name: index
-temp:
-# About
+      name: ./output/index.html
   - id: about
-    template: template
     context:
-      $Ref: /global
+      $Ref: context
+    template:
+      $Ref: views.about.index
     output:
-      type: html
-      name: about
-
-# Service
+      type: FILE
+      name: ./output/about.html
   - id: service
-    template: template
     context:
-      $Ref: /global
+      $Ref: context
+    template:
+      $Ref: views.service.index
     output:
-      type: html
-      name: service
+      type: FILE
+      name: ./output/service.html
   - id: projectmanagement
-    template: template
     context:
-      $Ref: /global
+      $Ref: context
+    template:
+      $Ref: views.service.details
     output:
-      type: html
-      name: service/projectmanagement
+      type: FILE
+      name: ./output/service/projectmanagement.html
   - id: uxdesign
-    template: template
     context:
-      $Ref: /global
+      $Ref: context
+    template:
+      $Ref: views.service.details
     output:
       type: html
-      name: service/uxdesign
+      name: ./output/service/uxdesign.html
   - id: analysisresearch
-    template: template
     context:
-      $Ref: /global
+      $Ref: context
+    template:
+      $Ref: views.service.details
     output:
-      type: html
-      name: service/analysisresearch
+      type: FILE
+      name: ./output/service/analysisresearch.html
   - id: facilitationcoaching
-    template: template
     context:
-      $Ref: /global
+      $Ref: context
+    template:
+      $Ref: views.service.details
     output:
-      type: html
-      name: service/facilitationcoaching
-
-
-# Publications
+      type: FILE
+      name: ./output/service/facilitationcoaching.html
   - id: publication
-    template: template
     context:
-      $Ref: /global
+      $Ref: context
+    template:
+      $Ref: views.service.details
     output:
-      type: html
-      name: publication
+      type: FIlE
+      name: ./output/publication.html
   - id: publication_article
-    template: template
     context:
-      $Ref: /global
+      $Ref: context
+    template:
+      $Ref: views.publications.details
     output:
-      type: html
-      name: publication/article
+      type: FILE
+      name: ./output/publication/article.html
