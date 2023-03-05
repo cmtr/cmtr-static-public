@@ -1,5 +1,7 @@
 title: Team
 paragraph: Check our Team
 team:
-  - $File: harald-bliko.yml
-  - $File: anna-bliko.yml
+  haraldbliko:
+    $File: harald-bliko.yml
+  annabliko:
+    $File: anna-bliko.yml

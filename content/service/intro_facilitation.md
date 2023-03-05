@@ -10,4 +10,4 @@ Our advisors are experienced with the tools and techniques of both _coaching_ an
 
 To ensure the highest quality for service for our clients, our advisors rely on the established standards of the [International Association of Facilitators (IAF)](https://www.iaf-world.org/) and [International Coaching Community (ICC)](https://internationalcoachingcommunity.com/) to guide them.
 
-[Read More](/services/facilitationcoaching)
+[Read More](/service/facilitationcoaching.html)

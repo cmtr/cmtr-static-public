@@ -8,4 +8,4 @@ Our advisors will join and help you to tailor, implement, socialize and execute 
 
 To ensure the highest quality for service for our clients, our advisors rely on their experience with Design Thinking, User Research, Persona Development, Information Architecture (IA), Wireframing, Prototyping, High Fidelity Design, User Testing, Communications, Media, Marketing, Branding and more.
 
-[Read more](/services/uxdesign)
+[Read more](/service/uxdesign.html)

@@ -8,4 +8,4 @@
 
 **Advisory Service** - This is how we work together in order to secure your interests. The advisory perspective is reflected in our company's values as _Be nice to **People**_ and _**Inspire** greatness in others_. 
 
-[Read more](/about/whoweare)
+[Read more](/about/whoweare.html)

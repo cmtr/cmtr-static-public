@@ -4,25 +4,25 @@
     $Ref: images.assets.asset001
   body:
     $File: intro_project_mgmt.md
-  href: /services/projectmanagement
+  href: /service/projectmanagement.html
 - logoClass: ri-sun-line
   feature: Business Analysis & Research
   image:
     $Ref: images.assets.asset003
   body:
     $File: intro_analysis_research.md
-  href: /services/analysisresearch
+  href: /service/analysisresearch.html
 - logoClass: ri-store-line
   feature: UX Reseach, Analysis & Design
   image:
     $Ref: images.assets.asset004
   body:
     $File: intro_ux_design.md
-  href: /services/uxdesign
+  href: /service/uxdesign.html
 - logoClass: ri-body-scan-line
   feature: Facilitation & Couching
   image:
     $Ref: images.assets.asset002
   body:
     $File: intro_facilitation.md
-  href: /services/facilitationcoaching
+  href: /service/facilitationcoaching.html

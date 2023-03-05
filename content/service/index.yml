@@ -34,83 +34,15 @@ services:
 serviceRelatedArticles:
   - type: link
     title: Project, Program & Portfolio Management Services
-    href: /service/projectmanagement
+    href: /service/projectmanagement.html
   - type: link
     title: Business Analysis & Research Services
-    href: /service/analysisresearch
+    href: /service/analysisresearch.html
   - type: link
     title: UX Reseach, Analysis & Design Services
-    href: /service/uxdesign
+    href: /service/uxdesign.html
   - type: link
     title: Facilitation & Couching Services
-    href: /service/facilitationcoaching
-  - type: link
-    title: About Us - This Is Us
-    href: /about/thisisus
-  - type: link
-    title: About Us - Who We Are
-    href: /about/whoweare
-  - type: link
-    title: About Us - The Way We Work
-    href: /about/waywework
-  - type: link
-    title: About Us - Our Story
-    href: /about/ourstory
-  - type: link
-    title: About Us - Our Values
-    href: /about/ourvalues
-  - type: link
-    title: About Us - Our Mission
-    href: /about/ourmission
-  - type: link
-    title: About Us - Our Vision
-    href: /about/ourvision
+    href: /service/facilitationcoaching.html
 serviceContent:
-  - id: uxdesign
-    body:
-      $File: ux_design.md
-    title: UX Design
-    subTitle: How we help you identify and address your users true needs.
-    authors: []
-    tags: []
-    images:
-      head:
-        $Ref: images.stockImages.unsplashed022
-    relatedArticles:
-      $Ref: services.serviceRelatedArticles
-  - id: analysisresearch
-    body:
-      $File: analysis_research.md
-    title: Business Analysis & Research
-    subTitle: How we help you understand what the situation actualy is.
-    authors: []
-    tags: []
-    images:
-      head:
-        $Ref: images.stockImages.unsplashed018
-    relatedArticles:
-      $Ref: services.serviceRelatedArticles
-  - id: projectmanagement
-    body:
-      $File: project_mgmt.md
-    title: Project, Program & Portfolio Management
-    subTitle: How we can help you with address your Project, Program & Portfolio Management needs.
-    authors: []
-    tags: []
-    images:
-      head:
-        $Ref: images.stockImages.unsplashed021
-    relatedArticles:
-      $Ref: services.serviceRelatedArticles
-  - id: facilitationcoaching
-    body:
-      $File: facilitation_coaching.md
-    title: Facilitation & Coaching
-    subTitle: How we can help you releasing your own or your teams full potential.
-    authors: []
-    tags: []
-    images:
-      head:
-        $Ref: images.stockImages.unsplashed017
-    relatedArticles:
-      $Ref: services.serviceRelatedArticles
+  $File: service-content.yml

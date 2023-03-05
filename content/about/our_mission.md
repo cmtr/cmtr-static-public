@@ -28,7 +28,7 @@ We know that just because something is new to you, doesn't mean it new to everyo
 
 We stive to make our clients independent of us. _Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime._ If we done the job right, they will come back to us when the environment necessitates that fishing must be supplimented by hunting.
 
-Read more about [The Way We Work](/about/waywework)
+Read more about [The Way We Work](/about/waywework.html)
 
 > *“Favoring specialization over intelligence is exactly wrong, especially in high tech. The world is changing so fast across every industry and endeavor that it's a given the role for which you're hiring is going to change. Yesterday's widget will be obsolete tomorrow, and hiring a specialist in such a dynamic environment can backfire. A specialist brings an inherent bias to solving problems that spawns from the very expertise that is his putative advantage, and may be threatened by a new type of solution that requires new expertise. A smart generalist doesn't have bias, so is free to survey the wide range of solutions and gravitate to the best one.”*
 > -  **Eric Schmidt**, How Google Works

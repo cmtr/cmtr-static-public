@@ -6,26 +6,23 @@ aboutContent:
   $File: about-content.yml
 aboutContentRelatedArticles:
   - type: link
-    title: About Us - This Is Us
-    href: /about/thisisus
-  - type: link
     title: About Us - Who We Are
-    href: /about/whoweare
+    href: /about/whoweare.html
   - type: link
     title: About Us - The Way We Work
-    href: /about/waywework
+    href: /about/waywework.html
   - type: link
     title: About Us - Our Story
-    href: /about/ourstory
+    href: /about/ourstory.html
   - type: link
     title: About Us - Our Values
-    href: /about/ourvalues
+    href: /about/ourvalues.html
   - type: link
     title: About Us - Our Mission
-    href: /about/ourmission
+    href: /about/ourmission.html
   - type: link
     title: About Us - Our Vision
-    href: /about/ourvision
+    href: /about/ourvision.html
 team:
   $File: team/index.yml
 testimonials:

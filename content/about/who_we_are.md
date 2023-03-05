@@ -3,7 +3,7 @@
 We define ourself as a *Your Independent Generalist Advisory Service* but what do actually mean by this. We will here go into details on each point.
 
 #### Your
-Our clients is the object of our [mission](/about/ourmission) with the endevour, [vision](/about/ourvision) of the future, and core [values](/about/ourvalues). It's your ambitions, challanges, problems or aspirations we want to address. And to do so in the best possible way that suits your specific contect, situation and needs.
+Our clients is the object of our [mission](/about/ourmission.html) with the endevour, [vision](/about/ourvision.html) of the future, and core [values](/about/ourvalues.html). It's your ambitions, challanges, problems or aspirations we want to address. And to do so in the best possible way that suits your specific contect, situation and needs.
 
 > _“Do what you do so well that they will want to see it again and bring their friends.”_
 > - **Walt Disney**
@@ -37,4 +37,4 @@ The advisory perspective is reflected in our company's values as _Be nice to **P
 > *"If you are going to do something, you have to do it for yourself, and that's what I try to do. I try to be authentic and try to be original, so that's what I try to be. A lot of people try to build big brands but have received bad advice, and they don't try to be authentic and real with themselves."*
 > - **Giannis Antetokounmpo**
 
-Read more about [The Way We Work](/about/waywework)
+Read more about [The Way We Work](/about/waywework.html)

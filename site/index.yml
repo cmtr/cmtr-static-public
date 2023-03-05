@@ -34,6 +34,8 @@ render:
     output:
       type: FILE
       path: ./output/index.html
+
+# About
   - id: about
     context:
       page: about
@@ -49,9 +51,109 @@ render:
     output:
       type: FILE
       path: ./output/about.html
+  - id: waywework
+    context:
+      page: about
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Way We Work
+        items:
+          - href: /about.html
+            title: About Us
+      publication:
+        $Ref: context.about.aboutContent.waywework
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/about/waywework.html
+  - id: whoweare
+    context:
+      page: about
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Who We Are
+        items:
+          - href: /about.html
+            title: About Us
+      publication:
+        $Ref: context.about.aboutContent.whoweare
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/about/whoweare.html
+  - id: ourmission
+    context:
+      page: about
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Our Mission
+        items:
+          - href: /about.html
+            title: About Us
+      publication:
+        $Ref: context.about.aboutContent.ourmission
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/about/ourmission.html
+  - id: ourvalues
+    context:
+      page: about
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Our Values
+        items:
+          - href: /about.html
+            title: About Us
+      publication:
+        $Ref: context.about.aboutContent.ourvalues
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/about/ourvalues.html
+  - id: ourvision
+    context:
+      page: about
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Our Vision
+        items:
+          - href: /about.html
+            title: About Us
+      publication:
+        $Ref: context.about.aboutContent.ourvision
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/about/ourvision.html
+
+
+
+
+# Service
   - id: service
     context:
-      page: service
+      page: services
       breadcrumbs:
         <<: *breadcrumbs
         current:
@@ -64,19 +166,84 @@ render:
     output:
       type: FILE
       path: ./output/service.html
-
-temp:
-
-  - id: service
+  - id: projectmanagement
     context:
-      $Ref: context
+      page: about
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Project, Program & Portfolio Management
+        items:
+          - href: /service.html
+            title: Services
+      publication:
+        $Ref: context.services.serviceContent.projectmanagement
     template:
       type: EJS
       path:
-        $Ref: views.service.index
+        $Ref: views.publications.details
     output:
       type: FILE
-      path: ./output/service.html
+      path: ./output/service/projectmanagement.html
+  - id: uxdesign
+    context:
+      page: about
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: UX Design
+        items:
+          - href: /service.html
+            title: Services
+      publication:
+        $Ref: context.services.serviceContent.uxdesign
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/service/uxdesign.html
+  - id: analysisresearch
+    context:
+      page: about
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Business Analysis & Research
+        items:
+          - href: /service.html
+            title: Services
+      publication:
+        $Ref: context.services.serviceContent.analysisresearch
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/service/analysisresearch.html
+  - id: facilitationcoaching
+    context:
+      page: about
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Facilitation & Coaching
+        items:
+          - href: /service.html
+            title: Services
+      publication:
+        $Ref: context.services.serviceContent.facilitationcoaching
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/service/facilitationcoaching.html
+       
+temp:
   - id: projectmanagement
     context:
       $Ref: context

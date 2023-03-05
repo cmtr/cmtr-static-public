@@ -17,4 +17,4 @@ We are avid generalist with a broad set knowledge of technology, psychology, org
 > 
 > **Hunter S. Thompson**
 
-You can read more about [Our Story](/about/ourstory) and [Who We Are](/about/whoweare).
+You can read more about [Our Story](/about/ourstory.html) and [Who We Are](/about/whoweare.html).

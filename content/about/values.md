@@ -5,4 +5,4 @@
 * **Inspire** greathness in others
 * Be nice to **People**
 
-[Read more](/about/ourvalues)
+[Read more](/about/ourvalues.html)

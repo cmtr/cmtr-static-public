@@ -6,7 +6,7 @@
   title: Our Mission
   paragraph:
     $File: mission.md
-  href: /about/ourmission
+  href: /about/ourmission.html
 - id: ourvalues
   logoClass: ri-calendar-check-line
   image:
@@ -14,7 +14,7 @@
   title: Our Values
   paragraph:
     $File: values.md
-  href: /about/ourvalues
+  href: /about/ourvalues.html
 - id: ourvision
   logoClass: ri-movie-2-line
   image:
@@ -22,4 +22,4 @@
   title: Our Vision
   paragraph:
     $File: vision.md
-  href: /about/ourvision
+  href: /about/ourvision.html
