@@ -1,6 +1,6 @@
 ---
 context:
-  $YamlFile: ./output/context.yml
+  $File: ./output/context.yml
 
 views:
   index: ./views/index.ejs

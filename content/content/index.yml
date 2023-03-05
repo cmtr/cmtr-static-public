@@ -1,15 +1,15 @@
 ---
 about:
-  $YamlFile: about/index.yml
+  $File: about/index.yml
 services:
-  $YamlFile: services/index.yml
+  $File: services/index.yml
 publications:
-  $YamlFile: publications/index.yml
+  $File: publications/index.yml
 home:
-  $YamlFile: page/home.yml
+  $File: page/home.yml
 common:
-  $YamlFile: page/common.yml
+  $File: page/common.yml
 navigation:
-  $YamlFile: navigation/index.yml
+  $File: navigation/index.yml
 images:
-  $YamlFile: images/index.yml
+  $File: images/index.yml
