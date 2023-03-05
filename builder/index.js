@@ -10,7 +10,7 @@ const contentPath = path.resolve(rootDirectory, "content/index.yml");
 const sitePath = path.resolve(rootDirectory, "site/index.yml");
 
 // Build content
-const content = util.importFile()(contentPath)
+const content = util.ref(util.importFile()(contentPath));
 const contentOutputPath = path.resolve(rootDirectory, "output/content.yml");
 writeFileSync(contentOutputPath, yaml.dump(content), { encoding: "utf8"});
 
@@ -39,7 +39,7 @@ site.render.forEach((page) => {
 			writeFileSync(outputPath, html, { encoding: "utf8"});
 		});
 
-		console.log("success");
+		console.log(`Page ${page.id} successfully rendered`);
 	} catch (error) {
 		console.log(`Page "${page.id}" failed to render`);
 		console.trace(error);

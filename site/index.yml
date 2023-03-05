@@ -2,11 +2,16 @@
 context: &context
   $File: ../output/content.yml
 
+breadcrumbs: &breadcrumbs
+  root:
+    href: /index.html
+    title: Home
+
 views:
   index: ./views/index.ejs
   error: ./views/error.ejs
   about:
-    index: ./views/index.ejs
+    index: ./views/about/index.ejs
     team: ./views/teams.ejs
   publications:
     index: ./views/publication/index.ejs
@@ -19,9 +24,24 @@ views:
     details: ./views/portfolio/details.ejs
 
 render:
+  - id: home
+    template:
+      type: EJS
+      path:
+        $Ref: views.index
+    context:
+      page: home
+    output:
+      type: FILE
+      path: ./output/index.html
   - id: about
     context:
       page: about
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: About Us
+        items: []
     template:
       type: EJS
       path:
@@ -29,18 +49,24 @@ render:
     output:
       type: FILE
       path: ./output/about.html
-
-temp:
-  - id: home
+  - id: service
+    context:
+      page: service
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Services
+        items: []     
     template:
       type: EJS
       path:
-        $Ref: views.index
-    context:
-      $Ref: context
+        $Ref: views.service.index
     output:
       type: FILE
-      path: ./output/index.html
+      path: ./output/service.html
+
+temp:
+
   - id: service
     context:
       $Ref: context

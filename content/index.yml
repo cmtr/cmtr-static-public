@@ -2,9 +2,9 @@
 about:
   $File: about/index.yml
 services:
-  $File: services/index.yml
+  $File: service/index.yml
 publications:
-  $File: publications/index.yml
+  $File: publication/index.yml
 home:
   $File: page/home.yml
 common:

@@ -34,16 +34,16 @@ services:
 serviceRelatedArticles:
   - type: link
     title: Project, Program & Portfolio Management Services
-    href: /services/projectmanagement
+    href: /service/projectmanagement
   - type: link
     title: Business Analysis & Research Services
-    href: /services/analysisresearch
+    href: /service/analysisresearch
   - type: link
     title: UX Reseach, Analysis & Design Services
-    href: /services/uxdesign
+    href: /service/uxdesign
   - type: link
     title: Facilitation & Couching Services
-    href: /services/facilitationcoaching
+    href: /service/facilitationcoaching
   - type: link
     title: About Us - This Is Us
     href: /about/thisisus
