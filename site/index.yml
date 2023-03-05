@@ -242,7 +242,7 @@ render:
     output:
       type: FILE
       path: ./output/service/facilitationcoaching.html
-       
+
 temp:
   - id: projectmanagement
     context:
