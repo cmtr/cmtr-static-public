@@ -1,5 +1,5 @@
 title: Team
 paragraph: Check our Team
 team:
-  - $YamlFile: about/team/harald-bliko.yml
-  - $YamlFile: about/team/anna-bliko.yml
+  - $File: about/team/harald-bliko.yml
+  - $File: about/team/anna-bliko.yml

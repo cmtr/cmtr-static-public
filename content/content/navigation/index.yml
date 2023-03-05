@@ -1,7 +1,7 @@
 mvp:
-  $YamlFile: navigation/mvp.yml
+  $File: navigation/mvp.yml
 full:
-  $YamlFile: navigation/full.yml
+  $File: navigation/full.yml
 portfolio:
   type: link
   key: portfolio

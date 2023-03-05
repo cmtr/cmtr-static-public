@@ -1,6 +1,6 @@
 ---
 features:
-  $YamlFile: services/features.yml
+  $File: services/features.yml
 services:
   title: Services
   paragraph: Check our Advisory Services
