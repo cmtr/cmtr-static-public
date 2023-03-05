@@ -1,14 +1,8 @@
 # General
 *.log
 
-# CMS
-content/builder/node_modules
+# Builder
+builder/node_modules
 
-# Server
-server/node_modules
-
-# Extract
-extract/node_modules
-extract/output
-
-# Scripts
+# Output
+output
