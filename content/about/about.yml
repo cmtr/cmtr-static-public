@@ -4,7 +4,7 @@ image:
 text:
   title: Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
   body:
-    $File: about/company_intro.md
+    $File: company_intro.md
 counters:
   - logoClass: bi bi-emoji-smile
     title: Happy Clients

@@ -1,6 +1,6 @@
 ---
-context:
-  $File: ./output/context.yml
+context: &context
+  $File: ../output/content.yml
 
 views:
   index: ./views/index.ejs
@@ -19,6 +19,18 @@ views:
     details: ./views/portfolio/details.ejs
 
 render:
+  - id: about
+    context:
+      page: about
+    template:
+      type: EJS
+      path:
+        $Ref: views.about.index
+    output:
+      type: FILE
+      path: ./output/about.html
+
+temp:
   - id: home
     template:
       type: EJS
@@ -29,16 +41,6 @@ render:
     output:
       type: FILE
       path: ./output/index.html
-  - id: about
-    context:
-      $Ref: context
-    template:
-      type: EJS
-      path:
-        $Ref: views.about.index
-    output:
-      type: FILE
-      path: ./output/about.html
   - id: service
     context:
       $Ref: context

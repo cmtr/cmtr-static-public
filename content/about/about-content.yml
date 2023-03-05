@@ -1,7 +1,7 @@
 ---
 - id: waywework
   body:
-    $File: about/the_way_we_work.md
+    $File: the_way_we_work.md
   title: The Way We Work
   subTitle: An Introduction to the CMTr.io Mindset
   authors: []
@@ -13,7 +13,7 @@
     $Ref: about.aboutContentRelatedArticles
 - id: whoweare
   body:
-    $File: about/who_we_are.md
+    $File: who_we_are.md
   title: Who we are
   subTitle: Your Independent Generalist Advisory Service
   authors: []
@@ -25,7 +25,7 @@
     $Ref: about.aboutContentRelatedArticles
 - id: ourmission
   body:
-    $File: about/our_mission.md
+    $File: our_mission.md
   title: Our Mission
   subTitle:
   authors: []
@@ -39,7 +39,7 @@
   type: external-field
   target: body
   body:
-    $File: about/our_values.md
+    $File: our_values.md
   title: Our Values
   subTitle: Where we want to go
   authors: []
@@ -51,7 +51,7 @@
     $Ref: about.aboutContentRelatedArticles
 - id: ourvision
   body:
-    $File: about/our_vision.md
+    $File: our_vision.md
   title: Our Vision
   subTitle:
   authors: []

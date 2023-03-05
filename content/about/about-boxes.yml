@@ -5,7 +5,7 @@
     $Ref: images.stockImages.unsplashed014
   title: Our Mission
   paragraph:
-    $File: about/mission.md
+    $File: mission.md
   href: /about/ourmission
 - id: ourvalues
   logoClass: ri-calendar-check-line
@@ -13,7 +13,7 @@
     $Ref: images.stockImages.unsplashed012
   title: Our Values
   paragraph:
-    $File: about/values.md
+    $File: values.md
   href: /about/ourvalues
 - id: ourvision
   logoClass: ri-movie-2-line
@@ -21,5 +21,5 @@
     $Ref: images.stockImages.unsplashed011
   title: Our Vision
   paragraph:
-    $File: about/vision.md
+    $File: vision.md
   href: /about/ourvision

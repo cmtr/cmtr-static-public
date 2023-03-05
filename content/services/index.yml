@@ -1,6 +1,6 @@
 ---
 features:
-  $File: services/features.yml
+  $File: features.yml
 services:
   title: Services
   paragraph: Check our Advisory Services
@@ -68,7 +68,7 @@ serviceRelatedArticles:
 serviceContent:
   - id: uxdesign
     body:
-      $File: services/ux_design.md
+      $File: ux_design.md
     title: UX Design
     subTitle: How we help you identify and address your users true needs.
     authors: []
@@ -80,7 +80,7 @@ serviceContent:
       $Ref: services.serviceRelatedArticles
   - id: analysisresearch
     body:
-      $File: services/analysis_research.md
+      $File: analysis_research.md
     title: Business Analysis & Research
     subTitle: How we help you understand what the situation actualy is.
     authors: []
@@ -92,7 +92,7 @@ serviceContent:
       $Ref: services.serviceRelatedArticles
   - id: projectmanagement
     body:
-      $File: services/project_mgmt.md
+      $File: project_mgmt.md
     title: Project, Program & Portfolio Management
     subTitle: How we can help you with address your Project, Program & Portfolio Management needs.
     authors: []
@@ -104,7 +104,7 @@ serviceContent:
       $Ref: services.serviceRelatedArticles
   - id: facilitationcoaching
     body:
-      $File: services/facilitation_coaching.md
+      $File: facilitation_coaching.md
     title: Facilitation & Coaching
     subTitle: How we can help you releasing your own or your teams full potential.
     authors: []

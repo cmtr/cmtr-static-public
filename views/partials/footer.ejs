@@ -22,10 +22,10 @@
 				</div>
 
 				<div class="col-lg-2 col-md-6 footer-links">
-					<h4><%= navigation[navVersion].usefullLinks.title %></h4>
+					<h4><%= navigation.usefullLinks.title %></h4>
 					<ul>
 						
-						<% navigation[navVersion].usefullLinks.items.forEach((item) => {%>
+						<% navigation.usefullLinks.items.forEach((item) => {%>
 							<li><i class="bx bx-chevron-right"></i> <a href="<%= item.href%>"><%= item.title %></a></li>						
 						<% }) %>
 
@@ -33,9 +33,9 @@
 				</div>
 
 				<div class="col-lg-3 col-md-6 footer-links">
-					<h4><%= navigation[navVersion].ourServices.title %></h4>
+					<h4><%= navigation.ourServices.title %></h4>
 					<ul>
-						<% navigation[navVersion].ourServices.items.forEach((item) => { %>
+						<% navigation.ourServices.items.forEach((item) => { %>
 							<li><i class="bx bx-chevron-right"></i> <a href="<%= item.href %>"><%= item.title %></a></li>	
 						<% }) %>
 					</ul>
