@@ -24,6 +24,7 @@ views:
     details: ./views/portfolio/details.ejs
 
 render:
+  # Home
   - id: home
     template:
       type: EJS
@@ -35,7 +36,7 @@ render:
       type: FILE
       path: ./output/index.html
 
-# About
+  # About
   - id: about
     context:
       page: about
@@ -147,10 +148,7 @@ render:
       type: FILE
       path: ./output/about/ourvision.html
 
-
-
-
-# Service
+  # Service
   - id: service
     context:
       page: services
@@ -243,47 +241,142 @@ render:
       type: FILE
       path: ./output/service/facilitationcoaching.html
 
+  # Publications
+  - id: strategic-pyramid-analysis-part-1
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Strategic Pyramid Analysis - Part 1
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.strategic-pyramid-analysis-part-1
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/strategic-pyramid-analysis-part-1.html
+  - id: strategic-pyramid-analysis-part-2
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Strategic Pyramid Analysis - Part 2
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.strategic-pyramid-analysis-part-2
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/strategic-pyramid-analysis-part-2.html
+  - id: strategic-pyramid-analysis-part-3
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Strategic Pyramid Analysis - Part 3
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.strategic-pyramid-analysis-part-3
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/strategic-pyramid-analysis-part-3.html
+  - id: strategic-pyramid-analysis-part-4
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Strategic Pyramid Analysis - Part 4
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.strategic-pyramid-analysis-part-4
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/strategic-pyramid-analysis-part-4.html
+  - id: strategic-pyramid-analysis-part-5
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Strategic Pyramid Analysis - Part 5
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.strategic-pyramid-analysis-part-5
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/strategic-pyramid-analysis-part-5.html
+  - id: strategic-pyramid-analysis-part-6
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Strategic Pyramid Analysis - Part 6
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.strategic-pyramid-analysis-part-6
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/strategic-pyramid-analysis-part-6.html
+  - id: strategic-pyramid-analysis-part-7
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Strategic Pyramid Analysis - Part 7
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.strategic-pyramid-analysis-part-7
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/strategic-pyramid-analysis-part-7.html
+
 temp:
-  - id: projectmanagement
-    context:
-      $Ref: context
-    template:
-      type: EJS
-      path:
-        $Ref: views.service.details
-    output:
-      type: FILE
-      path: ./output/service/projectmanagement.html
-  - id: uxdesign
-    context:
-      $Ref: context
-    template:
-      type: EJS
-      path:
-        $Ref: views.service.details
-    output:
-      type: html
-      path: ./output/service/uxdesign.html
-  - id: analysisresearch
-    context:
-      $Ref: context
-    template:
-      type: EJS
-      path:
-        $Ref: views.service.details
-    output:
-      type: FILE
-      path: ./output/service/analysisresearch.html
-  - id: facilitationcoaching
-    context:
-      $Ref: context
-    template:
-      type: EJS
-      path:
-        $Ref: views.service.details
-    output:
-      type: FILE
-      path: ./output/service/facilitationcoaching.html
   - id: publication
     context:
       $Ref: context
