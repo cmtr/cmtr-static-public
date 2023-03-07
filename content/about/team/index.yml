@@ -1,0 +1,7 @@
+title: Team
+paragraph: Check our Team
+team:
+  haraldbliko:
+    $File: harald-bliko.yml
+  annabliko:
+    $File: anna-bliko.yml

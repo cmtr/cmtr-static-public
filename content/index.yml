@@ -1,0 +1,15 @@
+---
+about:
+  $File: about/index.yml
+services:
+  $File: service/index.yml
+publications:
+  $File: publication/index.yml
+home:
+  $File: page/home.yml
+common:
+  $File: page/common.yml
+navigation:
+  $File: navigation/index.yml
+images:
+  $File: images/index.yml

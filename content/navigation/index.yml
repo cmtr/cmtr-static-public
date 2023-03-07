@@ -1,0 +1,97 @@
+navbar:
+  logo:
+    title: CMTr.io
+    href: /index.html
+  navbar:
+    - type: link
+      key: home
+      title: Home
+      href: /index.html
+    - type: dropdown
+      key: services
+      title: Services
+      href: /service.html
+      items:
+        - type: link
+          key: services
+          title: Project, Program & Portfolio Management
+          href: /service/projectmanagement.html
+        - type: link
+          key: services
+          title: Business Analysis & Research
+          href: /service/analysisresearch.html
+        - type: link
+          key: services
+          title: UX Reseach, Analysis & Design
+          href: /service/uxdesign.html
+        - type: link
+          key: services
+          title: Facilitation & Couching
+          href: /service/facilitationcoaching.html
+    - type: link
+      key: publication
+      title: publications
+      href: /publication.html
+    - type: dropdown
+      key: about
+      title: About
+      href: /about.html
+      items:
+        - type: link
+          title: Who We Are
+          href: /about/whoweare.html
+        - type: link
+          title: The Way We Work
+          href: /about/waywework.html
+        - type: dropdown
+          title: Values, Mission & Vision
+          href: /about.html#about-boxes
+          items:
+            - type: link
+              title: Our Values
+              href: /about/ourvalues.html
+            - type: link
+              title: Our Mission
+              href: /about/ourmission.html
+            - type: link
+              title: Our Vision
+              href: /about/ourvision.html
+    - type: scrollto
+      key: contact
+      title: Contact
+      href: '#contact'
+    - type: scrollto
+      key: getstarted
+      title: Get Started
+      href: '#contact'
+      class: getstarted
+usefullLinks:
+  title: Usefull Links
+  items:
+    - key: home
+      title: Home
+      href: /index.html
+    - key: about
+      title: About Us
+      href: /about.html
+    - key: services
+      title: Services
+      href: /service.html
+    - key: publication
+      title: Publication
+      href: /publication.html
+ourServices:
+  title: Our Services
+  items:
+    - key: services
+      title: Project, Program & Portfolio Management
+      href: /service/projectmanagement.html
+    - key: services
+      title: Business Analysis & Research
+      href: /service/analysisresearch.html
+    - key: services
+      title: UX Reseach, Analysis & Design
+      href: /service/uxdesign.html
+    - key: services
+      title: Facilitation & Couching
+      href: /service/facilitationcoaching.html

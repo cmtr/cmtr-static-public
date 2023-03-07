@@ -1,0 +1,58 @@
+about:
+  $File: about.yml
+aboutBoxes:
+  $File: about-boxes.yml
+aboutContent:
+  $File: about-content.yml
+aboutContentRelatedArticles:
+  - type: link
+    title: About Us - Who We Are
+    href: /about/whoweare.html
+  - type: link
+    title: About Us - The Way We Work
+    href: /about/waywework.html
+  - type: link
+    title: About Us - Our Story
+    href: /about/ourstory.html
+  - type: link
+    title: About Us - Our Values
+    href: /about/ourvalues.html
+  - type: link
+    title: About Us - Our Mission
+    href: /about/ourmission.html
+  - type: link
+    title: About Us - Our Vision
+    href: /about/ourvision.html
+team:
+  $File: team/index.yml
+testimonials:
+  - image:
+      src: /assets/img/testimonials/testimonials-1.jpg
+      alt: client
+    name: Saul Goodman
+    title: CEO & Founder
+    paragraph: Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+  - image:
+      src: /assets/img/testimonials/testimonials-2.jpg
+      alt: client
+    name: Sara Wilsson
+    title: Designer
+    paragraph: Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+  - image:
+      src: /assets/img/testimonials/testimonials-4.jpg
+      alt: client
+    name: Matt Brandon
+    title: Freelancer
+    paragraph: Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+  - image:
+      src: /assets/img/testimonials/testimonials-5.jpg
+      alt: client
+    name: John Larson
+    title: Entrepreneur
+    paragraph: Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+  - image:
+      src: /assets/img/testimonials/testimonials-3.jpg
+      alt: client
+    name: Jena Karlis
+    title: Store Owner
+    paragraph: Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.

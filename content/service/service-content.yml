@@ -1,0 +1,56 @@
+uxdesign:
+  id: uxdesign
+  body:
+    $File: ux_design.md
+  title: UX Design
+  subTitle: How we help you identify and address your users true needs.
+  authors:
+    $Ref: about.team.team
+  tags: []
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed022
+  relatedArticles:
+    $Ref: services.serviceRelatedArticles
+analysisresearch:
+  id: analysisresearch
+  body:
+    $File: analysis_research.md
+  title: Business Analysis & Research
+  subTitle: How we help you understand what the situation actualy is.
+  authors:
+    $Ref: about.team.team
+  tags: []
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed018
+  relatedArticles:
+    $Ref: services.serviceRelatedArticles
+projectmanagement:
+  id: projectmanagement
+  body:
+    $File: project_mgmt.md
+  title: Project, Program & Portfolio Management
+  subTitle: How we can help you with address your Project, Program & Portfolio Management needs.
+  authors:
+    $Ref: about.team.team
+  tags: []
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed021
+  relatedArticles:
+    $Ref: services.serviceRelatedArticles
+facilitationcoaching:
+  id: facilitationcoaching
+  body:
+    $File: facilitation_coaching.md
+  title: Facilitation & Coaching
+  subTitle: How we can help you releasing your own or your teams full potential.
+  authors:
+    $Ref: about.team.team
+  tags: []
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed017
+  relatedArticles:
+    $Ref: services.serviceRelatedArticles
