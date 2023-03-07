@@ -1,4 +1,5 @@
-- id: strgpyr1
+strgpyr1:
+  id: strgpyr1
   body:
     $File: spa/introduction.md
   title: 'Part 1: Introduction to Strategic Pyramid Analysis'
@@ -18,7 +19,8 @@
   relatedArticles:
     - href: /publication/strgpyr2
       title: Rel
-- id: strgpyr2
+strgpyr2:
+  id: strgpyr2
   body:
     $File: spa/strategic_pyramid_analysis.md
   title: 'Part 2: Introduction to the Strategic Pyramid'
@@ -35,7 +37,8 @@
       $Ref: images.stockImages.unsplashed015
     thumbnail:
       $Ref: images.stockImages.unsplashed002
-- id: strgpyr3
+strgpyr3:
+  id: strgpyr3
   body:
     $File: spa/defining_your_values.md
   title: 'Part 3: Defining Your Values'
@@ -52,7 +55,8 @@
       $Ref: images.stockImages.unsplashed004
     thumbnail:
       $Ref: images.stockImages.unsplashed002
-- id: strgpyr4
+strgpyr4:
+  id: strgpyr4
   type: external-field
   target: body
   body:
@@ -71,7 +75,8 @@
       $Ref: images.stockImages.unsplashed005
     thumbnail:
       $Ref: images.stockImages.unsplashed002
-- id: strgpyr5
+strgpyr5:
+  id: strgpyr5
   body:
     $File: spa/defining_your_vision.md
   title: 'Part 5: Defining Your Vision'
@@ -88,7 +93,8 @@
       $Ref: images.stockImages.unsplashed006
     thumbnail:
       $Ref: images.stockImages.unsplashed002
-- id: strgpyr6
+strgpyr6:
+  id: strgpyr6
   body:
     $File: spa/defining_your_objectives.md
   title: 'Part 6: Defining Your Objectives'
@@ -105,7 +111,8 @@
       $Ref: images.stockImages.unsplashed007
     thumbnail:
       $Ref: images.stockImages.unsplashed002
-- id: strgpyr7
+strgpyr7:
+  id: strgpyr7
   body:
     $File: spa/defining_your_actions_and_metrics.md
   title: 'Part 7: Defining Your Actions & Metrics'
