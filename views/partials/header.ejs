@@ -11,10 +11,10 @@
         const customClass = item.class || "";
         let str = "nav-link " + customClass;
         if (item.key === page) {
-          str += ' active';
+          str += "active";
         }
-        if (item.type === 'scrollto') {
-          str += ' scrollto';
+        if (item.type === "scrollto") {
+          str += " scrollto";
         }
         return str;
       }
@@ -23,13 +23,13 @@
     <nav id="navbar" class="navbar">
       <ul>
         <% navigation.navbar.navbar.forEach((item) => { %>
-          <% if (item.type == 'link' || item.type == 'scrollto') { %>
+          <% if (item.type == "link" || item.type == "scrollto") { %>
             <li>
               <a class="<%= getNavlinkClass(item) %>" href="<%= item.href %>"><%= item.title %></a>
             </li>  
           <% } else if (item.type === "dropdown") { %>
-            <li class="dropdown <%= item.key === page ? "active" : "" %>">
-              <a href="<%= item.href %>"><span><%= item.title %></span><i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown">
+              <a class="<%= getNavlinkClass(item) %>" href="<%= item.href %>"><span><%= item.title %></span><i class="bi bi-chevron-down"></i></a>
               <ul>
                 <% item.items.forEach((listItem) => { %>
                   <% if (listItem.type === "link") { %>
