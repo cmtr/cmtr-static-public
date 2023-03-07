@@ -1,29 +1,37 @@
-const { readFileSync, writeFileSync } = require("fs");
-const path = require("path");
+const { 
+		readFileSync, 
+		writeFileSync,
+		existsSync,
+		mkdirSync
+	} = require("fs");
+const { 
+		resolve,
+		dirname
+	} = require("path");
 const yaml = require("js-yaml");
 const ejs = require("ejs");
 const marked = require("marked");
 const util = require("yaml-util");
 
-const rootDirectory = path.resolve(__dirname, "..");
-const contentPath = path.resolve(rootDirectory, "content/index.yml");
-const sitePath = path.resolve(rootDirectory, "site/index.yml");
+const rootDirectory = resolve(__dirname, "..");
+const contentPath = resolve(rootDirectory, "content/index.yml");
+const sitePath = resolve(rootDirectory, "site/index.yml");
 
 // Build content
 const content = util.ref(util.importFile()(contentPath));
-const contentOutputPath = path.resolve(rootDirectory, "output/content.yml");
+const contentOutputPath = resolve(rootDirectory, "output/content.yml");
 writeFileSync(contentOutputPath, yaml.dump(content), { encoding: "utf8"});
 
 // Build page
 const site = util.ref(util.importFile()(sitePath));
-const siteOutputPath = path.resolve(rootDirectory, "output/site.yml");
+const siteOutputPath = resolve(rootDirectory, "output/site.yml");
 
 // Render
 
 site.render.forEach((page) => {
 	try {
-		const templatePath = path.resolve(rootDirectory, page.template.path);
-		writeFileSync(path.resolve(rootDirectory, "output/pageContext.yml"), yaml.dump(page.context), { encoding: "utf8"});
+		const templatePath = resolve(rootDirectory, page.template.path);
+		writeFileSync(resolve(rootDirectory, "output/pageContext.yml"), yaml.dump(page.context), { encoding: "utf8"});
 		
 		const data = {
 			 ...content, // Global Context
@@ -35,7 +43,12 @@ site.render.forEach((page) => {
 
 		ejs.renderFile(templatePath, data, (err, html) => {
 			if (err) throw err;
-			const outputPath = path.resolve(rootDirectory, page.output.path);
+
+			const outputPath = resolve(rootDirectory, page.output.path);
+			
+			// Ensure directory Exists
+			const outputDirectory = dirname(outputPath);
+			if (!existsSync(outputDirectory)) mkdirSync(outputDirectory);
 			writeFileSync(outputPath, html, { encoding: "utf8"});
 		});
 
