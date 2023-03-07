@@ -12,7 +12,9 @@ The three previous activities have been high level - as we move down the pyramid
 
 ### Perform Strategic Analysis
 
-###
+### Continiued Reading
+The next article in this series is [Part 7: Defining Your Actions & Metrics](/publication/strategic-pyramid-analysis-part-7.html).
 
+### Sources
 [Business processes, procedures and standards](https://www.business.qld.gov.au/starting-business/planning/business-planning/processes-procedures-standards)
 

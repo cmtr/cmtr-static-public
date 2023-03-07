@@ -242,6 +242,21 @@ render:
       path: ./output/service/facilitationcoaching.html
 
   # Publications
+  - id: publication
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Publications
+        items: []
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.index
+    output:
+      type: FILE
+      path: ./output/publication.html
   - id: strategic-pyramid-analysis-part-1
     context:
       page: publication
@@ -375,25 +390,3 @@ render:
     output:
       type: FILE
       path: ./output/publication/strategic-pyramid-analysis-part-7.html
-
-temp:
-  - id: publication
-    context:
-      $Ref: context
-    template:
-      type: EJS
-      path:
-        $Ref: views.service.details
-    output:
-      type: FIlE
-      path: ./output/publication.html
-  - id: publication_article
-    context:
-      $Ref: context
-    template:
-      type: EJS
-      path:
-        $Ref: views.publications.details
-    output:
-      type: FILE
-      path: ./output/publication/article.html

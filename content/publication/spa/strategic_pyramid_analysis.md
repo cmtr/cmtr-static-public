@@ -66,14 +66,5 @@ In addition
 >
 > A purpose statement conveys a company’s reason for existence, just as the mission statement and vision do, but it also shows the connection between the brand identity and workplace culture of the company. It combines the components of a mission statement, vision, and values into a single statement.
 
-### Continiued reading
-The next article in this series is [Part 3: Defining Your Values](/publication/strgpyr3).
-
-The other articles in this series:
-* [Part 1: Introduction to Strategic Pyramid Analysis Series](/publication/strgpyr1)
-* [Part 2: Introduction to The Strategic Pyramid](/publication/strgpyr2)
-* [Part 3: Defining Your Values](/publication/strgpyr3)
-* [Part 4: Defining Your Mission](/publication/strgpyr4)
-* [Part 5: Defining Your Vision](/publication/strgpyr5)
-* [Part 6: Defining Your Objectives](/publication/strgpyr6)
-* [Part 7: Defining Your Actions & Metrics](/publication/strgpyr7)
+### Continiued Reading
+The next article in this series is [Part 3: Defining Your Values](/publication/strategic-pyramid-analysis-part-3.html).

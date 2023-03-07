@@ -8,13 +8,13 @@ The *Strategic Pyramid* or *Strategic Management Pyramid* comes in many forms an
 
 In this first article in the series, we will discuss the value of analysis and discuss what you should consider before starting a analysis. In the next article we will provide an introduction to the Strategic Pyramid model. Then break down each stage, before conluding.
 
-* [Part 1: Introduction to Strategic Pyramid Analysis Series](/publication/strgpyr1)
-* [Part 2: Introduction to The Strategic Pyramid](/publication/strgpyr2)
-* [Part 3: Defining Your Values](/publication/strgpyr3)
-* [Part 4: Defining Your Mission](/publication/strgpyr4)
-* [Part 5: Defining Your Vision](/publication/strgpyr5)
-* [Part 6: Defining Your Objectives](/publication/strgpyr6)
-* [Part 7: Defining Your Actions & Metrics](/publication/strgpyr7)
+* [Part 1: Introduction to Strategic Pyramid Analysis Series](/publication/strategic-pyramid-analysis-part-1.html)
+* [Part 2: Introduction to The Strategic Pyramid](/publication/strategic-pyramid-analysis-part-2.html)
+* [Part 3: Defining Your Values](/publication/strategic-pyramid-analysis-part-3.html)
+* [Part 4: Defining Your Mission](/publication/strategic-pyramid-analysis-part-4.html)
+* [Part 5: Defining Your Vision](/publication/strategic-pyramid-analysis-part-5.html)
+* [Part 6: Defining Your Objectives](/publication/strategic-pyramid-analysis-part-6.html)
+* [Part 7: Defining Your Actions & Metrics](/publication/strategic-pyramid-analysis-part-7.html)
 
 
 ### The Value of Analysis
@@ -103,16 +103,5 @@ There is also the situation where you want to train a internal resourse to do th
 >
 > A internal resource that owns the process and analysis will have to live with the consequences throughout it's execution and life span. He will - over time - have the knowledged about the unique minute details about the companys culture and ways of working that can makes the difference between success and failure.
 
-### Continiued reading
-The next article in this series is [Part 2: Introduction to The Strategic Pyramid](/publication/strgpyr2).
-
-The other articles in this series:
-* [Part 1: Introduction to Strategic Pyramid Analysis Series](/publication/strgpyr1)
-* [Part 2: Introduction to The Strategic Pyramid](/publication/strgpyr2)
-* [Part 3: Defining Your Values](/publication/strgpyr3)
-* [Part 4: Defining Your Mission](/publication/strgpyr4)
-* [Part 5: Defining Your Vision](/publication/strgpyr5)
-* [Part 6: Defining Your Objectives](/publication/strgpyr6)
-* [Part 7: Defining Your Actions & Metrics](/publication/strgpyr7)
-
-
+### Continiued Reading
+The next article in this series is [Part 2: Introduction to The Strategic Pyramid](/publication/strategic-pyramid-analysis-part-2.html).

@@ -18,8 +18,7 @@ strategic-pyramid-analysis-part-1:
     thumbnail:
       $Ref: images.stockImages.unsplashed002
   relatedArticles:
-    - href: /publication/strategic-pyramid-analysis-part-2.html
-      title: Strategic Pyramid Analysis - Part 2
+    $File: spa/articles.yml
 strategic-pyramid-analysis-part-2:
   id: strategic-pyramid-analysis-part-2
   body:
@@ -38,6 +37,8 @@ strategic-pyramid-analysis-part-2:
       $Ref: images.stockImages.unsplashed015
     thumbnail:
       $Ref: images.stockImages.unsplashed002
+  relatedArticles:
+    $File: spa/articles.yml
 strategic-pyramid-analysis-part-3:
   id: strategic-pyramid-analysis-part-3
   body:
@@ -56,6 +57,8 @@ strategic-pyramid-analysis-part-3:
       $Ref: images.stockImages.unsplashed004
     thumbnail:
       $Ref: images.stockImages.unsplashed002
+  relatedArticles:
+    $File: spa/articles.yml
 strategic-pyramid-analysis-part-4:
   id: strategic-pyramid-analysis-part-4
   type: external-field
@@ -76,6 +79,8 @@ strategic-pyramid-analysis-part-4:
       $Ref: images.stockImages.unsplashed005
     thumbnail:
       $Ref: images.stockImages.unsplashed002
+  relatedArticles:
+    $File: spa/articles.yml
 strategic-pyramid-analysis-part-5:
   id: strategic-pyramid-analysis-part-5
   body:
@@ -94,6 +99,8 @@ strategic-pyramid-analysis-part-5:
       $Ref: images.stockImages.unsplashed006
     thumbnail:
       $Ref: images.stockImages.unsplashed002
+  relatedArticles:
+    $File: spa/articles.yml
 strategic-pyramid-analysis-part-6:
   id: strategic-pyramid-analysis-part-6
   body:
@@ -112,6 +119,8 @@ strategic-pyramid-analysis-part-6:
       $Ref: images.stockImages.unsplashed007
     thumbnail:
       $Ref: images.stockImages.unsplashed002
+  relatedArticles:
+    $File: spa/articles.yml
 strategic-pyramid-analysis-part-7:
   id: strategic-pyramid-analysis-part-7
   body:
@@ -130,3 +139,5 @@ strategic-pyramid-analysis-part-7:
       $Ref: images.stockImages.unsplashed010
     thumbnail:
       $Ref: images.stockImages.unsplashed002
+  relatedArticles:
+    $File: spa/articles.yml

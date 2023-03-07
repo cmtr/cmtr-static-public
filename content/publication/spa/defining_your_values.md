@@ -336,18 +336,8 @@ After the participants feel satisfied with the outcome, it is time to formally c
 Defining your values seems like a easy task, but it can be a very time consuming - and this expensive - activity. The endeavors values are the foundational building blocks for it's strategy. If done honestly and lived by, it's a valuable excessive that can help cement the endeavors culture and be a real long term competitive advantage. If not, it will only be virtue posturing and risk a culture the promotes dishonesty and short term gains.  
 
 
-### Continued reading
-The next article in this series is [Part 4: Defining Your Mission](/publication/strgpyr4).
-
-The other articles in this series:
-* [Part 1: Introduction to Strategic Pyramid Analysis Series](/publication/strgpyr1)
-* [Part 2: Introduction to The Strategic Pyramid](/publication/strgpyr2)
-* [Part 3: Defining Your Values](/publication/strgpyr3)
-* [Part 4: Defining Your Mission](/publication/strgpyr4)
-* [Part 5: Defining Your Vision](/publication/strgpyr5)
-* [Part 6: Defining Your Objectives](/publication/strgpyr6)
-* [Part 7: Defining Your Actions & Metrics](/publication/strgpyr7)
-
+### Continued Reading
+The next article in this series is [Part 4: Defining Your Mission](/publication/strategic-pyramid-analysis-part-3.html).
 
 ### Sources
 * [Developing business values](https://www.business.qld.gov.au/starting-business/planning/business-planning/values)

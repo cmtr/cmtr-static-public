@@ -145,5 +145,8 @@ It's important to allow for enough time for reflection
 Giving the participants homework is 
 
 
-### Further reading
-[Source - Investopedia](https://www.investopedia.com/terms/m/missionstatement.asp)
+### Continiued Reading
+The next article in this series is [Part 5: Defining Your Vision](/publication/strategic-pyramid-analysis-part-5.html).
+
+### Sources
+* [Source - Investopedia](https://www.investopedia.com/terms/m/missionstatement.asp)

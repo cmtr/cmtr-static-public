@@ -47,4 +47,5 @@ The focus on this article is for smaller companies, teams and
 * What is our ambition?
 
 
-
+### Continiued Reading
+The next article in this series is [Part 4: Defining Your Mission](/publication/strategic-pyramid-analysis-part-4.html).
