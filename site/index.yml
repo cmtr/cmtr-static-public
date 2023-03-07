@@ -156,7 +156,7 @@ render:
         <<: *breadcrumbs
         current:
           title: Services
-        items: []     
+        items: [] 
     template:
       type: EJS
       path:
@@ -166,7 +166,7 @@ render:
       path: ./output/service.html
   - id: projectmanagement
     context:
-      page: about
+      page: services
       breadcrumbs:
         <<: *breadcrumbs
         current:
@@ -185,7 +185,7 @@ render:
       path: ./output/service/projectmanagement.html
   - id: uxdesign
     context:
-      page: about
+      page: services
       breadcrumbs:
         <<: *breadcrumbs
         current:
@@ -204,7 +204,7 @@ render:
       path: ./output/service/uxdesign.html
   - id: analysisresearch
     context:
-      page: about
+      page: services
       breadcrumbs:
         <<: *breadcrumbs
         current:
@@ -223,7 +223,7 @@ render:
       path: ./output/service/analysisresearch.html
   - id: facilitationcoaching
     context:
-      page: about
+      page: services
       breadcrumbs:
         <<: *breadcrumbs
         current:
