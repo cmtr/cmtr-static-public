@@ -5,3 +5,4 @@
 * [Bootstrap](https://getbootstrap.com/)
 * [Bootstrap Icons](https://icons.getbootstrap.com/)
 * [Boxicons](https://boxicons.com/)
+* [Glightbox](https://biati-digital.github.io/glightbox/)
