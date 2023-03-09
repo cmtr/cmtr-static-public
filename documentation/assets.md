@@ -7,3 +7,4 @@
 * [Boxicons](https://boxicons.com/)
 * [Glightbox](https://biati-digital.github.io/glightbox/)
 * [Isotope](https://isotope.metafizzy.co/)
+* [Remix Icon](https://remixicon.com/)
