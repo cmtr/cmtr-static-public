@@ -8,10 +8,11 @@
 * [Glightbox](https://biati-digital.github.io/glightbox/)
 * [Isotope](https://isotope.metafizzy.co/)
 * [Remix Icon](https://remixicon.com/)
-* [Swiper JS](https://swiperjs.com/get-started)
-	* This is used in the Clients Section 
-	* Currently not added to the main page anymore
 
 ### Not in use:
+* [Swiper JS](https://swiperjs.com/get-started)
+	* This was used in the Clients Testimonial Section 
+	* Currently not added to the main page anymore
 * [Pure Counter JS](https://github.com/srexi/purecounterjs)
-	* This was used for the section that counted up to stuff. 
+	* This was used for the partial with counters.
+	* Currently not added to the main page anymore
