@@ -1,5 +1,3 @@
-# Bases of Power
-
 In a notable study of power conducted by social psychologists John R. P. French and Bertram Raven in 1959, power is divided into five separate and distinct forms.[1] They identified those five bases of power as coercive, reward, legitimate, referent, and expert. This was followed by Raven's subsequent addition in 1965 of a sixth separate and distinct base of power: informational power.
 
 French and Raven defined social influence as "a change in the belief, attitude, or behavior of a person (the target of influence) which results from the action of another person (an influencing agent)", and they defined social power as the potential for such influence, that is, the ability of the agent to bring about such a change using available resources.
@@ -19,13 +17,30 @@ The original French and Raven (1959) model included five bases of power – rewa
 
 As we know leadership and power are closely linked. This model shows how the different forms of power affect one's leadership and success. This idea is used often in organizational communication and throughout the workforce. _"The French-Raven power forms are introduced with consideration of the level of observability and the extent to which power is dependent or independent of structural conditions. Dependency refers to the degree of internalization that occurs among persons subject to social control. Using these considerations it is possible to link personal processes to structural conditions"._
 
-| Basis of Power 	| Social Dependence of Change	| Importance of Surveillance | Further Differentiation |
-| Coercion			| Socially Dependent 			| Important | Impersonal Coercion and Personal Coercion |
-| Reward			| Socially Dependent			| Important | Impersonal Reward and Personal Reward |
-| Legitimacy		| Socially Dependent			| Important | Formal Legitimacy (position power), Legitimacy of Reciprocity, Equity and Dependence (Powerlessness) |
-| Expert			| Socially Dependent			| Unimportant | Positive and Negative Expert |
-| Referent			| Socially Dependent			| Unimportant | Positive and Negative Referent |
-| Informational		| Socially Independent			| Unimportant | Direct and Indirect Information |
+* __*Coercion*__
+	* **Social Dependence of Change**: Socially Dependent
+	* **Importance of Surveillance**: Important
+	* **Further Differentiation**: Impersonal Coercion and Personal Coercion
+* __*Reward*__
+	* **Social Dependence of Change**: Socially Dependent
+	* **Importance of Surveillance**: Important
+	* **Further Differentiation**: 	Impersonal Reward and Personal Reward
+* __*Legitimacy*__
+	* **Social Dependence of Change**: Socially Dependent
+	* **Importance of Surveillance**: Important
+	* **Further Differentiation**: 	Formal Legitimacy (position power), Legitimacy of Reciprocity, Equity and Dependence (Powerlessness)
+* __*Expert*__
+	* **Social Dependence of Change**: Socially Dependent
+	* **Importance of Surveillance**: Unimportant
+	* **Further Differentiation**: 	Positive and Negative Expert
+* __*Referent*__
+	* **Social Dependence of Change**: Socially Dependent
+	* **Importance of Surveillance**: Unimportant
+	* **Further Differentiation**: Positive and Negative Referent
+* __*Informational*__
+	* **Social Dependence of Change**: Socially Independent
+	* **Importance of Surveillance**: Unimportant
+	* **Further Differentiation**: Direct and Indirect Information
 
 As mentioned above, there are now six main concepts of power strategies consistently studied in social communication research. They are described as Coercive, Reward, Legitimate, Referent, Expert, and Informational. Additionally, research has shown that source credibility has an explicit effect on the bases of power used in persuasion.
 
