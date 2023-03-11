@@ -337,7 +337,7 @@ Defining your values seems like a easy task, but it can be a very time consuming
 
 
 ### Continued Reading
-The next article in this series is [Part 4: Defining Your Mission](/publication/strategic-pyramid-analysis-part-3.html).
+The next article in this series is [Part 4: Defining Your Mission](/publication/strategic-pyramid-analysis-part-4.html).
 
 ### Sources
 * [Developing business values](https://www.business.qld.gov.au/starting-business/planning/business-planning/values)
