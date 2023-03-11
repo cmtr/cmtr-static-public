@@ -141,3 +141,41 @@ strategic-pyramid-analysis-part-7:
       $Ref: images.stockImages.unsplashed002
   relatedArticles:
     $File: spa/articles.yml
+bias:
+  id: bias
+  body:
+    $File: bias.md
+  title: Bias
+  subTitle: Everybody Has It and How to Avoid Them in the Workplace
+  paragraph:
+  tags:
+    - Organisation
+    - Psychology
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed010
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+  relatedArticles:
+    $File: spa/articles.yml
+bases-of-power:
+  id: bases-of-power
+  body:
+    $File: bases_of_power.md
+  title: Bases of Power
+  subTitle: How to Spot Them
+  paragraph: 
+  tags:
+    - Organisation
+    - Psychology
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed010
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+  relatedArticles:
+    $File: spa/articles.yml

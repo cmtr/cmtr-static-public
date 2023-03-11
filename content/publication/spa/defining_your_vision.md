@@ -29,6 +29,7 @@ This is "Part 3" in a series of articles aimed to give a step-by-step guide to p
 
 
 
+
 ## Step 1 - Determining how the vision statement shall be used
 A vision statement should be concise, no longer than a sentence or two. You can create a longer version, but it should not be the one you broadcast to the world. Have a full-length version of your vision for the leadership's eyes only. Think of the long version as your reference guide to why you're in business in the first place."
 
@@ -48,4 +49,4 @@ The focus on this article is for smaller companies, teams and
 
 
 ### Continiued Reading
-The next article in this series is [Part 4: Defining Your Mission](/publication/strategic-pyramid-analysis-part-4.html).
+The next article in this series is [Part 6: Defining Your Objectives](/publication/strategic-pyramid-analysis-part-6.html).

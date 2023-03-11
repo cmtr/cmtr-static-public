@@ -68,7 +68,7 @@ There is many considerations you should take before starting. We'll go through a
 
 ##### Analysis Participants
 
-When starting a strategic pyramid analysis it's important to remember that it's a team effort. People have different values and perspectives. Choosing the right people - either as participants or as information sources - is important to ensure that the result of the analysis truely reflects the wider team.
+When starting a _strategic pyramid analysis_ it's important to remember that it's a team effort. People have different values and perspectives. Choosing the right people - either as participants or as information sources - is important to ensure that the result of the analysis truely reflects the wider team.
 
 If you are a solo freelancer without a team, use the people close to you (and they'll be glad to help).
 
