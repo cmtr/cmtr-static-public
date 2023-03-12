@@ -198,7 +198,13 @@
 	}
 
 	/**
+	 * 
+	 * Publications
+	 *  
 	 * Porfolio isotope and filter
+	 * 
+	 * 
+	 * Reference - https://isotope.metafizzy.co/#initialize-with-vanilla-javascript
 	 */
 	window.addEventListener('load', () => {
 
