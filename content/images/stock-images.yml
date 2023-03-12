@@ -1,7 +1,7 @@
 ---
 unsplashed001:
   id: unsplashed001
-  src: /assets/img/stock/joshua-earle-dwheufds6kq-unsplash.jpg
+  src: /image/stock/joshua-earle-dwheufds6kq-unsplash.jpg
   alt: Sunset in Solitude - Joshua Earle
   hover: ""
   paragraph: ""
@@ -9,7 +9,7 @@ unsplashed001:
   tags: []
 unsplashed002:
   id: unsplashed002
-  src: /assets/img/stock/ian-schneider-tammbr4okv4-unsplash.jpg
+  src: /image/stock/ian-schneider-tammbr4okv4-unsplash.jpg
   alt: Passion led us here - Ian Schneider
   hover: ""
   paragraph: Passion led us here
@@ -17,7 +17,7 @@ unsplashed002:
   tags: []
 unsplashed003:
   id: unsplashed003
-  src: /assets/img/stock/cyprien-delaporte-xe46njook-a-unsplash.jpg
+  src: /image/stock/cyprien-delaporte-xe46njook-a-unsplash.jpg
   alt: 'Ski Touring in Senja Island : One more step - Cyprien Delaporte'
   hover: 'Ski Touring in Senja Island : One more step'
   paragraph: 'Ski Touring in Senja Island : One more step'
@@ -28,7 +28,7 @@ unsplashed003:
     - Winter
 unsplashed004:
   id: unsplashed004
-  src: /assets/img/stock/luke-leung-14bvc2md9bk-unsplash.jpg
+  src: /image/stock/luke-leung-14bvc2md9bk-unsplash.jpg
   alt: Reflections of Man in Cave - Luke Leung
   hover: Reflections of Man in Cave
   paragraph: Reflections of Man in Cave
@@ -36,7 +36,7 @@ unsplashed004:
   tags: []
 unsplashed005:
   id: unsplashed005
-  src: /assets/img/stock/sage-friedman-hs5clnqbcoc-unsplash.jpg
+  src: /image/stock/sage-friedman-hs5clnqbcoc-unsplash.jpg
   alt: Let Peace Fill Your Body - Sage Friedman
   hover: Let Peace Fill Your Body
   paragraph: Let Peace Fill Your Body
@@ -44,7 +44,7 @@ unsplashed005:
   tags: []
 unsplashed006:
   id: unsplashed006
-  src: /assets/img/stock/christopher-sardegna-cmoa3h1sxg0-unsplash.jpg
+  src: /image/stock/christopher-sardegna-cmoa3h1sxg0-unsplash.jpg
   alt: Thoughts on City Life - Christopher Sardegna
   hover: Thoughts on City Life
   paragraph: Thoughts on City Life
@@ -52,7 +52,7 @@ unsplashed006:
   tags: []
 unsplashed007:
   id: unsplashed007
-  src: /assets/img/stock/franz-harvin-aceituna-5exmbja6uga-unsplash.jpg
+  src: /image/stock/franz-harvin-aceituna-5exmbja6uga-unsplash.jpg
   alt: The Embrace of the Ocean Sunset - Franz Harvin
   hover: The Embrace of the Ocean Sunset
   paragraph: The Embrace of the Ocean Sunset
@@ -60,7 +60,7 @@ unsplashed007:
   tags: []
 unsplashed008:
   id: unsplashed008
-  src: /assets/img/stock/giorgio-trovato-opnhvhnzuuu-unsplash.jpg
+  src: /image/stock/giorgio-trovato-opnhvhnzuuu-unsplash.jpg
   alt: The Lady of the Lake - Giorgio Trovato
   hover: The Lady of the Lake
   paragraph: The Lady of the Lake
@@ -68,7 +68,7 @@ unsplashed008:
   tags: []
 unsplashed009:
   id: unsplashed009
-  src: /assets/img/stock/javier-allegue-barros-55bvezgvnzy-unsplash.jpg
+  src: /image/stock/javier-allegue-barros-55bvezgvnzy-unsplash.jpg
   alt: Dancing with the Stars - Javier Allegue Barros
   hover: Dancing with the Stars
   paragraph: Dancing with the Stars
@@ -76,7 +76,7 @@ unsplashed009:
   tags: []
 unsplashed010:
   id: unsplashed010
-  src: /assets/img/stock/jesse-bowser-ekxo-sfu9kc-unsplash.jpg
+  src: /image/stock/jesse-bowser-ekxo-sfu9kc-unsplash.jpg
   alt: A Journey to the Clouds - Jesse Bowser
   hover: A Journey to the Clouds
   paragraph: A Journey to the Clouds
@@ -84,7 +84,7 @@ unsplashed010:
   tags: []
 unsplashed011:
   id: unsplashed011
-  src: /assets/img/stock/matt-noble-bptmnn9jsmq-unsplash.jpg
+  src: /image/stock/matt-noble-bptmnn9jsmq-unsplash.jpg
   alt: Vision - Matt Noble
   hover: Vision
   paragraph: 'Vision '
@@ -94,7 +94,7 @@ unsplashed011:
     - Binoculars
 unsplashed012:
   id: unsplashed012
-  src: /assets/img/stock/sean-stratton-obpce_x3j6u-unsplash.jpg
+  src: /image/stock/sean-stratton-obpce_x3j6u-unsplash.jpg
   alt: Zen - Sean Stratton
   hover: Zen
   paragraph: Zen
@@ -105,7 +105,7 @@ unsplashed012:
     - Rock
 unsplashed013:
   id: unsplashed013
-  src: /assets/img/stock/jukan-tateisi-bjht_8nbua0-unsplash.jpg
+  src: /image/stock/jukan-tateisi-bjht_8nbua0-unsplash.jpg
   alt: First Step to Greatness - Jukan Tateisi
   hover: First Step to Greatness
   paragraph: First Step to Greatness
@@ -116,7 +116,7 @@ unsplashed013:
     - Child
 unsplashed014:
   id: unsplashed014
-  src: /assets/img/stock/kalen-emsley-7bwqxzbf6ke-unsplash.jpg
+  src: /image/stock/kalen-emsley-7bwqxzbf6ke-unsplash.jpg
   alt: Exploring new Heights - Kalen Emsley
   hover: Exploring new Heights
   paragraph: Exploring new Heights
@@ -126,7 +126,7 @@ unsplashed014:
     - Nature
 unsplashed015:
   id: unsplashed015
-  src: /assets/img/stock/leon-x8h8vpcelpk-unsplash.jpg
+  src: /image/stock/leon-x8h8vpcelpk-unsplash.jpg
   alt: Creative Workshop - Leon
   hover: Creative Workshop
   paragraph: Creative Workshop
@@ -137,7 +137,7 @@ unsplashed015:
     - Ideation
 unsplashed016:
   id: unsplashed016
-  src: /assets/img/stock/leon-vbxyfxlgpjm-unsplash.jpg
+  src: /image/stock/leon-vbxyfxlgpjm-unsplash.jpg
   alt: Creative Workshop - Leon
   hover: Creative Workshop
   paragraph: Creative Workshop
@@ -148,7 +148,7 @@ unsplashed016:
     - Ideation
 unsplashed017:
   id: unsplashed017
-  src: /assets/img/stock/sydney-rae-gem5lzdj4iw-unsplash.jpg
+  src: /image/stock/sydney-rae-gem5lzdj4iw-unsplash.jpg
   alt: You Got This - Sydney Rae
   hover: 'You Got This '
   paragraph: 'You Got This '
@@ -158,7 +158,7 @@ unsplashed017:
     - Coaching
 unsplashed018:
   id: unsplashed018
-  src: /assets/img/stock/patrick-perkins-etrpjvb0km0-unsplash.jpg
+  src: /image/stock/patrick-perkins-etrpjvb0km0-unsplash.jpg
   alt: Ideas - Patrick Perkins
   hover: Ideas
   paragraph: Ideas
@@ -170,7 +170,7 @@ unsplashed018:
     - Ideation
 unsplashed019:
   id: unsplashed019
-  src: /assets/img/stock/ben-white-mo9vkbg5csg-unsplash.jpg
+  src: /image/stock/ben-white-mo9vkbg5csg-unsplash.jpg
   alt: Always Learning - Ben White
   hover: ""
   paragraph: ""
@@ -178,7 +178,7 @@ unsplashed019:
   tags: []
 unsplashed020:
   id: unsplashed020
-  src: /assets/img/stock/japheth-mast-ls3yexjyrpk-unsplash.jpg
+  src: /image/stock/japheth-mast-ls3yexjyrpk-unsplash.jpg
   alt: Success - Japheth Mast
   hover: Success
   paragraph: Success
@@ -186,7 +186,7 @@ unsplashed020:
   tags: []
 unsplashed021:
   id: unsplashed021
-  src: /assets/img/stock/xps-klfkva_4axm-unsplash.jpg
+  src: /image/stock/xps-klfkva_4axm-unsplash.jpg
   alt: Project Management - Xps
   hover: Project Management
   paragraph: Project Management
@@ -194,7 +194,7 @@ unsplashed021:
   tags: []
 unsplashed022:
   id: unsplashed022
-  src: /assets/img/stock/halgatewood-com-tzc3vjpck-q-unsplash.jpg
+  src: /image/stock/halgatewood-com-tzc3vjpck-q-unsplash.jpg
   alt: Wireframes - Halgatewood
   hover: Wireframes
   paragraph: Wireframes
@@ -206,7 +206,7 @@ unsplashed022:
     - Prototype
 unsplashed023:
   id: unsplashed023
-  src: /assets/img/stock/james-lee-bmo1szqhwrs-unsplash.jpg
+  src: /image/stock/james-lee-bmo1szqhwrs-unsplash.jpg
   alt: Owl - James Lee
   hover: Owl
   paragraph: Owl
@@ -217,7 +217,7 @@ unsplashed023:
     - Majestic
 unsplashed02:
   id: unsplashed02
-  src: /assets/img/stock/
+  src: /image/stock/
   alt: ""
   hover: ""
   paragraph: ""
