@@ -12,11 +12,22 @@ company:
     - key: main
       displayName: Contact
       email: contact (at) cmtr.io
+      img:
+        src: /assets/img/about/email.png
+        alt: E-Mail Image
   phone:
     - key: main
       displayName: Main
       countryCode: "47"
       number: 986 84 197
+      img:
+        src: /assets/img/about/phone.png
+        alt: Phone Image
+  contact:
+    - key: main
+      img:
+        src: /assets/img/about/contactinfo.png
+        alt: E-Mail & Phone Image
   social:
     - key: twitter
       logoClass: bx bxl-twitter

@@ -10,8 +10,7 @@
 							<%= common.company.address.street %><br>
 							<%= common.company.address.zipCode %> <%= common.company.address.city%>, <%= common.company.address.country %>
 							<br><br>
-							<strong>Phone:</strong> (+<%= common.company.phone[0].countryCode%>) <%= common.company.phone[0].number %><br>
-							<strong>Email:</strong> <%= common.company.email[0].email %><br>
+							<img src="<%= common.company.contact[0].img.src %>" alt="<%= common.company.contact[0].img.alt %>">
 						</p>
 						<div class="social-links mt-3">
 							<% common.company.social.forEach((account) => { %>
