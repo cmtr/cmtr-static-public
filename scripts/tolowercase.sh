@@ -1,23 +1,33 @@
 #!/bin/bash
 
-echo "Change filename in directory to lower case"
+path=''
+if [[ -z "$1" ]]; then
+	echo "No path provided, using current working directory '$(pwd)'"
+	path="$(pwd)"
+elif [[ -n "$1" ]]; then
+	echo "Path is not empty"
+	path="$1"
+	echo "The path is '$path'" 
+fi
 
-same=0;
-changed=0;
-for org in $(ls)
+echo "The path is '$path'"
+
+skip=0;
+modify=0;
+for org in $(ls $path)
 do
 	new=$(echo $org | awk '{print tolower($0)}')
-	if [ "$org" = "$new" ]
-	then
-		echo "Filename already lower case: $org"
-		same=$((same+1))
+	if [ "$org" = "$new" ]; then
+		echo "'$org' - SKIP - Filename already lower case"
+		skip=$((skip+1))
 	else
 		mv $org $new
-		echo "Filename change to lower case from '$org' to '$new'"
-		changed=$((changed+1));
+		echo "'$org' - MODIFY - To '$new' - Filename modified to lower case"
+		modify=$((modify+1));
 	fi
 done
 
-echo "Files not changed: $same"
-echo "Files changed: $changed"
-echo "Done"
+echo "Files skipped: $skip"
+echo "Files changed: $modify"
+echo "Job Finished"
+exit
