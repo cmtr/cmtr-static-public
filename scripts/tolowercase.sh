@@ -21,7 +21,8 @@ do
 		echo "'$org' - SKIP - Filename already lower case"
 		skip=$((skip+1))
 	else
-		mv $org $new
+		mv "$path/$org" "$path/$new"
+		# mv $org $new
 		echo "'$org' - MODIFY - To '$new' - Filename modified to lower case"
 		modify=$((modify+1));
 	fi
