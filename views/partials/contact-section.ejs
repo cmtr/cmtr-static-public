@@ -8,7 +8,7 @@
 
 		<div class="row">
 
-			<div class="col-lg-6">
+			<div class="col-lg-12">
 
 				<div class="row">
 					<div class="col-md-12">
@@ -24,7 +24,7 @@
 							<i class="bx bx-envelope"></i>
 							<h3>Email Us</h3>
 							<% common.company.email.forEach((email) => { %>
-								<p><strong><%= email.displayName %>:</strong> <%= email.email %></p>
+								<img src="<%= email.img.src %>" alt="<%= email.img.alt %>">
 							<% }) %>
 						</div>
 					</div>
@@ -33,7 +33,7 @@
 							<i class="bx bx-phone-call"></i>
 							<h3>Call Us</h3>
 							<% common.company.phone.forEach((phone) => { %>
-								<p><strong><%= phone.displayName%>:</strong> +<%= phone.countryCode%> <%= phone.number %></p>
+								<img src="<%= phone.img.src %>" alt="<%= phone.img.alt %>" >
 							<% }) %>
 						</div>
 					</div>
@@ -41,10 +41,11 @@
 
 			</div>
 
+			<!--
 			<div class="col-lg-6 mt-4 mt-lg-0">
-				<%- include('./contact-form') %>
+				<%#- include('./contact-form') %>
 			</div>
-
+			-->
 		</div>
 
 	</div>
