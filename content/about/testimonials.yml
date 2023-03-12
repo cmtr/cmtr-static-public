@@ -1,0 +1,36 @@
+---
+- image:
+    src: /assets/img/testimonials/testimonials-2.jpg
+    alt: client
+  name: Project Portfolio Manager
+  title: Altibox
+  paragraph: >
+    The CMTr Consultants is very good at transating the technical constraints, problems and risk in such a way that we in the business can understand and take necessary actions.
+- image:
+    src: /assets/img/testimonials/testimonials-5.jpg
+    alt: client
+  name: Well Services Lead
+  title: Schlumberger
+  paragraph: >
+    We hired a to fill in for one of our Service Engineers on short notice. Before he started I had daily escalation with our client. From the day he started with our client, I heard nothing. 
+- image:
+    src: /assets/img/testimonials/testimonials-4.jpg
+    alt: client
+  name: Qulity Manager
+  title: Lyse AS
+  paragraph: >
+    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+- image:
+    src: /assets/img/testimonials/testimonials-3.jpg
+    alt: client
+  name: Drilling Engineer
+  title: AkerBP
+  paragraph: >
+    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+- image:
+    src: /assets/img/testimonials/testimonials-1.jpg
+    alt: client
+  name: Product Architect
+  title: Altibox
+  paragraph: >
+    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
