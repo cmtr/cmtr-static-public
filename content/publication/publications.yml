@@ -17,8 +17,7 @@ strategic-pyramid-analysis:
       $Ref: images.stockImages.unsplashed013
     thumbnail:
       $Ref: images.stockImages.unsplashed002
-  relatedArticles:
-    $File: spa/articles.yml
+  relatedArticles: []
 bias:
   id: bias
   body:
@@ -36,15 +35,14 @@ bias:
       $Ref: images.stockImages.unsplashed010
     thumbnail:
       $Ref: images.stockImages.unsplashed002
-  relatedArticles:
-    $File: spa/articles.yml
+  relatedArticles: []
 bases-of-power:
   id: bases-of-power
   body:
     $File: bases_of_power.md
   title: Bases of Power
   subTitle: How to Spot Them
-  paragraph: 
+  paragraph:
   tags:
     - Organisation
     - Psychology
@@ -55,5 +53,4 @@ bases-of-power:
       $Ref: images.stockImages.unsplashed010
     thumbnail:
       $Ref: images.stockImages.unsplashed002
-  relatedArticles:
-    $File: spa/articles.yml
+  relatedArticles: []
