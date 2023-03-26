@@ -1,4 +1,24 @@
 ---
+strategic-pyramid-analysis:
+  id: strategic-pyramid-analysis
+  body:
+    $File: spa/spa.md
+  title: Strategic Pyramid Analysis
+  subTitle: Strategic Pyramid Analysis
+  paragraph:
+  tags:
+    - Strategy
+    - Management
+    - Analysis
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed013
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+  relatedArticles:
+    $File: spa/articles.yml
 strategic-pyramid-analysis-part-1:
   id: strategic-pyramid-analysis-part-1
   body:

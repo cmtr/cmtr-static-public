@@ -257,6 +257,27 @@ render:
     output:
       type: FILE
       path: ./output/publication.html
+  
+  - id: strategic-pyramid-analysis
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Strategic Pyramid Analysis
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.strategic-pyramid-analysis
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/strategic-pyramid-analysis.html
+
   - id: strategic-pyramid-analysis-part-1
     context:
       page: publication
