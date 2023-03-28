@@ -1,7 +1,7 @@
 uxdesign:
   id: uxdesign
   body:
-    $File: ux_design.md
+    $File: ux_design_v2.md
   title: UX Design
   subTitle: How we help you identify and address your users true needs.
   authors:
@@ -15,7 +15,7 @@ uxdesign:
 analysisresearch:
   id: analysisresearch
   body:
-    $File: analysis_research.md
+    $File: analysis_research_v2.md
   title: Business Analysis & Research
   subTitle: How we help you understand what the situation actualy is.
   authors:
@@ -29,7 +29,7 @@ analysisresearch:
 projectmanagement:
   id: projectmanagement
   body:
-    $File: project_mgmt.md
+    $File: project_mgmt_v2.md
   title: Project, Program & Portfolio Management
   subTitle: How we can help you with address your Project, Program & Portfolio Management needs.
   authors:
@@ -43,7 +43,7 @@ projectmanagement:
 facilitationcoaching:
   id: facilitationcoaching
   body:
-    $File: facilitation_coaching.md
+    $File: facilitation_coaching_v2.md
   title: Facilitation & Coaching
   subTitle: How we can help you releasing your own or your teams full potential.
   authors:

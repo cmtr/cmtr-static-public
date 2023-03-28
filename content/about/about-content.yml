@@ -2,7 +2,7 @@
 waywework:
   id: waywework
   body:
-    $File: the_way_we_work.md
+    $File: way_we_work_v3.md
   title: The Way We Work
   subTitle: An Introduction to the CMTr.io Mindset
   authors:

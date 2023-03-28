@@ -278,6 +278,26 @@ render:
     output:
       type: FILE
       path: ./output/publication/business-case.html
+  - id: chat-gpt-content
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: ChatGPT Content
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.chat-gpt-content
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/chat-gpt-content.html
+
 
   # Articles
   - id: security-governance

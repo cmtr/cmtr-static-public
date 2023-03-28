@@ -1,4 +1,22 @@
 ---
+chat-gpt-content:
+  id: chat-gpt-content
+  body:
+    $File: chat-gpt-content.md
+  title: ChatGPT
+  subTitle: Content ChatGPT
+  paragraph:
+  tags:
+    - Communication
+    - AI
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed013
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+  relatedArticles: []
 security-governance:
   id: security-governance
   body:
