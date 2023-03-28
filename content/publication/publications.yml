@@ -1,4 +1,42 @@
 ---
+security-governance:
+  id: security-governance
+  body:
+    $File: security-governance.md
+  title: Securing Your EPR/CRM System
+  subTitle: How To Protect and Manage Your EPR/CRM
+  paragraph:
+  tags:
+    - Governance
+    - Security
+    - Development
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed013
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+  relatedArticles: []
+business-case:
+  id: business-case
+  body:
+    $File: business-case.md
+  title: CMTr.io - Business Case
+  subTitle: How We Achieve Value for Our Clients
+  paragraph:
+  tags:
+    - Strategy
+    - Analysis
+    - Innovation
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed013
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+  relatedArticles: []
 strategic-pyramid-analysis:
   id: strategic-pyramid-analysis
   body:

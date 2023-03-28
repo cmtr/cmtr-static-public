@@ -241,7 +241,7 @@ render:
       type: FILE
       path: ./output/service/facilitationcoaching.html
 
-  # Publications
+  # Publication Index
   - id: publication
     context:
       page: publication
@@ -257,6 +257,48 @@ render:
     output:
       type: FILE
       path: ./output/publication.html
+
+  # CMTr
+  - id: business-case
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: CMTr.io - Business Case
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.business-case
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/business-case.html
+
+  # Articles
+  - id: security-governance
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Security Governance
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.security-governance
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/security-governance.html
   - id: strategic-pyramid-analysis
     context:
       page: publication
