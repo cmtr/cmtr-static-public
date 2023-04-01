@@ -259,6 +259,25 @@ render:
       path: ./output/publication.html
 
   # CMTr
+  - id: risk-management
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Riks Management
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.risk-management
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/risk-management.html
   - id: business-case
     context:
       page: publication

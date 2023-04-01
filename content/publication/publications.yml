@@ -1,4 +1,22 @@
 ---
+risk-management:
+  id: risk-management
+  body:
+    $File: risk-management_v2.md
+  title: Risk Management
+  subTitle: How to do it right for your project
+  paragraph:
+  tags:
+    - Management
+    - Analysis
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImages.unsplashed013
+    thumbnail:
+      $Ref: images.stockImages.unsplashed002
+  relatedArticles: []
 chat-gpt-content:
   id: chat-gpt-content
   body:
