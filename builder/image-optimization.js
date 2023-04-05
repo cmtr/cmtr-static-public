@@ -1,7 +1,6 @@
 const sharp = require('sharp');
 const fs = require('fs');
-const directory = '../static/image/stock';
-const filename = "test.jpeg";
+const filename = "test.jpg";
 const outputDirectory = "./temp"
 
 
@@ -15,7 +14,6 @@ const sizes = {
 	extra: 2160
 }
 
-// https://sharp.pixelplumbing.com/api-resize
 fs.readdirSync(directory)
 	.forEach(file => {
 		console.log(`Starting convertion of file ${directory}/${file}`)
@@ -33,4 +31,4 @@ fs.readdirSync(directory)
 				    	console.log(`Complete: ${sizeName}-${size}w-${file}`)
 				    });
 			});
-	})
+	});
