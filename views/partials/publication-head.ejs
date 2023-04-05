@@ -2,21 +2,25 @@
 	<h2><%= publication.title %></h2>
 	<p><strong><%= publication.subTitle %></strong></p>
 	<div>
-		<% if (publication.images.head.urls) { %>
+		<%  const { urls } = publication.images.head %>
 			<img 
-				src="<%= publication.images.head.urls.extra %>" 
-				srcset= ""
-			<#%	sizes=""
+				src="<%= urls.extra %>" 
+				srcset= "
+					<%= urls.extra %> 2160w,
+					<%= urls.large %> 1080w,
+					<%= urls.medium %> 720w,
+					<%= urls.small %> 480w,
+					<%= urls.thumbnail %> 150w
+				"
+				sizes="
+					(max-width: 480px) 480px,
+					(max-width: 720px) 720px,
+					(max-width: 1080px) 1080px,
+					2160px
+				"
 				alt="<%= publication.images.head.alt %>"  
 				class="img-fluid" 
 			/>
-		<% } else { %>
-			<img 
-				src="<%= publication.images.head.src %>" 
-				alt="<%= publication.images.head.alt %>"  
-				class="img-fluid" 
-			/>
-		<% } %>
 		<p><strong>Image text:</strong> <%= publication.images.head.paragraph %></p>
 	</div>
 </div>

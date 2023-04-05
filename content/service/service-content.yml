@@ -54,3 +54,31 @@ facilitationcoaching:
       $Ref: images.stockImagesV2.sydney-rae-gem5lzdj4iw-unsplash
   relatedArticles:
     $Ref: services.serviceRelatedArticles
+productmanagement:
+  id: productmanagement
+  body:
+    $File: product_mgmt.md
+  title: Product Management
+  subTitle: Placeholder Product Management
+  authors:
+    $Ref: about.team.team
+  tags: []
+  images:
+    head:
+      $Ref: images.stockImagesV2.sydney-rae-gem5lzdj4iw-unsplash
+  relatedArticles:
+    $Ref: services.serviceRelatedArticles
+qualitymanagement:
+  id: qualitymanagement
+  body:
+    $File: quality_mgmt.md
+  title: Quality Management
+  subTitle: Placeholder Quality Management
+  authors:
+    $Ref: about.team.team
+  tags: []
+  images:
+    head:
+      $Ref: images.stockImagesV2.sydney-rae-gem5lzdj4iw-unsplash
+  relatedArticles:
+    $Ref: services.serviceRelatedArticles

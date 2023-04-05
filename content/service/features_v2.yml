@@ -1,3 +1,4 @@
+---
 - logoClass: ri-gps-line
   feature: Project, Program & Portfolio Management
   image:
@@ -5,20 +6,20 @@
   body:
     $File: intro_project_mgmt_v2.md
   href: /service/projectmanagement.html
-- logoClass: ri-sun-line
-  feature: Business Analysis & Research
-  image:
-    $Ref: images.assets.asset003
-  body:
-    $File: intro_analysis_research_v2.md
-  href: /service/analysisresearch.html
 - logoClass: ri-store-line
-  feature: UX Reseach, Analysis & Design
+  feature: Product Management
   image:
     $Ref: images.assets.asset002
   body:
-    $File: intro_ux_design_v3.md
-  href: /service/uxdesign.html
+    $File: intro_product_mgmt.md
+  href: /service/productmanagement.html
+- logoClass: ri-body-scan-line
+  feature: Quality Management
+  image:
+    $Ref: images.assets.asset003
+  body:
+    $File: intro_quality_mgmt.md
+  href: /service/qualitymanagement.html
 - logoClass: ri-body-scan-line
   feature: Facilitation & Couching
   image:
