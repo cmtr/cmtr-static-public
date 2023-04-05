@@ -1,0 +1,5 @@
+### Project, Program & Portfolio Management
+
+Are you struggling with project, program, or portfolio management? Do you find that the responsibilities of these domains are often misaligned or confused, leading to missed targets and finger pointing? In today's competitive business world, you need experienced management to execute your strategies. That's where we come in. Our advisory services provide tailored governance for project, program, or portfolio management to meet the requirements of your organization's unique goals and challenges. Our advisors are experienced in risk management, peer-review, investigations, and root cause analysis, and can help you identify underlying problems and develop a risk management plan customized to meet your objectives. We rely on established standards from the Project Management Institute to guide our approach, ensuring that you receive the highest quality of service. Let us help you achieve your goals and succeed in today's competitive business landscape.
+
+[Read more](/service/projectmanagement.html)

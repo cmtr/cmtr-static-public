@@ -1,8 +1,10 @@
 # General
 *.log
+.DS_Store
 
 # Builder
 builder/node_modules
+builder/temp 
 
 # Output
 output

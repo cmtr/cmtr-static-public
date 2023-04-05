@@ -240,8 +240,47 @@ render:
     output:
       type: FILE
       path: ./output/service/facilitationcoaching.html
+  - id: productmanagement
+    context:
+      page: services
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Product Management
+        items:
+          - href: /service.html
+            title: Services
+      publication:
+        $Ref: context.services.serviceContent.productmanagement
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/service/productmanagement.html
+  - id: qualitymanagement
+    context:
+      page: services
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Quality Management
+        items:
+          - href: /service.html
+            title: Services
+      publication:
+        $Ref: context.services.serviceContent.qualitymanagement
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/service/qualitymanagement.html
 
-  # Publications
+
+  # Publication Index
   - id: publication
     context:
       page: publication
@@ -257,139 +296,106 @@ render:
     output:
       type: FILE
       path: ./output/publication.html
-  - id: strategic-pyramid-analysis-part-1
+
+  # CMTr
+  - id: risk-management
     context:
       page: publication
       breadcrumbs:
         <<: *breadcrumbs
         current:
-          title: Strategic Pyramid Analysis - Part 1
+          title: Riks Management
         items:
           - href: /publication.html
             title: Publications
       publication:
-        $Ref: context.publications.publications.strategic-pyramid-analysis-part-1
+        $Ref: context.publications.publications.risk-management
     template:
       type: EJS
       path:
         $Ref: views.publications.details
     output:
       type: FILE
-      path: ./output/publication/strategic-pyramid-analysis-part-1.html
-  - id: strategic-pyramid-analysis-part-2
+      path: ./output/publication/risk-management.html
+  - id: business-case
     context:
       page: publication
       breadcrumbs:
         <<: *breadcrumbs
         current:
-          title: Strategic Pyramid Analysis - Part 2
+          title: CMTr.io - Business Case
         items:
           - href: /publication.html
             title: Publications
       publication:
-        $Ref: context.publications.publications.strategic-pyramid-analysis-part-2
+        $Ref: context.publications.publications.business-case
     template:
       type: EJS
       path:
         $Ref: views.publications.details
     output:
       type: FILE
-      path: ./output/publication/strategic-pyramid-analysis-part-2.html
-  - id: strategic-pyramid-analysis-part-3
+      path: ./output/publication/business-case.html
+  - id: chat-gpt-content
     context:
       page: publication
       breadcrumbs:
         <<: *breadcrumbs
         current:
-          title: Strategic Pyramid Analysis - Part 3
+          title: ChatGPT Content
         items:
           - href: /publication.html
             title: Publications
       publication:
-        $Ref: context.publications.publications.strategic-pyramid-analysis-part-3
+        $Ref: context.publications.publications.chat-gpt-content
     template:
       type: EJS
       path:
         $Ref: views.publications.details
     output:
       type: FILE
-      path: ./output/publication/strategic-pyramid-analysis-part-3.html
-  - id: strategic-pyramid-analysis-part-4
+      path: ./output/publication/chat-gpt-content.html
+
+
+  # Articles
+  - id: security-governance
     context:
       page: publication
       breadcrumbs:
         <<: *breadcrumbs
         current:
-          title: Strategic Pyramid Analysis - Part 4
+          title: Security Governance
         items:
           - href: /publication.html
             title: Publications
       publication:
-        $Ref: context.publications.publications.strategic-pyramid-analysis-part-4
+        $Ref: context.publications.publications.security-governance
     template:
       type: EJS
       path:
         $Ref: views.publications.details
     output:
       type: FILE
-      path: ./output/publication/strategic-pyramid-analysis-part-4.html
-  - id: strategic-pyramid-analysis-part-5
+      path: ./output/publication/security-governance.html
+  - id: strategic-pyramid-analysis
     context:
       page: publication
       breadcrumbs:
         <<: *breadcrumbs
         current:
-          title: Strategic Pyramid Analysis - Part 5
+          title: Strategic Pyramid Analysis
         items:
           - href: /publication.html
             title: Publications
       publication:
-        $Ref: context.publications.publications.strategic-pyramid-analysis-part-5
+        $Ref: context.publications.publications.strategic-pyramid-analysis
     template:
       type: EJS
       path:
         $Ref: views.publications.details
     output:
       type: FILE
-      path: ./output/publication/strategic-pyramid-analysis-part-5.html
-  - id: strategic-pyramid-analysis-part-6
-    context:
-      page: publication
-      breadcrumbs:
-        <<: *breadcrumbs
-        current:
-          title: Strategic Pyramid Analysis - Part 6
-        items:
-          - href: /publication.html
-            title: Publications
-      publication:
-        $Ref: context.publications.publications.strategic-pyramid-analysis-part-6
-    template:
-      type: EJS
-      path:
-        $Ref: views.publications.details
-    output:
-      type: FILE
-      path: ./output/publication/strategic-pyramid-analysis-part-6.html
-  - id: strategic-pyramid-analysis-part-7
-    context:
-      page: publication
-      breadcrumbs:
-        <<: *breadcrumbs
-        current:
-          title: Strategic Pyramid Analysis - Part 7
-        items:
-          - href: /publication.html
-            title: Publications
-      publication:
-        $Ref: context.publications.publications.strategic-pyramid-analysis-part-7
-    template:
-      type: EJS
-      path:
-        $Ref: views.publications.details
-    output:
-      type: FILE
-      path: ./output/publication/strategic-pyramid-analysis-part-7.html
+      path: ./output/publication/strategic-pyramid-analysis.html
   - id: bias
     context:
       page: publication

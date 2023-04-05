@@ -1,4 +1,7 @@
+---
 stockImages:
   $File: stock-images.yml
+stockImagesV2:
+  $File: stock-images_v2.yml
 assets:
   $File: assets.yml

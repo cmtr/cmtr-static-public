@@ -1,25 +1,25 @@
-The best way to reduce unconscious biases is to become aware of them. Start here with 16 examples of unconscious bias and tips to reduce them.
+Unconscious bias is a form of bias that operates outside our conscious awareness, and it can influence our decisions and behavior in ways we may not realize. These biases can affect the way we perceive, evaluate, and interact with others, leading to unfair treatment and missed opportunities for personal and professional growth.
+
+In this article, we will explore 16 common examples of unconscious bias and provide tips on how to reduce them. By becoming more aware of these biases, we can take steps to minimize their impact and create a more inclusive and equitable environment for everyone. Whether you're a manager looking to build a more diverse team, or an individual seeking to improve your own self-awareness, understanding and addressing unconscious bias is an essential step towards creating a more just and equitable society.
 
 
-If you’re hiring based on “gut feeling,” you’re likely hiring on the basis of unconscious bias. The best way to prevent yourself from succumbing to these unconscious biases is to become aware of them and take action to prevent them when recruiting, hiring and retaining employees. Doing so will help your team build a more diverse and inclusive workplace.
-
-
-* Affinity bias
-* Confirmation bias
-* Attribution bias
-* Conformity bias
-* The halo effect
-* The horns effect
-* Contrast effect
-* Gender bias
-* Ageism
-* Name bias
-* Beauty bias
-* Height bias
-* Anchor bias
-* Nonverbal bias
-* Authority bias
-* Overconfidence bias
+> **16 Examples of Bias**
+> * Affinity bias
+> * Confirmation bias
+> * Attribution bias
+> * Conformity bias
+> * The halo effect
+> * The horns effect
+> * Contrast effect
+> * Gender bias
+> * Ageism
+> * Name bias
+> * Beauty bias
+> * Height bias
+> * Anchor bias
+> * Nonverbal bias
+> * Authority bias
+> * Overconfidence bias
 
 ### Unconseious Bias?
 Unconscious biases, or implicit biases, are attitudes that are held subconsciously and affect the way individuals feel and think about others around them. Subconscious attitudes aren’t necessarily as well-formed as coherent thoughts, but they can be very ingrained. Many people have unconscious biases that have been with them since childhood, which they absorb by observing their social, familial and institutional environments. Unconscious biases can color the emotional and rational responses of individuals in everyday situations and affect their behavior.
