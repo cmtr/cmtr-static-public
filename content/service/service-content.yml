@@ -9,7 +9,7 @@ uxdesign:
   tags: []
   images:
     head:
-      $Ref: images.stockImages.unsplashed022
+      $Ref: images.stockImagesV2.halgatewood-com-tzc3vjpck-q-unsplash
   relatedArticles:
     $Ref: services.serviceRelatedArticles
 analysisresearch:
@@ -23,7 +23,7 @@ analysisresearch:
   tags: []
   images:
     head:
-      $Ref: images.stockImages.unsplashed018
+      $Ref: images.stockImagesV2.patrick-perkins-etrpjvb0km0-unsplash
   relatedArticles:
     $Ref: services.serviceRelatedArticles
 projectmanagement:
@@ -37,7 +37,7 @@ projectmanagement:
   tags: []
   images:
     head:
-      $Ref: images.stockImages.unsplashed021
+      $Ref: images.stockImagesV2.xps-klfkva_4axm-unsplash
   relatedArticles:
     $Ref: services.serviceRelatedArticles
 facilitationcoaching:
@@ -51,6 +51,6 @@ facilitationcoaching:
   tags: []
   images:
     head:
-      $Ref: images.stockImages.unsplashed017
+      $Ref: images.stockImagesV2.sydney-rae-gem5lzdj4iw-unsplash
   relatedArticles:
     $Ref: services.serviceRelatedArticles

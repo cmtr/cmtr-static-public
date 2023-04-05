@@ -21,8 +21,19 @@
 			<% portfolio.portfolio.forEach((item) => { %>
 				<div class="col-lg-4 col-md-6 portfolio-item <%= item.filters
 						.reduce((acc, curr) => `${acc} filter-${curr}`, "") %>">
+			
+				<!--
 					<img src="<%= item.image.src %>" class="img-fluid" alt="<%= item.image.alt %>">
-					<div class="portfolio-info">
+				-->
+
+				
+					<img 
+						src="<%= item.images.thumbnail.size.thumbnail %>"  
+						class="img-fluid" 
+						alt="<%= item.image.alt %>"
+					/>
+
+ 					<div class="portfolio-info">
 						<h4><%= item.title %></h4>
 						<p><%= item.paragraph %></p>
 						<a href="<%= item.image.src %>" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="<%= item.title %>"><i class="bx bx-plus"></i></a>

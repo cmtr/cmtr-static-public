@@ -10,7 +10,7 @@ waywework:
   tags: []
   images:
     head:
-      $Ref: images.stockImages.unsplashed012
+      $Ref: images.stockImagesV2.sean-stratton-obpce_x3j6u-unsplash
   relatedArticles:
     $Ref: about.aboutContentRelatedArticles
 whoweare:
@@ -24,7 +24,7 @@ whoweare:
   tags: []
   images:
     head:
-      $Ref: images.stockImages.unsplashed001
+      $Ref: images.stockImagesV2.joshua-earle-dwheufds6kq-unsplash
   relatedArticles:
     $Ref: about.aboutContentRelatedArticles
 ourmission:
@@ -38,7 +38,7 @@ ourmission:
   tags: []
   images:
     head:
-      $Ref: images.stockImages.unsplashed014
+      $Ref: images.stockImagesV2.kalen-emsley-7bwqxzbf6ke-unsplash
   relatedArticles:
     $Ref: about.aboutContentRelatedArticles
 ourvalues:
@@ -54,7 +54,7 @@ ourvalues:
   tags: []
   images:
     head:
-      $Ref: images.stockImages.unsplashed012
+      $Ref: images.stockImagesV2.sean-stratton-obpce_x3j6u-unsplash
   relatedArticles:
     $Ref: about.aboutContentRelatedArticles
 ourvision:
@@ -68,6 +68,6 @@ ourvision:
   tags: []
   images:
     head:
-      $Ref: images.stockImages.unsplashed011
+      $Ref: images.stockImagesV2.matt-noble-bptmnn9jsmq-unsplash
   relatedArticles:
     $Ref: about.aboutContentRelatedArticles

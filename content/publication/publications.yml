@@ -13,9 +13,9 @@ risk-management:
     - $Ref: about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.stockImages.unsplashed013
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
     thumbnail:
-      $Ref: images.stockImages.unsplashed002
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
   relatedArticles: []
 chat-gpt-content:
   id: chat-gpt-content
@@ -31,9 +31,9 @@ chat-gpt-content:
     - $Ref: about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.stockImages.unsplashed013
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
     thumbnail:
-      $Ref: images.stockImages.unsplashed002
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
   relatedArticles: []
 security-governance:
   id: security-governance
@@ -50,9 +50,9 @@ security-governance:
     - $Ref: about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.stockImages.unsplashed013
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
     thumbnail:
-      $Ref: images.stockImages.unsplashed002
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
   relatedArticles: []
 business-case:
   id: business-case
@@ -69,9 +69,9 @@ business-case:
     - $Ref: about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.stockImages.unsplashed013
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
     thumbnail:
-      $Ref: images.stockImages.unsplashed002
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
   relatedArticles: []
 strategic-pyramid-analysis:
   id: strategic-pyramid-analysis
@@ -88,9 +88,9 @@ strategic-pyramid-analysis:
     - $Ref: about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.stockImages.unsplashed013
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
     thumbnail:
-      $Ref: images.stockImages.unsplashed002
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
   relatedArticles: []
 bias:
   id: bias
@@ -106,9 +106,9 @@ bias:
     - $Ref: about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.stockImages.unsplashed010
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
     thumbnail:
-      $Ref: images.stockImages.unsplashed002
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
   relatedArticles: []
 bases-of-power:
   id: bases-of-power
@@ -124,7 +124,7 @@ bases-of-power:
     - $Ref: about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.stockImages.unsplashed010
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
     thumbnail:
-      $Ref: images.stockImages.unsplashed002
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
   relatedArticles: []
