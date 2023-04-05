@@ -1,0 +1,14 @@
+<% 
+	if (Array.isArray(publication.body)) {
+%>
+
+<% 
+	} else { 
+%>
+		<div>
+			<%- marked(publication.body) %>
+		</div>
+
+<% 
+	}
+%>
