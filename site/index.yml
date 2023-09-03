@@ -1,6 +1,6 @@
 ---
 context: &context
-  $File: ../output/content.yml
+  $File: ../output/context.yml
 
 breadcrumbs: &breadcrumbs
   root:
@@ -297,7 +297,182 @@ render:
       type: FILE
       path: ./output/publication.html
 
+  # Unlocking Digital Success
+  - id: unlocking-digital-success-1
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Unlocking Digital Success
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.unlocking-digital-success-1
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/unlocking-digital-success-1.html
+  - id: unlocking-digital-success-2
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Unlocking Digital Success
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.unlocking-digital-success-2
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/unlocking-digital-success-2.html
+  - id: unlocking-digital-success-3
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Unlocking Digital Success
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.unlocking-digital-success-3
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/unlocking-digital-success-3.html
+  - id: unlocking-digital-success-4
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Unlocking Digital Success
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.unlocking-digital-success-4
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/unlocking-digital-success-4.html
+  - id: unlocking-digital-success-core-values
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Unlocking Digital Success
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.unlocking-digital-success-core-values
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/unlocking-digital-success-core-values.html
+  - id: unlocking-digital-success-mission-statement
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Unlocking Digital Success
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.unlocking-digital-success-mission-statement
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/unlocking-digital-success-mission-statement.html
+  - id: unlocking-digital-success-value-proposition
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Unlocking Digital Success
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.unlocking-digital-success-value-proposition
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/unlocking-digital-success-value-proposition.html
+  - id: unlocking-digital-success-vision-statement
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Unlocking Digital Success
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.unlocking-digital-success-vision-statement
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/unlocking-digital-success-vision-statement.html
+
+
+
   # CMTr
+  - id: digital-transformation
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Digital Transformation
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.digital-transformation
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/digital-transformation.html
   - id: risk-management
     context:
       page: publication

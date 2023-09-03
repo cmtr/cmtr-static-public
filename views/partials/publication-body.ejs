@@ -1,8 +1,26 @@
 <% 
 	if (Array.isArray(publication.body)) {
+		publication.body.forEach(body => {
+			let output = ""; /*
+			switch(body.type.toUpperCase()) {
+				case "MARKDOWN":
+					output = marked(body.body);
+					break;
+				case "IMAGE"
+					output = "<p>Placeholder for Image</p>"
+					break;
+				default:
+					throw new Error("Unsupported body-type: " + body.type.toUpperCase());
+			} */
+%>
+	<div>
+		<%= output %>
+	</div>
+<%
+		})
 %>
 
-<% 
+<%
 	} else { 
 %>
 		<div>

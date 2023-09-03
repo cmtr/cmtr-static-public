@@ -1,14 +1,185 @@
 ---
-risk-management:
-  id: risk-management
+unlocking-digital-success-1:
+  id: unlocking-digital-success-1
   body:
-    $File: risk-management_v2.md
-  title: Risk Management
-  subTitle: How to do it right for your project
+    $File: unlocking-digital-success/unlocking-digital-sucess-part-1.md
+  title: Unlocking Digital Success - Part 1
+  subTitle: Applying Generative AI to a Telco Digital Transformation Strategic Analysis
+  paragraph:
+  tags: &unlocking-digital-success-tags
+    - Management
+    - Analysis
+    - Digitalization
+    - Strategy
+    - AI
+  authors: &unlocking-digital-success-authors
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+    thumbnail:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+  relatedArticles: &unlocking-digital-success-related-articles 
+    - type: link
+      title: Unlocking Digital Success - Applying Generative AI to a Telco Digital Transformation Strategic Analysis
+      href: /publication/unlocking-digital-success-1.html
+    - type: link
+      title: Unlocking Digital Success - Generating a Digital Transformation Value Proposition Canvas
+      href: /publication/unlocking-digital-success-2.html
+    - type: link
+      title: Unlocking Digital Success - Generating a Telco Digital Transformation Business Model Canvas
+      href: /publication/unlocking-digital-success-3.html
+    - type: link
+      title: Unlocking Digital Success - Defining your Value Proposition, Vision Statement, Mission Statement, and Core Values
+      href: /publication/unlocking-digital-success-4.html
+    - type: link
+      title: Unlocking Digital Success - Defining your Value Propistion
+      href: /publication/unlocking-digital-success-value-proposition.html
+    - type: link
+      title: Unlocking Digital Success - Defining your Vision Statement
+      href: /publication/unlocking-digital-success-vision-statement.html
+    - type: link
+      title: Unlocking Digital Success - Defining your Mission Statement
+      href: /publication/unlocking-digital-success-mission-statement.html
+    - type: link
+      title: Unlocking Digital Success - Defining your Core Values
+      href: /publication/unlocking-digital-success-core-values.html
+unlocking-digital-success-2:
+  id: unlocking-digital-success-2
+  body:
+    $File: unlocking-digital-success/unlocking-digital-sucess-part-2.md
+  title: Unlocking Digital Success - Part 2
+  subTitle: Generating a Digital Transformation Value Proposition Canvas
+  paragraph:
+  tags: *unlocking-digital-success-tags
+  authors: *unlocking-digital-success-authors
+  images:
+    head:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+    thumbnail:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+  relatedArticles: *unlocking-digital-success-related-articles
+unlocking-digital-success-3:
+  id: unlocking-digital-success-3
+  body:
+    $File: unlocking-digital-success/unlocking-digital-sucess-part-3.md
+  title: Unlocking Digital Success - Part 3
+  subTitle: Generating a Telco Digital Transformation Business Model Canvas
+  paragraph:
+  tags: *unlocking-digital-success-tags
+  authors: *unlocking-digital-success-authors
+  images:
+    head:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+    thumbnail:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+  relatedArticles: *unlocking-digital-success-related-articles
+unlocking-digital-success-4:
+  id: unlocking-digital-success-4
+  body:
+    $File: unlocking-digital-success/unlocking-digital-sucess-part-4.md
+  title: Unlocking Digital Success - Part 4
+  subTitle: Defining your Value Proposition, Vision Statement, Mission Statement, and Core Values
+  paragraph:
+  tags: *unlocking-digital-success-tags
+  authors: *unlocking-digital-success-authors
+  images:
+    head:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+    thumbnail:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+  relatedArticles: *unlocking-digital-success-related-articles
+unlocking-digital-success-core-values:
+  id: unlocking-digital-success-core-values
+  body:
+    $File: unlocking-digital-success/core-values.md
+  title: Unlocking Digital Success - Defining your Core Values
+  subTitle: Telco Digital Transformation Solutions with AI Assistance
+  paragraph:
+  tags: *unlocking-digital-success-tags
+  authors: *unlocking-digital-success-authors
+  images:
+    head:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+    thumbnail:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+  relatedArticles: *unlocking-digital-success-related-articles
+unlocking-digital-success-mission-statement:
+  id: unlocking-digital-success-mission-statement
+  body:
+    $File: unlocking-digital-success/mission-statement.md
+  title: Unlocking Digital Success - Defining your Mission Statement
+  subTitle: Telco Digital Transformation Solutions with AI Assistance
+  paragraph:
+  tags: *unlocking-digital-success-tags
+  authors: *unlocking-digital-success-authors
+  images:
+    head:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+    thumbnail:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+  relatedArticles: *unlocking-digital-success-related-articles
+unlocking-digital-success-value-proposition:
+  id: unlocking-digital-success-value-proposition
+  body:
+    $File: unlocking-digital-success/value-proposition.md
+  title: Unlocking Digital Success - Defining your Value Proposition
+  subTitle: Telco Digital Transformation Solutions with AI Assistance
+  paragraph:
+  tags: *unlocking-digital-success-tags
+  authors: *unlocking-digital-success-authors
+  images:
+    head:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+    thumbnail:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+  relatedArticles: *unlocking-digital-success-related-articles
+unlocking-digital-success-vision-statement:
+  id: unlocking-digital-success-vision-statement
+  body:
+    $File: unlocking-digital-success/vision-statement.md
+  title: Unlocking Digital Success - Defining your Vision Statement
+  subTitle: Telco Digital Transformation Solutions with AI Assistance
+  paragraph:
+  tags: *unlocking-digital-success-tags
+  authors: *unlocking-digital-success-authors
+  images:
+    head:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+    thumbnail:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+  relatedArticles: *unlocking-digital-success-related-articles
+digital-transformation:
+  id: digital-transformation
+  body:
+    $File: digital-transformation.md
+  title: Navigating Digital Transformation
+  subTitle: From System Team Orientation to Value Stream Aligned Product Teams
   paragraph:
   tags:
     - Management
     - Analysis
+    - Digitalization
+    - Strategy
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+    thumbnail:
+      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+  relatedArticles: []
+risk-management:
+  id: risk-management
+  body:
+    $File: risk-management_v2.md
+  title: Enterprise IT Risk Management
+  subTitle: The Importance of Risk Management in Enterprise IT and How to Implement It
+  paragraph:
+  tags:
+    - Management
+    - Analysis
+    - Risk
   authors:
     - $Ref: about.team.team.haraldbliko
   images:
@@ -20,7 +191,9 @@ risk-management:
 chat-gpt-content:
   id: chat-gpt-content
   body:
-    $File: chat-gpt-content.md
+    - type: MARKDOWN
+      body:
+        $File: chat-gpt-content.md
   title: ChatGPT
   subTitle: Content ChatGPT
   paragraph:

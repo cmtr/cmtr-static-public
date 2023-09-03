@@ -1,0 +1,183 @@
+@startuml
+
+package "Strategic Pyramid" as P_STRATEGY {
+	
+	object "Startegic Pyramid Analysis" as STRATEGIC_PYRAMID_ANALYSIS  {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+
+
+	object "Defining your\nBusiness with AI" as DEF_BUSINESS {
+		title: "Placeholder"
+		subtitle: "Placeholder"
+	}
+
+	object "Defining Your\nValue Proposition" as DEF_VALUE_PROP {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	object "Defining Your\nCore Values" as DEF_CORE_VALUES {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	object "Defining Your\Vision Statement" as DEF_VISION_STATE {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	object "Defining Your\nMission Statement" as DEF_MISSION_STAT {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	DEF_BUSINESS -u-> STRATEGIC_PYRAMID_ANALYSIS
+	DEF_BUSINESS o-- DEF_MISSION_STAT
+	DEF_BUSINESS o-- DEF_VALUE_PROP
+	DEF_BUSINESS o-- DEF_VISION_STATE 
+	DEF_BUSINESS o-- DEF_CORE_VALUES
+}
+
+
+
+package "Jobs to be Done" as P_JOBS {
+
+	object "Jobs to be Done" as JOBS_TO_BE_DONE {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	object "Jobs to be Done\nEnhance Customer Experience" as JOBS_ENHANCE_CUSTOMER_EXP {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+
+	object "Jobs to be Done\nOptimising Network Performance" as JOBS_OPT_NETWORK_PERF {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	object "Jobs to be Done\nIntroducing New Revenue Streams" as JOBS_NEW_REV_STREAM {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	object "Jobs to be Done\nStreamlining Operations and Processes" as JOBS_STREAMLINE_OPS {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	object "Jobs to be Done\nDate Monetization and Analytics" as JOBS_DATA_MON {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	object "Jobs to be Done\nImprove Risk Management and Security" as JOBS_RISK_SEC {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	object "Jobs to be Done\nEnabling Agile Innovation" as JOBS_EN_AGILE {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	JOBS_TO_BE_DONE o-d-JOBS_ENHANCE_CUSTOMER_EXP 
+	JOBS_TO_BE_DONE o-d- JOBS_OPT_NETWORK_PERF
+	JOBS_TO_BE_DONE o-d- JOBS_NEW_REV_STREAM
+	JOBS_TO_BE_DONE o-d- JOBS_STREAMLINE_OPS
+	JOBS_TO_BE_DONE o-d- JOBS_DATA_MON
+	JOBS_TO_BE_DONE o-d- JOBS_RISK_SEC
+	JOBS_TO_BE_DONE o-d- JOBS_EN_AGILE
+}
+
+
+
+object "Unlocking Digital Success with AI" as UNLOCK_AI  {
+	description: "Placeholder"
+	subtilte: "Placeholder"
+}
+
+object "Value Proposition Canvas\nTelco Consulting GenAI Example" as VPC_GEN_AI {
+	description: "Placeholder"
+	subtilte: "Placeholder"
+}
+
+P_JOBS -u-|> VPC_GEN_AI
+
+object "Business Model Canvas\nTelco Consulting Gen AI Example" as BMC_GEN_AI  {
+	description: "Placeholder"
+	subtilte: "Placeholder"
+}
+
+UNLOCK_AI o-- VPC_GEN_AI 
+UNLOCK_AI o-- BMC_GEN_AI  
+
+
+
+package "Telco Digital Transformation Program" as P_TELCO_PROGRAM {
+
+	package "Program Management" as P_PROGAM_MANAGEMENT {
+
+		object "Program Management" as PROGRAM_MANAGEMENT  {
+			description: "Placeholder"
+			subtilte: "Placeholder"
+		}
+
+		object "Program Management\nRisk Management" as RISK_MANAGEMENT  {
+			description: "Placeholder"
+			subtilte: "Placeholder"
+		}
+
+		object "Program Management\nStakeholder Management" as STAKEHOLDER_MANAGEMENT  {
+			description: "Placeholder"
+			subtilte: "Placeholder"
+		}
+
+		object "Program Management\nResource Management" as RESOURCE_MANAGEMENT  {
+			description: "Placeholder"
+			subtilte: "Placeholder"
+		}
+
+		RISK_MANAGEMENT --|> PROGRAM_MANAGEMENT
+		STAKEHOLDER_MANAGEMENT --|> PROGRAM_MANAGEMENT
+		RESOURCE_MANAGEMENT --|> PROGRAM_MANAGEMENT
+		P_STRATEGY -u-> PROGRAM_MANAGEMENT
+	}
+
+	object "Teclo Digital Transformation Program" as TELCO_PROGRAM  {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	TELCO_PROGRAM --> PROGRAM_MANAGEMENT
+
+	object "Telco Digital Transformation\nExample Program Charter" as TELCO_PROGRAM_CHARTER  {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	object "Telco Digital Transformation Promgram\nExample Risk Management" as TELCO_PROGRAM_RISK  {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	object "Telco Digital Transformation Program\nExample Objectives Analysis" as TELCO_PROGRAM_OBJECTIVES {
+		description: "Placeholder"
+		subtilte: "Placeholder"
+	}
+
+	TELCO_PROGRAM_CHARTER --|> TELCO_PROGRAM
+	TELCO_PROGRAM_RISK --|> TELCO_PROGRAM_CHARTER
+	RISK_MANAGEMENT --> TELCO_PROGRAM_RISK
+	TELCO_PROGRAM_OBJECTIVES --|> TELCO_PROGRAM_CHARTER
+	P_JOBS -u-> TELCO_PROGRAM_OBJECTIVES
+
+}
+
+
+@enduml

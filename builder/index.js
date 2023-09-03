@@ -11,6 +11,7 @@ const {
 const yaml = require("js-yaml");
 const ejs = require("ejs");
 const marked = require("marked");
+const pretty = require("pretty");
 const util = require("yaml-util");
 
 const rootDirectory = resolve(__dirname, "..");
@@ -19,7 +20,7 @@ const sitePath = resolve(rootDirectory, "site/index.yml");
 
 // Build content
 const content = util.ref(util.importFile()(contentPath));
-const contentOutputPath = resolve(rootDirectory, "output/content.yml");
+const contentOutputPath = resolve(rootDirectory, "output/context.yml");
 writeFileSync(contentOutputPath, yaml.dump(content), { encoding: "utf8"});
 
 // Build page
@@ -49,12 +50,12 @@ site.render.forEach((page) => {
 			// Ensure directory Exists
 			const outputDirectory = dirname(outputPath);
 			if (!existsSync(outputDirectory)) mkdirSync(outputDirectory);
-			writeFileSync(outputPath, html, { encoding: "utf8"});
+			writeFileSync(outputPath, pretty(html, { ocd: true }), { encoding: "utf8"});
 		});
 
 		console.log(`Page ${page.id} successfully rendered`);
 	} catch (error) {
-		console.log(`Page "${page.id}" failed to render`);
+		console.error(`Page "${page.id}" failed to render`);
 		console.trace(error);
 	}
 });
