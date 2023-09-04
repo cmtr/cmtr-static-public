@@ -23,8 +23,9 @@ views:
     index: ./views/portfolio/index.ejs
     details: ./views/portfolio/details.ejs
 
+
 render:
-  # Home
+  #Home
   - id: home
     template:
       type: EJS
@@ -34,7 +35,7 @@ render:
       page: home
     output:
       type: FILE
-      path: ./output/index.html
+      path: ./output/index.html  
 
   # About
   - id: about

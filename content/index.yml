@@ -5,6 +5,10 @@ services:
   $File: service/index.yml
 publications:
   $File: publication/index.yml
+presentations:
+  $File: presentation/index.yml
+video:
+  $File: video/index.yml
 home:
   $File: page/home.yml
 common:

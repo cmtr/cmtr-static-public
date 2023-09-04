@@ -691,11 +691,15 @@ gr-stocks-iq9sajezkoe-unsplash:
 halgatewood-com-tzc3vjpck-q-unsplash:
   id: halgatewood-com-tzc3vjpck-q-unsplash
   src: /image/stock/halgatewood-com-tzc3vjpck-q-unsplash.jpg
-  alt: Me alternative
-  hover: I, hover
-  paragraph: Placeholder Image Text
+  alt: Low Fidelity Prototype
+  hover: Low Fidelity Prototype Sketch - halgatewood-com-tzc3vjpck-q-unsplash
+  paragraph: Low Fidelity Prototype Sketch
   source: Unsplash
-  tags: []
+  tags:
+    - UX Design
+    - Prototype
+    - Low Fidelity
+    - Sketch
   urls:
     original: /image/stock/halgatewood-com-tzc3vjpck-q-unsplash.jpg
     thumbnail: /image/stock-optimized/tumbnail-150w-halgatewood-com-tzc3vjpck-q-unsplash.jpg

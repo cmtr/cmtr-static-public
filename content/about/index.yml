@@ -27,3 +27,5 @@ team:
   $File: team/index.yml
 testimonials:
   $File: testimonials.yml
+cmtr:
+  $File: cmtr.yml

@@ -3,8 +3,8 @@ unlocking-digital-success-1:
   id: unlocking-digital-success-1
   body:
     $File: unlocking-digital-success/unlocking-digital-sucess-part-1.md
-  title: Unlocking Digital Success - Part 1
-  subTitle: Applying Generative AI to a Telco Digital Transformation Strategic Analysis
+  title: Applying Generative AI to a Telco Digital Transformation Strategic Analysis
+  subTitle: Part 1 of the Unlocking Digital Success Series
   paragraph:
   tags: &unlocking-digital-success-tags
     - Management
@@ -16,78 +16,78 @@ unlocking-digital-success-1:
     - $Ref: about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing1
     thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing1
   relatedArticles: &unlocking-digital-success-related-articles 
     - type: link
-      title: Unlocking Digital Success - Applying Generative AI to a Telco Digital Transformation Strategic Analysis
+      title: Applying Generative AI to a Telco Digital Transformation Strategic Analysis
       href: /publication/unlocking-digital-success-1.html
     - type: link
-      title: Unlocking Digital Success - Generating a Digital Transformation Value Proposition Canvas
+      title: Generating a Digital Transformation Value Proposition Canvas
       href: /publication/unlocking-digital-success-2.html
     - type: link
-      title: Unlocking Digital Success - Generating a Telco Digital Transformation Business Model Canvas
+      title: Generating a Telco Digital Transformation Business Model Canvas
       href: /publication/unlocking-digital-success-3.html
     - type: link
-      title: Unlocking Digital Success - Defining your Value Proposition, Vision Statement, Mission Statement, and Core Values
+      title: Defining your Value Proposition, Vision Statement, Mission Statement, and Core Values
       href: /publication/unlocking-digital-success-4.html
     - type: link
-      title: Unlocking Digital Success - Defining your Value Propistion
+      title: Defining your Value Propistion
       href: /publication/unlocking-digital-success-value-proposition.html
     - type: link
-      title: Unlocking Digital Success - Defining your Vision Statement
+      title: Defining your Vision Statement
       href: /publication/unlocking-digital-success-vision-statement.html
     - type: link
-      title: Unlocking Digital Success - Defining your Mission Statement
+      title: Defining your Mission Statement
       href: /publication/unlocking-digital-success-mission-statement.html
     - type: link
-      title: Unlocking Digital Success - Defining your Core Values
+      title: Defining your Core Values
       href: /publication/unlocking-digital-success-core-values.html
 unlocking-digital-success-2:
   id: unlocking-digital-success-2
   body:
     $File: unlocking-digital-success/unlocking-digital-sucess-part-2.md
-  title: Unlocking Digital Success - Part 2
-  subTitle: Generating a Digital Transformation Value Proposition Canvas
+  title: Generating a Digital Transformation Value Proposition Canvas
+  subTitle: Part 2 of the Unlocking Digital Success Series
   paragraph:
   tags: *unlocking-digital-success-tags
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing2
     thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing2
   relatedArticles: *unlocking-digital-success-related-articles
 unlocking-digital-success-3:
   id: unlocking-digital-success-3
   body:
     $File: unlocking-digital-success/unlocking-digital-sucess-part-3.md
-  title: Unlocking Digital Success - Part 3
-  subTitle: Generating a Telco Digital Transformation Business Model Canvas
+  title: Generating a Telco Digital Transformation Business Model Canvas 
+  subTitle: Part 3 of the Unlocking Digital Success Series
   paragraph:
   tags: *unlocking-digital-success-tags
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing3
     thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing3
   relatedArticles: *unlocking-digital-success-related-articles
 unlocking-digital-success-4:
   id: unlocking-digital-success-4
   body:
     $File: unlocking-digital-success/unlocking-digital-sucess-part-4.md
-  title: Unlocking Digital Success - Part 4
-  subTitle: Defining your Value Proposition, Vision Statement, Mission Statement, and Core Values
+  title: Defining your Value Proposition, Vision Statement, Mission Statement, and Core Values 
+  subTitle: Part 4 of the Unlocking Digital Success Series
   paragraph:
   tags: *unlocking-digital-success-tags
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing4
     thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing4
   relatedArticles: *unlocking-digital-success-related-articles
 unlocking-digital-success-core-values:
   id: unlocking-digital-success-core-values
@@ -100,9 +100,9 @@ unlocking-digital-success-core-values:
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing5
     thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing5
   relatedArticles: *unlocking-digital-success-related-articles
 unlocking-digital-success-mission-statement:
   id: unlocking-digital-success-mission-statement
@@ -115,9 +115,9 @@ unlocking-digital-success-mission-statement:
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing6
     thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing6
   relatedArticles: *unlocking-digital-success-related-articles
 unlocking-digital-success-value-proposition:
   id: unlocking-digital-success-value-proposition
@@ -130,9 +130,9 @@ unlocking-digital-success-value-proposition:
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing7
     thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing7
   relatedArticles: *unlocking-digital-success-related-articles
 unlocking-digital-success-vision-statement:
   id: unlocking-digital-success-vision-statement
@@ -145,9 +145,9 @@ unlocking-digital-success-vision-statement:
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing8
     thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing8
   relatedArticles: *unlocking-digital-success-related-articles
 digital-transformation:
   id: digital-transformation

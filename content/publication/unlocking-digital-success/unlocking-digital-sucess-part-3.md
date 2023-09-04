@@ -1,7 +1,3 @@
-# Unlocking Digital Success with AI — Part 3
-
-## Generating a Telco Digital Transformation Business Model Canvas
-
 Welcome to the third instalment of our article series, “Unlocking Digital Success with AI.” In this edition, we dive into the exciting realm of strategic analysis in Telco Digital Transformation using the power of Generative AI. As a Boutique Consultancy Company at the forefront of innovation, we understand the significance of leveraging AI-driven insights to drive impactful decision-making and propel our clients towards digital success.
 
 Building upon the foundational principles of the Business Model Canvas, which we explored in previous articles, we now embark on a journey of strategic analysis. Today, we present you with the output of our ChatGPT-powered Business Model Canvas analysis, specifically tailored for Telco Digital Transformation. Through the advanced capabilities of Generative AI, we have gained invaluable insights into the key elements of the Telco industry’s business models and identified critical areas for transformation and growth.
@@ -24,11 +20,9 @@ For a boutique digital transformation consultancy, the customer segments in the 
 By identifying and understanding these customer segments, the boutique digital transformation consultancy can develop tailored strategies, services, and solutions that address the unique challenges and opportunities of each segment. This customer-centric approach enables the consultancy to deliver value and establish long-term relationships with diverse clients across various industries and organisational sizes.
 
 ### 2 — Value Proposition
-For the Value Proposition, see the next installment in this article series:
-
-Unlocking Digital Success with AI — Part 4
-Generating your Value Statement, Vision Statement, Mission Statement and Value Proposition
-medium.com
+For the Value Proposition, see the next installment in the Unlocking Digital Success series:
+* [Defining your Value Proposition, Vision Statement, Mission Statement, and Core Values](/publication/unlocking-digital-success-4.html)
+* [Defining your Value Proposition](/publication/unlocking-digital-success-value-proposition.html)
 
 ### 3 — Channels
 Channels play a crucial role in how a boutique digital transformation consultancy reaches and interacts with its target audience. Here are some key channels that the consultancy can utilise to engage with clients and deliver its services effectively:
@@ -145,7 +139,7 @@ In the next instalment of our series, we will delve into the realms of Value Pro
 
 Join us as we continue to unlock the secrets of digital success with AI, combining the power of technology with the wisdom of human decision-making to propel your business forward in the dynamic world of Telco Digital Transformation.
 
-
+In the next installment of the Unlocking Digital Success Series we will be looking at [Defining your Value Proposition, Vision Statement, Mission Statement, and Core Values](/publication/unlocking-digital-success-4.html) for your business.
 
 
 

@@ -1,7 +1,3 @@
-# Defining Your Business with GenAI
-
-## Defining your Value Proposition, Vision Statement, Mission Statement, and Core Values
-
 In the journey of digital transformation, crafting strong value propositions, vision statements, mission statements, and core values is essential for organisations aiming to define their purpose, articulate their goals, and communicate their unique identity. These concepts form the foundation of an organisation’s strategic direction, guiding its decisions, actions, and interactions with stakeholders.
 
 * A value proposition outlines the unique value that a company brings to its customers, highlighting the benefits, solutions, or advantages it offers. It helps in positioning the organisation in the market and differentiating it from competitors.
@@ -43,14 +39,19 @@ Throughout the process, remember that the AI-generated insights should be augmen
 
 See the following article for examples of Value Propositions created with Generative AI for a Boutique Consultancy Company within the Telco Digital Transformation niche.
 
+[Defining your **Value Proposition**](/publication/unlocking-digital-success-value-proposition.html)
+
 ### Vision Statement
 See the following article for examples of Vision Statements created with Generative AI for a Boutique Consultancy Company within the Telco Digital Transformation niche.
+
+[Defining your **Vision Statement**](/publication/unlocking-digital-success-vision-statement.html)
 
 ### Mission Statement
 See the following article for examples of Mission Statements created with Generative AI for a Boutique Consultancy Company within the Telco Digital Transformation niche.
 
+[Defining your **Mission Statement**](/publication/unlocking-digital-success-mission-statement.html)
 
 ### Core Values
 See the following article for examples of Core Values created with Generative AI for a Boutique Consultancy Company within the Telco Digital Transformation niche.
 
-
+[Defining your **Core Values**](/publication/unlocking-digital-success-core-values.html)

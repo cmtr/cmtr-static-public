@@ -1,7 +1,3 @@
-# Core Values with AI
-## Telco Digital Transformation Solutions with assistance from AI
-
-
 Welcome to our article exploring the significance of Core Values in the context of a Boutique Consultancy Company operating within the Telco Digital Transformation niche. The company and use case is a example for how leverage Generative AI with early phase strategic analysis.
 
 In an era characterised by rapid technological advancements and industry disruption, Telco companies are undergoing significant digital transformations to remain competitive and meet the evolving demands of their customers. As a Boutique Consultancy Company specializing in this domain, it is crucial for us to establish a set of Core Values that not only resonate with Telco clients but also differentiate us from the competition.
@@ -64,3 +60,13 @@ As you embark on the journey of defining and embracing your core values, we enco
 
 May your core values be the guiding light that permeates every aspect of your Boutique Consultancy Company, fostering meaningful connections with clients, driving innovation, and ultimately propelling you toward digital transformation success in the Telco industry.
 
+
+### The Old Fashion Way
+For insight into Core Values made the Old Fasion Way please see [CMTr.io - Our Values](/about/ourvalues.html).
+
+### Read More
+* [Defining your Value Proposition, Vision Statement, Mission Statement, and Core Values](/publication/unlocking-digital-success-4.html)
+	* [Defining your Value Propistion](/publication/unlocking-digital-success-value-proposition.html)
+	* [Defining your Vision Statement](/publication/unlocking-digital-success-vision-statement.html)
+	* [Defining your Mission Statement](/publication/unlocking-digital-success-mission-statement.html)
+	* [Defining your Core Values](/publication/unlocking-digital-success-core-values.html)

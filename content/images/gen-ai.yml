@@ -1,0 +1,126 @@
+---
+officeDrawing1:
+  id: office-drawing-1
+  src: &office-drawing-1-url /image/gen-ai/office-drawing-1.png
+  alt: &office-drawing-alt alternative
+  hover: &office-drawing-hover Punk Office Drawing
+  paragraph: &office-drawing-paragraph The Future of IT
+  source: &office-drawing-source DiffusionBee
+  tags: &office-drawing-tags
+    - office
+    - gen-ai
+    - manga
+    - drawing
+    - wide
+  urls:
+    original: *office-drawing-1-url
+    thumbnail: *office-drawing-1-url
+    small: *office-drawing-1-url
+    medium: *office-drawing-1-url
+    large: *office-drawing-1-url
+    extra: *office-drawing-1-url
+officeDrawing2:
+  id: office-drawing-2
+  src: &office-drawing-2-url /image/gen-ai/office-drawing-2.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-2-url
+    thumbnail: *office-drawing-2-url
+    small: *office-drawing-2-url
+    medium: *office-drawing-2-url
+    large: *office-drawing-2-url
+    extra: *office-drawing-2-url
+officeDrawing3:
+  id: office-drawing-3
+  src: &office-drawing-3-url /image/gen-ai/office-drawing-3.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-3-url
+    thumbnail: *office-drawing-3-url
+    small: *office-drawing-3-url
+    medium: *office-drawing-3-url
+    large: *office-drawing-3-url
+    extra: *office-drawing-3-url
+officeDrawing4:
+  id: office-drawing-4
+  src: &office-drawing-4-url /image/gen-ai/office-drawing-4.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-4-url
+    thumbnail: *office-drawing-4-url
+    small: *office-drawing-4-url
+    medium: *office-drawing-4-url
+    large: *office-drawing-4-url
+    extra: *office-drawing-4-url
+officeDrawing5:
+  id: office-drawing-5
+  src: &office-drawing-5-url /image/gen-ai/office-drawing-5.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-5-url
+    thumbnail: *office-drawing-5-url
+    small: *office-drawing-5-url
+    medium: *office-drawing-5-url
+    large: *office-drawing-5-url
+    extra: *office-drawing-5-url
+officeDrawing6:
+  id: office-drawing-6
+  src: &office-drawing-6-url /image/gen-ai/office-drawing-6.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-6-url
+    thumbnail: *office-drawing-6-url
+    small: *office-drawing-6-url
+    medium: *office-drawing-6-url
+    large: *office-drawing-6-url
+    extra: *office-drawing-6-url
+officeDrawing7:
+  id: office-drawing-7
+  src: &office-drawing-7-url /image/gen-ai/office-drawing-7.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-7-url
+    thumbnail: *office-drawing-7-url
+    small: *office-drawing-7-url
+    medium: *office-drawing-7-url
+    large: *office-drawing-7-url
+    extra: *office-drawing-7-url
+officeDrawing8:
+  id: office-drawing-8
+  src: &office-drawing-8-url /image/gen-ai/office-drawing-8.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-8-url
+    thumbnail: *office-drawing-8-url
+    small: *office-drawing-8-url
+    medium: *office-drawing-8-url
+    large: *office-drawing-8-url
+    extra: *office-drawing-8-url

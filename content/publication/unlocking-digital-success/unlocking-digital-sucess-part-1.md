@@ -1,7 +1,3 @@
-# Unlocking Digital Success with AI — Part 1
-
-## Applying Generative AI to a Telco Digital Transformation Strategic Analysis
-
 Digital Transformation has become a crucial undertaking for companies in the rapidly evolving Telco industry. It requires a comprehensive understanding of the organisations value proposition and a robust business model to navigate the complexities and seize opportunities. In this article, we embark on a journey to explore how the Value Proposition Canvas and Business Model Canvas can drive successful Digital Transformations in the Telco sector.
 
 As Telco companies strive to stay competitive in a dynamic marketplace, the need to align their offerings with customer demands and deliver superior value has never been more critical.
@@ -12,7 +8,12 @@ Simultaneously, the Business Model Canvas offers a holistic view of the Telco or
 
 Throughout this article series, we will dive into the application of these powerful frameworks to a hypothetical Telco Digital Transformation undertaken by a Boutique Consultancy Company. We will explore the value propositions offered, customer segments targeted, revenue streams identified, and the key activities undertaken to enable a successful digital transformation. By leveraging the capabilities of ChatGPT, we can generate insightful analysis and explore potential strategies for achieving Telco Digital Transformation goals.
 
+
 ### Value Proposition Canvas
+
+![Value Proposition Canvas](/image/business/value-proposition-canvas-framework.webp)
+**Image text:** Value Proposition Canvas
+
 The Value Proposition Canvas is a strategic tool that helps businesses analyse and design compelling value propositions for their target customers. It consists of two main components: the Customer Profile and the Value Map.
 
 #### Customer Profile
@@ -35,10 +36,9 @@ By looking at these dimension this strategic tool helps businesses identify oppo
 
 For a detailed analysis see the next installment in our article series:
 
-
+* [Generating a _**Digital Transformation Value Proposition Canvas**_](/publication/unlocking-digital-success-2.html)
 
 For more details in general about the Value Proposition Canvas, see:
 
-https://philmorle.medium.com/the-flow-of-a-value-proposition-canvas-b63b68f0e28b
-
-https://www.strategyzer.com/canvas/value-proposition-canvas
+* [The Flow of a Value Proposition Canvas](https://philmorle.medium.com/the-flow-of-a-value-proposition-canvas-b63b68f0e28b)
+* [Strategyzer - The Value Proposition Canvas](https://www.strategyzer.com/canvas/value-proposition-canvas)

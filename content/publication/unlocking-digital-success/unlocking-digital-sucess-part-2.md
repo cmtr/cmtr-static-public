@@ -1,7 +1,3 @@
-# Unlocking Digital Success with AI — Part 2
-
-## Generating a Digital Transformation Value Proposition Canvas
-
 Welcome to the second article in our series, Unlocking Digital Success with AI. In this instalment, we delve into the world of value proposition analysis, a vital component of any successful digital transformation. To gain valuable insights and uncover industry baselines, we have leveraged the power of ChatGPT to generate an example Value Proposition Canvas analysis for a Digital Transformation in the Telco Industry.
 
 The objective of this analysis is to identify the commonalities within the industry and establish a baseline that organisations can build upon. By exploring the Value Proposition Canvas, we aim to unlock key factors that drive success and guide businesses in developing compelling value propositions that resonate with their target audience.
@@ -15,9 +11,18 @@ Whether you are a seasoned professional or new to the realm of digital transform
 Join us on this exciting journey as we uncover the industry’s commonalities and unlock the potential for digital success through the lens of the Value Proposition Canvas analysis. Let’s explore how organisations can create value, captivate their target audience, and thrive in the ever-evolving digital landscape.
 
 
-### VPC Mind Map
+### VPC - Value Proposition Canvas
+![Value Proposition Canvas](/image/business/value-proposition-canvas-framework.webp)
+**Image text:** Value Proposition Canvas
 
-# insert mindmap here
+For more information about the Value Proposition Canvase see article 1 in the Unlocking Digital Sucess series:
+* [Applying Generative AI to a Telco Digital Transformation Strategic Analysis](/publication/unlocking-digital-success-1.html)
+
+### Value Proposition Canvas Mind Map
+![Value Proposition Canvas - Mind Map](/image/business/vpc-example.png)
+**Image text:** Value Proposition Canvas Mindmap
+
+Please see [full screene version](/image/business/vpc-example.png) for more details, and the [Plant UML Code](/image/business/vpc-example.txt) to see how you can apply it yourself. The code can rendered on [PlantUml.com](https://plantuml.com/).
 
 ### Customer Profile
 In order to effectively design customer-centric digital transformation strategies for the Telco industry, it is crucial to gain a deep understanding of the customer profile. By delving into the customers’ jobs or jobs to be done, their pains, and their desired gains, organisations can identify key areas for improvement and tailor their offerings to meet customer needs. This customer-centric approach allows Telco companies to deliver value-added solutions that address pain points, provide seamless experiences, and ultimately drive customer satisfaction and loyalty. In the following section, we will explore the customer profile in detail, examining the jobs to be done, pains, and gains of Telco customers, and how this understanding can inform and shape digital transformation initiatives.
@@ -34,7 +39,6 @@ In a telco digital transformation, the typical “jobs to be done” revolve aro
 * **Enabling Agile Innovation:** Telcos aim to foster a culture of innovation and agility to respond to rapidly evolving market dynamics. This involves establishing innovation labs, implementing agile methodologies, promoting collaboration between IT and business teams, fostering a test-and-learn mindset, and embracing emerging technologies to stay ahead in the market.
 
 Each telco’s digital transformation journey may prioritise specific jobs to be done based on their unique business goals, market positioning, and customer demands.
-
 
 #### Pains
 Telco companies attempting a digital transformation often face several pain points that can hinder their progress. Here are some of the biggest pain points commonly experienced by telco companies in their digital transformation efforts:
@@ -124,3 +128,4 @@ By leveraging this analysis as a foundation for strategic planning, they are equ
 In summary, the Value Proposition Canvas analysis provides us with a comprehensive framework for evaluating our business, prioritising our efforts, and enhancing our competitiveness. It serves as a guiding tool that supports our strategic decision-making and sets the stage for continued growth and excellence within the Telco Digital Transformation niche.
 
 Next in this series is the use of Business Model Canvas analysis to the same use case.
+* [Generating a Telco Digital Transformation _**Business Model Canvas**_](/publication/unlocking-digital-success-3.html)
