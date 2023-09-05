@@ -22,6 +22,8 @@ views:
   portfolio:
     index: ./views/portfolio/index.ejs
     details: ./views/portfolio/details.ejs
+  video:
+    details: ./views/video/details.ejs
 
 
 render:
@@ -452,8 +454,6 @@ render:
       type: FILE
       path: ./output/publication/unlocking-digital-success-vision-statement.html
 
-
-
   # CMTr
   - id: digital-transformation
     context:
@@ -610,3 +610,45 @@ render:
     output:
       type: FILE
       path: ./output/publication/bases-of-power.html
+
+  # Videos
+  - id: team-topologies
+    context:
+      page: video
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Team Topologies
+        items:
+          - href: /video.html
+            title: Videos
+      video:
+        $Ref: context.video.teamTopologies
+    template:
+      type: EJS
+      path:
+        $Ref: views.video.details
+    output:
+      type: FILE
+      path: ./output/video/team-topologies.html
+  - id: team-topologies-full-course
+    context:
+      page: video
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Full Course
+        items:
+          - href: /video.html
+            title: Videos
+          - href: //video/team-topologies.html
+            title: Team Topologies
+      video:
+        $Ref: context.video.teamTopologies.fullCourse
+    template:
+      type: EJS
+      path:
+        $Ref: views.video.details
+    output:
+      type: FILE
+      path: ./output/video/team-topologies/team-topologies-full-course.html

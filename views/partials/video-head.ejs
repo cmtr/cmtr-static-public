@@ -1,0 +1,33 @@
+<div class="row">
+	<h2><%= video.title %></h2>
+	<p><strong><%= video.subTitle %></strong></p>
+	<div>
+		<video
+	    	id="cmtr-video"
+		    class="video-js vjs-theme-city vjs-16-9"
+		    data-setup='{ "fluid": true }'
+		    controls
+		    preload="auto"
+		    poster="/assets/img/team/harald-bliko-007.jpg"
+		>
+
+			<% video.sources.forEach((source) => { %>
+	 			<source
+		 			src="<%= source.href %>" 
+		 			type="<%= source.type %>"
+		 		/>
+		 	<% }) %>
+		    <p class="vjs-no-js">
+		    	To view this video please enable JavaScript, and consider upgrading to a web browser that 
+		    		<a 
+		    			href="https://videojs.com/html5-video-support/" 
+		    			target="_blank"
+		    		>
+		    			supports HTML5 video
+		    		</a>.
+		    </p>
+
+		</video>
+</div>
+	<p>End of Line</p>
+</div>

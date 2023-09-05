@@ -1,3 +1,41 @@
 ---
 teamTopologies:
   id: team-topologies
+  body:
+    $File: team-topologies.md
+  title: Team Topologies
+  subTitle: What is this fuss about Topologies anyways?
+  paragraph: test
+  tags:
+    - Manangement
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.genAi.officeDrawing1
+    thumbnail:
+      $Ref: images.genAi.officeDrawing1
+  sources:
+    - href: /video/media/team-topologies/team-topologies-full-course-v0-1.mp4
+      type: video/mp4
+  releatedArticles: []
+  fullCourse:
+    id: team-topologies-full-course
+    body:
+      $File: team-topologies-full-course.md
+    title: Team Topologies
+    subTitle: What is this fuss about Topologies anyways?
+    paragraph: test
+    tags:
+      - Manangement
+    authors:
+      - $Ref: about.team.team.haraldbliko
+    images:
+      head:
+        $Ref: images.genAi.officeDrawing1
+      thumbnail:
+        $Ref: images.genAi.officeDrawing1
+    sources:
+      - href: /video/media/team-topologies/team-topologies-full-course-v0-1.mp4
+        type: video/mp4
+    releatedArticles: []

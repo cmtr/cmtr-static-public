@@ -9,3 +9,6 @@ builder/temp
 # Output
 output
 temp
+
+# Media
+*.mp4
