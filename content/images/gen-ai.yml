@@ -124,3 +124,443 @@ officeDrawing8:
     medium: *office-drawing-8-url
     large: *office-drawing-8-url
     extra: *office-drawing-8-url
+officeDrawing9:
+  id: office-drawing-9
+  src: &office-drawing-9-url /image/gen-ai/office-drawing-9.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-9-url
+    thumbnail: *office-drawing-9-url
+    small: *office-drawing-9-url
+    medium: *office-drawing-9-url
+    large: *office-drawing-9-url
+    extra: *office-drawing-9-url
+officeDrawing10:
+  id: office-drawing-10
+  src: &office-drawing-10-url /image/gen-ai/office-drawing-10.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-10-url
+    thumbnail: *office-drawing-10-url
+    small: *office-drawing-10-url
+    medium: *office-drawing-10-url
+    large: *office-drawing-10-url
+    extra: *office-drawing-10-url
+officeDrawing11:
+  id: office-drawing-11
+  src: &office-drawing-11-url /image/gen-ai/office-drawing-11.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-11-url
+    thumbnail: *office-drawing-11-url
+    small: *office-drawing-11-url
+    medium: *office-drawing-11-url
+    large: *office-drawing-11-url
+    extra: *office-drawing-11-url
+officeDrawing12:
+  id: office-drawing-12
+  src: &office-drawing-12-url /image/gen-ai/office-drawing-12.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-12-url
+    thumbnail: *office-drawing-12-url
+    small: *office-drawing-12-url
+    medium: *office-drawing-12-url
+    large: *office-drawing-12-url
+    extra: *office-drawing-12-url
+officeDrawing13:
+  id: office-drawing-13
+  src: &office-drawing-13-url /image/gen-ai/office-drawing-13.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-13-url
+    thumbnail: *office-drawing-13-url
+    small: *office-drawing-13-url
+    medium: *office-drawing-13-url
+    large: *office-drawing-13-url
+    extra: *office-drawing-13-url
+officeDrawing14:
+  id: office-drawing-14
+  src: &office-drawing-14-url /image/gen-ai/office-drawing-14.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-14-url
+    thumbnail: *office-drawing-14-url
+    small: *office-drawing-14-url
+    medium: *office-drawing-14-url
+    large: *office-drawing-14-url
+    extra: *office-drawing-14-url
+officeDrawing15:
+  id: office-drawing-15
+  src: &office-drawing-15-url /image/gen-ai/office-drawing-15.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-15-url
+    thumbnail: *office-drawing-15-url
+    small: *office-drawing-15-url
+    medium: *office-drawing-15-url
+    large: *office-drawing-15-url
+    extra: *office-drawing-15-url
+officeDrawing16:
+  id: office-drawing-16
+  src: &office-drawing-16-url /image/gen-ai/office-drawing-16.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-16-url
+    thumbnail: *office-drawing-16-url
+    small: *office-drawing-16-url
+    medium: *office-drawing-16-url
+    large: *office-drawing-16-url
+    extra: *office-drawing-16-url
+officeDrawing17:
+  id: office-drawing-17
+  src: &office-drawing-17-url /image/gen-ai/office-drawing-17.png
+  alt: *office-drawing-alt
+  hover: *office-drawing-hover
+  paragraph: *office-drawing-paragraph
+  source: *office-drawing-source
+  tags: *office-drawing-tags
+  urls:
+    original: *office-drawing-17-url
+    thumbnail: *office-drawing-17-url
+    small: *office-drawing-17-url
+    medium: *office-drawing-17-url
+    large: *office-drawing-17-url
+    extra: *office-drawing-17-url
+meetingDrawing1:
+  id: meeting-drawing-1
+  src: &meeting-drawing-1-url /image/gen-ai/meeting-drawing-1.png
+  alt: &meeting-drawing-alt alternative
+  hover: &meeting-drawing-hover Punk Office Drawing
+  paragraph: &meeting-drawing-paragraph The Future of IT
+  source: &meeting-drawing-source DiffusionBee
+  tags: &meeting-drawing-tags
+    - office
+    - gen-ai
+    - manga
+    - drawing
+    - wide
+  urls:
+    original: *meeting-drawing-1-url
+    thumbnail: *meeting-drawing-1-url
+    small: *meeting-drawing-1-url
+    medium: *meeting-drawing-1-url
+    large: *meeting-drawing-1-url
+    extra: *meeting-drawing-1-url
+meetingDrawing2:
+  id: meeting-drawing-2
+  src: &meeting-drawing-2-url /image/gen-ai/meeting-drawing-2.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-2-url
+    thumbnail: *meeting-drawing-2-url
+    small: *meeting-drawing-2-url
+    medium: *meeting-drawing-2-url
+    large: *meeting-drawing-2-url
+    extra: *meeting-drawing-2-url
+meetingDrawing3:
+  id: meeting-drawing-3
+  src: &meeting-drawing-3-url /image/gen-ai/meeting-drawing-3.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-3-url
+    thumbnail: *meeting-drawing-3-url
+    small: *meeting-drawing-3-url
+    medium: *meeting-drawing-3-url
+    large: *meeting-drawing-3-url
+    extra: *meeting-drawing-3-url
+meetingDrawing4:
+  id: meeting-drawing-4
+  src: &meeting-drawing-4-url /image/gen-ai/meeting-drawing-4.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-4-url
+    thumbnail: *meeting-drawing-4-url
+    small: *meeting-drawing-4-url
+    medium: *meeting-drawing-4-url
+    large: *meeting-drawing-4-url
+    extra: *meeting-drawing-4-url
+meetingDrawing5:
+  id: meeting-drawing-5
+  src: &meeting-drawing-5-url /image/gen-ai/meeting-drawing-5.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-5-url
+    thumbnail: *meeting-drawing-5-url
+    small: *meeting-drawing-5-url
+    medium: *meeting-drawing-5-url
+    large: *meeting-drawing-5-url
+    extra: *meeting-drawing-5-url
+meetingDrawing6:
+  id: meeting-drawing-6
+  src: &meeting-drawing-6-url /image/gen-ai/meeting-drawing-6.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-6-url
+    thumbnail: *meeting-drawing-6-url
+    small: *meeting-drawing-6-url
+    medium: *meeting-drawing-6-url
+    large: *meeting-drawing-6-url
+    extra: *meeting-drawing-6-url
+meetingDrawing7:
+  id: meeting-drawing-7
+  src: &meeting-drawing-7-url /image/gen-ai/meeting-drawing-7.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-7-url
+    thumbnail: *meeting-drawing-7-url
+    small: *meeting-drawing-7-url
+    medium: *meeting-drawing-7-url
+    large: *meeting-drawing-7-url
+    extra: *meeting-drawing-7-url
+meetingDrawing8:
+  id: meeting-drawing-8
+  src: &meeting-drawing-8-url /image/gen-ai/meeting-drawing-8.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-8-url
+    thumbnail: *meeting-drawing-8-url
+    small: *meeting-drawing-8-url
+    medium: *meeting-drawing-8-url
+    large: *meeting-drawing-8-url
+    extra: *meeting-drawing-8-url
+meetingDrawing9:
+  id: meeting-drawing-9
+  src: &meeting-drawing-9-url /image/gen-ai/meeting-drawing-9.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-9-url
+    thumbnail: *meeting-drawing-9-url
+    small: *meeting-drawing-9-url
+    medium: *meeting-drawing-9-url
+    large: *meeting-drawing-9-url
+    extra: *meeting-drawing-9-url
+meetingDrawing10:
+  id: meeting-drawing-10
+  src: &meeting-drawing-10-url /image/gen-ai/meeting-drawing-10.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-10-url
+    thumbnail: *meeting-drawing-10-url
+    small: *meeting-drawing-10-url
+    medium: *meeting-drawing-10-url
+    large: *meeting-drawing-10-url
+    extra: *meeting-drawing-10-url
+meetingDrawing11:
+  id: meeting-drawing-11
+  src: &meeting-drawing-11-url /image/gen-ai/meeting-drawing-11.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-11-url
+    thumbnail: *meeting-drawing-11-url
+    small: *meeting-drawing-11-url
+    medium: *meeting-drawing-11-url
+    large: *meeting-drawing-11-url
+    extra: *meeting-drawing-11-url
+meetingDrawing12:
+  id: meeting-drawing-12
+  src: &meeting-drawing-12-url /image/gen-ai/meeting-drawing-12.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-12-url
+    thumbnail: *meeting-drawing-12-url
+    small: *meeting-drawing-12-url
+    medium: *meeting-drawing-12-url
+    large: *meeting-drawing-12-url
+    extra: *meeting-drawing-12-url
+meetingDrawing13:
+  id: meeting-drawing-13
+  src: &meeting-drawing-13-url /image/gen-ai/meeting-drawing-13.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-13-url
+    thumbnail: *meeting-drawing-13-url
+    small: *meeting-drawing-13-url
+    medium: *meeting-drawing-13-url
+    large: *meeting-drawing-13-url
+    extra: *meeting-drawing-13-url
+meetingDrawing14:
+  id: meeting-drawing-14
+  src: &meeting-drawing-14-url /image/gen-ai/meeting-drawing-14.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-14-url
+    thumbnail: *meeting-drawing-14-url
+    small: *meeting-drawing-14-url
+    medium: *meeting-drawing-14-url
+    large: *meeting-drawing-14-url
+    extra: *meeting-drawing-14-url
+meetingDrawing15:
+  id: meeting-drawing-15
+  src: &meeting-drawing-15-url /image/gen-ai/meeting-drawing-15.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-15-url
+    thumbnail: *meeting-drawing-15-url
+    small: *meeting-drawing-15-url
+    medium: *meeting-drawing-15-url
+    large: *meeting-drawing-15-url
+    extra: *meeting-drawing-15-url
+meetingDrawing16:
+  id: meeting-drawing-16
+  src: &meeting-drawing-16-url /image/gen-ai/meeting-drawing-16.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-16-url
+    thumbnail: *meeting-drawing-16-url
+    small: *meeting-drawing-16-url
+    medium: *meeting-drawing-16-url
+    large: *meeting-drawing-16-url
+    extra: *meeting-drawing-16-url
+meetingDrawing17:
+  id: meeting-drawing-17
+  src: &meeting-drawing-17-url /image/gen-ai/meeting-drawing-17.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-17-url
+    thumbnail: *meeting-drawing-17-url
+    small: *meeting-drawing-17-url
+    medium: *meeting-drawing-17-url
+    large: *meeting-drawing-17-url
+    extra: *meeting-drawing-17-url
+meetingDrawing18:
+  id: meeting-drawing-18
+  src: &meeting-drawing-18-url /image/gen-ai/meeting-drawing-18.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-18-url
+    thumbnail: *meeting-drawing-18-url
+    small: *meeting-drawing-18-url
+    medium: *meeting-drawing-18-url
+    large: *meeting-drawing-18-url
+    extra: *meeting-drawing-18-url
+meetingDrawing19:
+  id: meeting-drawing-19
+  src: &meeting-drawing-19-url /image/gen-ai/meeting-drawing-19.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-19-url
+    thumbnail: *meeting-drawing-19-url
+    small: *meeting-drawing-19-url
+    medium: *meeting-drawing-19-url
+    large: *meeting-drawing-19-url
+    extra: *meeting-drawing-19-url
+meetingDrawing20:
+  id: meeting-drawing-20
+  src: &meeting-drawing-20-url /image/gen-ai/meeting-drawing-20.png
+  alt: *meeting-drawing-alt
+  hover: *meeting-drawing-hover
+  paragraph: *meeting-drawing-paragraph
+  source: *meeting-drawing-source
+  tags: *meeting-drawing-tags
+  urls:
+    original: *meeting-drawing-20-url
+    thumbnail: *meeting-drawing-20-url
+    small: *meeting-drawing-20-url
+    medium: *meeting-drawing-20-url
+    large: *meeting-drawing-20-url
+    extra: *meeting-drawing-20-url

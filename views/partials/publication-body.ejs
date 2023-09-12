@@ -1,32 +1,20 @@
-<% 
-	if (Array.isArray(publication.body)) {
-		publication.body.forEach(body => {
-			let output = ""; /*
-			switch(body.type.toUpperCase()) {
-				case "MARKDOWN":
-					output = marked(body.body);
-					break;
-				case "IMAGE"
-					output = "<p>Placeholder for Image</p>"
-					break;
-				default:
-					throw new Error("Unsupported body-type: " + body.type.toUpperCase());
-			} */
-%>
-	<div>
-		<%= output %>
-	</div>
 <%
-		})
-%>
-
-<%
-	} else { 
-%>
+	
+	const sections = !Array.isArray(publication.body) 
+			? [ marked(publication.body) ]
+			: publication.body
+				.map(body => {
+					switch(body.type.toUpperCase()) {
+						case "MARKDOWN":
+							return marked(body.body);
+						case "IMAGE":
+							return "<p>Placeholder for Image</p>"
+						default:
+							throw new Error("Unsupported body-type: " + body.type.toUpperCase());
+					}
+				});
+	sections.forEach(section => { %> 
 		<div>
-			<%- marked(publication.body) %>
+			<%- section %>
 		</div>
-
-<% 
-	}
-%>
+	<% }) %>

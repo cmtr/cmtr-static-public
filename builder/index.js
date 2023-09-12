@@ -10,9 +10,11 @@ const {
 	} = require("path");
 const yaml = require("js-yaml");
 const ejs = require("ejs");
+// const EJSRender = require("./ejs-render")
 const marked = require("marked");
 const pretty = require("pretty");
 const util = require("yaml-util");
+const _ = require("lodash/fp")
 
 const rootDirectory = resolve(__dirname, "..");
 const contentPath = resolve(rootDirectory, "content/index.yml");
@@ -27,9 +29,8 @@ writeFileSync(contentOutputPath, yaml.dump(content), { encoding: "utf8"});
 const site = util.ref(util.importFile()(sitePath));
 const siteOutputPath = resolve(rootDirectory, "output/site.yml");
 
-// Render
 
-site.render.forEach((page) => {
+site.render.forEach((page) =>  {
 	try {
 		const templatePath = resolve(rootDirectory, page.template.path);
 		writeFileSync(resolve(rootDirectory, "output/pageContext.yml"), yaml.dump(page.context), { encoding: "utf8"});

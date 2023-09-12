@@ -89,6 +89,104 @@ unlocking-digital-success-4:
     thumbnail:
       $Ref: images.genAi.officeDrawing4
   relatedArticles: *unlocking-digital-success-related-articles
+risk-management:
+  id: risk-management
+  body:
+    $File: risk-management/risk-management_v3.md
+  title: Enterprise IT Risk Management
+  subTitle: The Importance of Risk Management in Enterprise IT and How to Implement It
+  paragraph:
+  tags:
+    - Management
+    - Analysis
+  relatedArticles:
+    - Risk
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.genAi.meetingDrawing1
+    thumbnail:
+      $Ref: images.genAi.meetingDrawing1
+
+digital-transformation:
+  id: digital-transformation
+  body:
+    $File: digital-transformation.md
+  title: Navigating Digital Transformation
+  subTitle: From System Team Orientation to Value Stream Aligned Product Teams
+  paragraph:
+  tags:
+    - Management
+    - Analysis
+    - Digitalization
+    - Strategy
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.genAi.officeDrawing9
+    thumbnail:
+      $Ref: images.genAi.officeDrawing9
+  relatedArticles: []
+
+security-governance:
+  id: security-governance
+  body:
+    $File: security-governance.md
+  title: Securing Your EPR/CRM System
+  subTitle: How To Protect and Manage Your EPR/CRM
+  paragraph:
+  tags:
+    - Governance
+    - Security
+    - Development
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.genAi.meetingDrawing2
+    thumbnail:
+      $Ref: images.genAi.meetingDrawing2
+  relatedArticles: []
+business-case:
+  id: business-case
+  body:
+    $File: business-case.md
+  title: CMTr.io - Business Case
+  subTitle: How We Achieve Value for Our Clients
+  paragraph:
+  tags:
+    - Strategy
+    - Analysis
+    - Innovation
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.genAi.meetingDrawing3
+    thumbnail:
+      $Ref: images.genAi.meetingDrawing3
+  relatedArticles: []
+strategic-pyramid-analysis:
+  id: strategic-pyramid-analysis
+  body:
+    $File: strategic-pyramid-analysis.md
+  title: Strategic Pyramid Analysis
+  subTitle: Strategic Pyramid Analysis
+  paragraph:
+  tags:
+    - Strategy
+    - Management
+    - Analysis
+  authors:
+    - $Ref: about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: images.genAi.meetingDrawing4
+    thumbnail:
+      $Ref: images.genAi.meetingDrawing4
+  relatedArticles: []
 unlocking-digital-success-core-values:
   id: unlocking-digital-success-core-values
   body:
@@ -149,44 +247,49 @@ unlocking-digital-success-vision-statement:
     thumbnail:
       $Ref: images.genAi.officeDrawing8
   relatedArticles: *unlocking-digital-success-related-articles
-digital-transformation:
-  id: digital-transformation
+bias:
+  id: bias
   body:
-    $File: digital-transformation.md
-  title: Navigating Digital Transformation
-  subTitle: From System Team Orientation to Value Stream Aligned Product Teams
+    $File: bias.md
+  title: Bias
+  subTitle: Everybody Has It and How to Avoid Them in the Workplace
   paragraph:
   tags:
-    - Management
-    - Analysis
-    - Digitalization
-    - Strategy
+    - Organisation
+    - Psychology
   authors:
     - $Ref: about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.meetingDrawing5
     thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.meetingDrawing5
   relatedArticles: []
-risk-management:
-  id: risk-management
+bases-of-power:
+  id: bases-of-power
   body:
-    $File: risk-management_v2.md
-  title: Enterprise IT Risk Management
-  subTitle: The Importance of Risk Management in Enterprise IT and How to Implement It
+    - type: MARKDOWN
+      body:
+        $File: bases-of-power/bases-of-power-1.md
+    - type: IMAGE
+      image:
+        $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+    - type: MARKDOWN
+      body:
+        $File: bases-of-power/bases-of-power-2.md
+  title: Bases of Power
+  subTitle: How to Spot Them
   paragraph:
   tags:
-    - Management
-    - Analysis
-    - Risk
+    - Organisation
+    - Psychology
   authors:
     - $Ref: about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.meetingDrawing6
     thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.meetingDrawing6
   relatedArticles: []
 chat-gpt-content:
   id: chat-gpt-content
@@ -204,100 +307,7 @@ chat-gpt-content:
     - $Ref: about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing10
     thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
-  relatedArticles: []
-security-governance:
-  id: security-governance
-  body:
-    $File: security-governance.md
-  title: Securing Your EPR/CRM System
-  subTitle: How To Protect and Manage Your EPR/CRM
-  paragraph:
-  tags:
-    - Governance
-    - Security
-    - Development
-  authors:
-    - $Ref: about.team.team.haraldbliko
-  images:
-    head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
-    thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
-  relatedArticles: []
-business-case:
-  id: business-case
-  body:
-    $File: business-case.md
-  title: CMTr.io - Business Case
-  subTitle: How We Achieve Value for Our Clients
-  paragraph:
-  tags:
-    - Strategy
-    - Analysis
-    - Innovation
-  authors:
-    - $Ref: about.team.team.haraldbliko
-  images:
-    head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
-    thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
-  relatedArticles: []
-strategic-pyramid-analysis:
-  id: strategic-pyramid-analysis
-  body:
-    $File: strategic-pyramid-analysis.md
-  title: Strategic Pyramid Analysis
-  subTitle: Strategic Pyramid Analysis
-  paragraph:
-  tags:
-    - Strategy
-    - Management
-    - Analysis
-  authors:
-    - $Ref: about.team.team.haraldbliko
-  images:
-    head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
-    thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
-  relatedArticles: []
-bias:
-  id: bias
-  body:
-    $File: bias.md
-  title: Bias
-  subTitle: Everybody Has It and How to Avoid Them in the Workplace
-  paragraph:
-  tags:
-    - Organisation
-    - Psychology
-  authors:
-    - $Ref: about.team.team.haraldbliko
-  images:
-    head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
-    thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
-  relatedArticles: []
-bases-of-power:
-  id: bases-of-power
-  body:
-    $File: bases_of_power.md
-  title: Bases of Power
-  subTitle: How to Spot Them
-  paragraph:
-  tags:
-    - Organisation
-    - Psychology
-  authors:
-    - $Ref: about.team.team.haraldbliko
-  images:
-    head:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
-    thumbnail:
-      $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+      $Ref: images.genAi.officeDrawing10
   relatedArticles: []
