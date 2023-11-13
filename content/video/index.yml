@@ -9,12 +9,12 @@ teamTopologies:
   tags:
     - Manangement
   authors:
-    - $Ref: about.team.team.haraldbliko
+    - $Ref: context.about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.genAi.officeDrawing1
+      $Ref: context.images.genAi.officeDrawing1
     thumbnail:
-      $Ref: images.genAi.officeDrawing1
+      $Ref: context.images.genAi.officeDrawing1
   sources:
     - href: /video/media/team-topologies/team-topologies-full-course-v0-1.mp4
       type: video/mp4
@@ -29,12 +29,12 @@ teamTopologies:
     tags:
       - Manangement
     authors:
-      - $Ref: about.team.team.haraldbliko
+      - $Ref: context.about.team.team.haraldbliko
     images:
       head:
-        $Ref: images.genAi.officeDrawing1
+        $Ref: context.images.genAi.officeDrawing1
       thumbnail:
-        $Ref: images.genAi.officeDrawing1
+        $Ref: context.images.genAi.officeDrawing1
     sources:
       - href: /video/media/team-topologies/team-topologies-full-course-v0-1.mp4
         type: video/mp4

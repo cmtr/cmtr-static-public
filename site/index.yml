@@ -1,6 +1,7 @@
 ---
 context: &context
-  $File: ../output/context.yml
+  $File: ../content/index.yml
+#  $File: ../output/context.yml
 
 breadcrumbs: &breadcrumbs
   root:
@@ -159,7 +160,7 @@ render:
         <<: *breadcrumbs
         current:
           title: Services
-        items: [] 
+        items: []
     template:
       type: EJS
       path:
@@ -301,6 +302,27 @@ render:
       path: ./output/publication.html
 
   # Unlocking Digital Success
+
+  - id: business-ethics-01
+    context:
+      page: publication
+      breadcrumbs:
+        <<: *breadcrumbs
+        current:
+          title: Business Ethics
+        items:
+          - href: /publication.html
+            title: Publications
+      publication:
+        $Ref: context.publications.publications.business-ethics-01
+    template:
+      type: EJS
+      path:
+        $Ref: views.publications.details
+    output:
+      type: FILE
+      path: ./output/publication/business-ethics-01.html
+
   - id: unlocking-digital-success-1
     context:
       page: publication

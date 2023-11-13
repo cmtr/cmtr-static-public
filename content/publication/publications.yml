@@ -1,4 +1,25 @@
 ---
+business-ethics-01:
+  id: business-ethics-01
+  body:
+    - type: MARKDOWN
+      body:
+        $File: business-ethics.md
+  title: Business Ethics
+  subTitle: Perspective on Business Ethics from Leaders and Subordinates
+  paragraph:
+  tags:
+    - Business
+    - Leadership
+  authors:
+    - $Ref: context.about.team.team.haraldbliko
+  images:
+    head:
+      $Ref: context.images.genAi.officeDrawing10
+    thumbnail:
+      $Ref: context.images.genAi.officeDrawing10
+  relatedArticles: []
+
 unlocking-digital-success-1:
   id: unlocking-digital-success-1
   body:
@@ -13,12 +34,12 @@ unlocking-digital-success-1:
     - Strategy
     - AI
   authors: &unlocking-digital-success-authors
-    - $Ref: about.team.team.haraldbliko
+    - $Ref: context.about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.genAi.officeDrawing1
+      $Ref: context.images.genAi.officeDrawing1
     thumbnail:
-      $Ref: images.genAi.officeDrawing1
+      $Ref: context.images.genAi.officeDrawing1
   relatedArticles: &unlocking-digital-success-related-articles 
     - type: link
       title: Applying Generative AI to a Telco Digital Transformation Strategic Analysis
@@ -55,9 +76,9 @@ unlocking-digital-success-2:
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.genAi.officeDrawing2
+      $Ref: context.images.genAi.officeDrawing2
     thumbnail:
-      $Ref: images.genAi.officeDrawing2
+      $Ref: context.images.genAi.officeDrawing2
   relatedArticles: *unlocking-digital-success-related-articles
 unlocking-digital-success-3:
   id: unlocking-digital-success-3
@@ -70,9 +91,9 @@ unlocking-digital-success-3:
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.genAi.officeDrawing3
+      $Ref: context.images.genAi.officeDrawing3
     thumbnail:
-      $Ref: images.genAi.officeDrawing3
+      $Ref: context.images.genAi.officeDrawing3
   relatedArticles: *unlocking-digital-success-related-articles
 unlocking-digital-success-4:
   id: unlocking-digital-success-4
@@ -85,9 +106,9 @@ unlocking-digital-success-4:
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.genAi.officeDrawing4
+      $Ref: context.images.genAi.officeDrawing4
     thumbnail:
-      $Ref: images.genAi.officeDrawing4
+      $Ref: context.images.genAi.officeDrawing4
   relatedArticles: *unlocking-digital-success-related-articles
 risk-management:
   id: risk-management
@@ -102,13 +123,12 @@ risk-management:
   relatedArticles:
     - Risk
   authors:
-    - $Ref: about.team.team.haraldbliko
+    - $Ref: context.about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.genAi.meetingDrawing1
+      $Ref: context.images.genAi.meetingDrawing1
     thumbnail:
-      $Ref: images.genAi.meetingDrawing1
-
+      $Ref: context.images.genAi.meetingDrawing1
 digital-transformation:
   id: digital-transformation
   body:
@@ -122,14 +142,13 @@ digital-transformation:
     - Digitalization
     - Strategy
   authors:
-    - $Ref: about.team.team.haraldbliko
+    - $Ref: context.about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.genAi.officeDrawing9
+      $Ref: context.images.genAi.officeDrawing9
     thumbnail:
-      $Ref: images.genAi.officeDrawing9
+      $Ref: context.images.genAi.officeDrawing9
   relatedArticles: []
-
 security-governance:
   id: security-governance
   body:
@@ -142,12 +161,12 @@ security-governance:
     - Security
     - Development
   authors:
-    - $Ref: about.team.team.haraldbliko
+    - $Ref: context.about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.genAi.meetingDrawing2
+      $Ref: context.images.genAi.meetingDrawing2
     thumbnail:
-      $Ref: images.genAi.meetingDrawing2
+      $Ref: context.images.genAi.meetingDrawing2
   relatedArticles: []
 business-case:
   id: business-case
@@ -161,12 +180,12 @@ business-case:
     - Analysis
     - Innovation
   authors:
-    - $Ref: about.team.team.haraldbliko
+    - $Ref: context.about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.genAi.meetingDrawing3
+      $Ref: context.images.genAi.meetingDrawing3
     thumbnail:
-      $Ref: images.genAi.meetingDrawing3
+      $Ref: context.images.genAi.meetingDrawing3
   relatedArticles: []
 strategic-pyramid-analysis:
   id: strategic-pyramid-analysis
@@ -180,12 +199,12 @@ strategic-pyramid-analysis:
     - Management
     - Analysis
   authors:
-    - $Ref: about.team.team.haraldbliko
+    - $Ref: context.about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.genAi.meetingDrawing4
+      $Ref: context.images.genAi.meetingDrawing4
     thumbnail:
-      $Ref: images.genAi.meetingDrawing4
+      $Ref: context.images.genAi.meetingDrawing4
   relatedArticles: []
 unlocking-digital-success-core-values:
   id: unlocking-digital-success-core-values
@@ -198,9 +217,9 @@ unlocking-digital-success-core-values:
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.genAi.officeDrawing5
+      $Ref: context.images.genAi.officeDrawing5
     thumbnail:
-      $Ref: images.genAi.officeDrawing5
+      $Ref: context.images.genAi.officeDrawing5
   relatedArticles: *unlocking-digital-success-related-articles
 unlocking-digital-success-mission-statement:
   id: unlocking-digital-success-mission-statement
@@ -213,9 +232,9 @@ unlocking-digital-success-mission-statement:
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.genAi.officeDrawing6
+      $Ref: context.images.genAi.officeDrawing6
     thumbnail:
-      $Ref: images.genAi.officeDrawing6
+      $Ref: context.images.genAi.officeDrawing6
   relatedArticles: *unlocking-digital-success-related-articles
 unlocking-digital-success-value-proposition:
   id: unlocking-digital-success-value-proposition
@@ -228,9 +247,9 @@ unlocking-digital-success-value-proposition:
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.genAi.officeDrawing7
+      $Ref: context.images.genAi.officeDrawing7
     thumbnail:
-      $Ref: images.genAi.officeDrawing7
+      $Ref: context.images.genAi.officeDrawing7
   relatedArticles: *unlocking-digital-success-related-articles
 unlocking-digital-success-vision-statement:
   id: unlocking-digital-success-vision-statement
@@ -243,9 +262,9 @@ unlocking-digital-success-vision-statement:
   authors: *unlocking-digital-success-authors
   images:
     head:
-      $Ref: images.genAi.officeDrawing8
+      $Ref: context.images.genAi.officeDrawing8
     thumbnail:
-      $Ref: images.genAi.officeDrawing8
+      $Ref: context.images.genAi.officeDrawing8
   relatedArticles: *unlocking-digital-success-related-articles
 bias:
   id: bias
@@ -258,12 +277,12 @@ bias:
     - Organisation
     - Psychology
   authors:
-    - $Ref: about.team.team.haraldbliko
+    - $Ref: context.about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.genAi.meetingDrawing5
+      $Ref: context.images.genAi.meetingDrawing5
     thumbnail:
-      $Ref: images.genAi.meetingDrawing5
+      $Ref: context.images.genAi.meetingDrawing5
   relatedArticles: []
 bases-of-power:
   id: bases-of-power
@@ -273,7 +292,7 @@ bases-of-power:
         $File: bases-of-power/bases-of-power-1.md
     - type: IMAGE
       image:
-        $Ref: images.stockImagesV2.50068490567_ff9e278033_o
+        $Ref: context.images.stockImagesV2.50068490567_ff9e278033_o
     - type: MARKDOWN
       body:
         $File: bases-of-power/bases-of-power-2.md
@@ -284,12 +303,12 @@ bases-of-power:
     - Organisation
     - Psychology
   authors:
-    - $Ref: about.team.team.haraldbliko
+    - $Ref: context.about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.genAi.meetingDrawing6
+      $Ref: context.images.genAi.meetingDrawing6
     thumbnail:
-      $Ref: images.genAi.meetingDrawing6
+      $Ref: context.images.genAi.meetingDrawing6
   relatedArticles: []
 chat-gpt-content:
   id: chat-gpt-content
@@ -304,10 +323,10 @@ chat-gpt-content:
     - Communication
     - AI
   authors:
-    - $Ref: about.team.team.haraldbliko
+    - $Ref: context.about.team.team.haraldbliko
   images:
     head:
-      $Ref: images.genAi.officeDrawing10
+      $Ref: context.images.genAi.officeDrawing10
     thumbnail:
-      $Ref: images.genAi.officeDrawing10
+      $Ref: context.images.genAi.officeDrawing10
   relatedArticles: []

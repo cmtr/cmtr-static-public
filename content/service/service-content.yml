@@ -5,13 +5,13 @@ uxdesign:
   title: UX Design
   subTitle: How we Help you Identify and Address your Users True Needs.
   authors:
-    $Ref: about.team.team
+    $Ref: context.about.team.team
   tags: []
   images:
     head:
-      $Ref: images.stockImagesV2.halgatewood-com-tzc3vjpck-q-unsplash
+      $Ref: context.images.stockImagesV2.halgatewood-com-tzc3vjpck-q-unsplash
   relatedArticles:
-    $Ref: services.serviceRelatedArticles
+    $Ref: context.services.serviceRelatedArticles
 analysisresearch:
   id: analysisresearch
   body:
@@ -19,13 +19,13 @@ analysisresearch:
   title: Business Analysis & Research
   subTitle: How we help you understand what the situation actualy is.
   authors:
-    $Ref: about.team.team
+    $Ref: context.about.team.team
   tags: []
   images:
     head:
-      $Ref: images.stockImagesV2.patrick-perkins-etrpjvb0km0-unsplash
+      $Ref: context.images.stockImagesV2.patrick-perkins-etrpjvb0km0-unsplash
   relatedArticles:
-    $Ref: services.serviceRelatedArticles
+    $Ref: context.services.serviceRelatedArticles
 projectmanagement:
   id: projectmanagement
   body:
@@ -33,13 +33,13 @@ projectmanagement:
   title: Project, Program & Portfolio Management
   subTitle: How we can help you with address your Project, Program & Portfolio Management needs.
   authors:
-    $Ref: about.team.team
+    $Ref: context.about.team.team
   tags: []
   images:
     head:
-      $Ref: images.stockImagesV2.xps-klfkva_4axm-unsplash
+      $Ref: context.images.stockImagesV2.xps-klfkva_4axm-unsplash
   relatedArticles:
-    $Ref: services.serviceRelatedArticles
+    $Ref: context.services.serviceRelatedArticles
 facilitationcoaching:
   id: facilitationcoaching
   body:
@@ -47,13 +47,13 @@ facilitationcoaching:
   title: Facilitation & Coaching
   subTitle: How we can help you releasing your own or your teams full potential.
   authors:
-    $Ref: about.team.team
+    $Ref: context.about.team.team
   tags: []
   images:
     head:
-      $Ref: images.stockImagesV2.sydney-rae-gem5lzdj4iw-unsplash
+      $Ref: context.images.stockImagesV2.sydney-rae-gem5lzdj4iw-unsplash
   relatedArticles:
-    $Ref: services.serviceRelatedArticles
+    $Ref: context.services.serviceRelatedArticles
 productmanagement:
   id: productmanagement
   body:
@@ -61,13 +61,13 @@ productmanagement:
   title: Product Management
   subTitle: Placeholder Product Management
   authors:
-    $Ref: about.team.team
+    $Ref: context.about.team.team
   tags: []
   images:
     head:
-      $Ref: images.stockImagesV2.sydney-rae-gem5lzdj4iw-unsplash
+      $Ref: context.images.stockImagesV2.sydney-rae-gem5lzdj4iw-unsplash
   relatedArticles:
-    $Ref: services.serviceRelatedArticles
+    $Ref: context.services.serviceRelatedArticles
 qualitymanagement:
   id: qualitymanagement
   body:
@@ -75,10 +75,10 @@ qualitymanagement:
   title: Quality Management
   subTitle: Placeholder Quality Management
   authors:
-    $Ref: about.team.team
+    $Ref: context.about.team.team
   tags: []
   images:
     head:
-      $Ref: images.stockImagesV2.sydney-rae-gem5lzdj4iw-unsplash
+      $Ref: context.images.stockImagesV2.sydney-rae-gem5lzdj4iw-unsplash
   relatedArticles:
-    $Ref: services.serviceRelatedArticles
+    $Ref: context.services.serviceRelatedArticles

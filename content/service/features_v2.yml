@@ -2,28 +2,28 @@
 - logoClass: ri-gps-line
   feature: Project, Program & Portfolio Management
   image:
-    $Ref: images.assets.asset001
+    $Ref: context.images.assets.asset001
   body:
     $File: intro_project_mgmt_v2.md
   href: /service/projectmanagement.html
 - logoClass: ri-store-line
   feature: Product Management
   image:
-    $Ref: images.assets.asset002
+    $Ref: context.images.assets.asset002
   body:
     $File: intro_product_mgmt.md
   href: /service/productmanagement.html
 - logoClass: ri-body-scan-line
   feature: Quality Management
   image:
-    $Ref: images.assets.asset003
+    $Ref: context.images.assets.asset003
   body:
     $File: intro_quality_mgmt.md
   href: /service/qualitymanagement.html
 - logoClass: ri-body-scan-line
   feature: Facilitation & Couching
   image:
-    $Ref: images.assets.asset004
+    $Ref: context.images.assets.asset004
   body:
     $File: intro_facilitation_v2.md
   href: /service/facilitationcoaching.html

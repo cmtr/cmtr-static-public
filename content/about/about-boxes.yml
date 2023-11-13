@@ -2,7 +2,7 @@
 - id: ourmission
   logoClass: ri-brush-4-line
   image:
-    $Ref: images.stockImagesV2.kalen-emsley-7bwqxzbf6ke-unsplash
+    $Ref: context.images.stockImagesV2.kalen-emsley-7bwqxzbf6ke-unsplash
   title: Our Mission
   paragraph:
     $File: mission.md
@@ -10,7 +10,7 @@
 - id: ourvalues
   logoClass: ri-calendar-check-line
   image:
-    $Ref: images.stockImagesV2.sean-stratton-obpce_x3j6u-unsplash
+    $Ref: context.images.stockImagesV2.sean-stratton-obpce_x3j6u-unsplash
   title: Our Values
   paragraph:
     $File: values.md
@@ -18,7 +18,7 @@
 - id: ourvision
   logoClass: ri-movie-2-line
   image:
-    $Ref: images.stockImagesV2.matt-noble-bptmnn9jsmq-unsplash
+    $Ref: context.images.stockImagesV2.matt-noble-bptmnn9jsmq-unsplash
   title: Our Vision
   paragraph:
     $File: vision.md

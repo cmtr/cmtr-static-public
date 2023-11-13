@@ -6,27 +6,27 @@ waywework:
   title: The Way We Work
   subTitle: An Introduction to the CMTr.io Mindset
   authors:
-    $Ref: about.team.team
+    $Ref: context.about.team.team
   tags: []
   images:
     head:
-      $Ref: images.stockImagesV2.sean-stratton-obpce_x3j6u-unsplash
+      $Ref: context.images.stockImagesV2.sean-stratton-obpce_x3j6u-unsplash
   relatedArticles:
-    $Ref: about.aboutContentRelatedArticles
+    $Ref: context.about.aboutContentRelatedArticles
 whoweare:
   id: whoweare
   body:
-    $File: who_we_are.md
-  title: Who we are
-  subTitle: Your Independent Generalist Advisory Service
+    $File: who_we_are_v2.md
+  title: Your Independent Generalist Advisory Service
+  subTitle: Who we are
   authors:
-    $Ref: about.team.team
+    $Ref: context.about.team.team
   tags: []
   images:
     head:
-      $Ref: images.stockImagesV2.joshua-earle-dwheufds6kq-unsplash
+      $Ref: context.images.stockImagesV2.joshua-earle-dwheufds6kq-unsplash
   relatedArticles:
-    $Ref: about.aboutContentRelatedArticles
+    $Ref: context.about.aboutContentRelatedArticles
 ourmission:
   id: ourmission
   body:
@@ -34,13 +34,13 @@ ourmission:
   title: Our Mission
   subTitle:
   authors:
-    $Ref: about.team.team
+    $Ref: context.about.team.team
   tags: []
   images:
     head:
-      $Ref: images.stockImagesV2.kalen-emsley-7bwqxzbf6ke-unsplash
+      $Ref: context.images.stockImagesV2.kalen-emsley-7bwqxzbf6ke-unsplash
   relatedArticles:
-    $Ref: about.aboutContentRelatedArticles
+    $Ref: context.about.aboutContentRelatedArticles
 ourvalues:
   id: ourvalues
   type: external-field
@@ -50,13 +50,13 @@ ourvalues:
   title: Our Values
   subTitle: Where we want to go
   authors:
-    $Ref: about.team.team
+    $Ref: context.about.team.team
   tags: []
   images:
     head:
-      $Ref: images.stockImagesV2.sean-stratton-obpce_x3j6u-unsplash
+      $Ref: context.images.stockImagesV2.sean-stratton-obpce_x3j6u-unsplash
   relatedArticles:
-    $Ref: about.aboutContentRelatedArticles
+    $Ref: context.about.aboutContentRelatedArticles
 ourvision:
   id: ourvision
   body:
@@ -64,10 +64,10 @@ ourvision:
   title: Our Vision
   subTitle:
   authors:
-    $Ref: about.team.team
+    $Ref: context.about.team.team
   tags: []
   images:
     head:
-      $Ref: images.stockImagesV2.matt-noble-bptmnn9jsmq-unsplash
+      $Ref: context.images.stockImagesV2.matt-noble-bptmnn9jsmq-unsplash
   relatedArticles:
-    $Ref: about.aboutContentRelatedArticles
+    $Ref: context.about.aboutContentRelatedArticles

@@ -1,5 +1,4 @@
 <%
-	
 	const sections = !Array.isArray(publication.body) 
 			? [ marked(publication.body) ]
 			: publication.body
@@ -9,12 +8,16 @@
 							return marked(body.body);
 						case "IMAGE":
 							return "<p>Placeholder for Image</p>"
+						case "MERMAID":
+							return include("./mermaid", { body: body.body })
 						default:
 							throw new Error("Unsupported body-type: " + body.type.toUpperCase());
 					}
 				});
-	sections.forEach(section => { %> 
-		<div>
-			<%- section %>
-		</div>
-	<% }) %>
+
+	sections.forEach(section => { 
+%> 
+	<div>
+		<%- section %>
+	</div>
+<% }) %>
