@@ -59,7 +59,7 @@ Deontological ethics, often referred to as duty-based or rule-based ethics, posi
 
 4. **Handling Tasks:** If assigned a task that goes against their ethical principles, deontological workers might refuse or express concerns, prioritising moral duty over job security or promotions.
 
-In summary, deontological ethics focuses on the inherent morality of actions, irrespective of their consequences. Whether one is a leader or a subordinate, this ethical approach emphasises adherence to moral rules and duties as the primary determinant of right and wrong.
+Deontological ethics focuses on the inherent morality of actions, irrespective of their consequences. Whether one is a leader or a subordinate, this ethical approach emphasises adherence to moral rules and duties as the primary determinant of right and wrong.
 
 ## Consequentialism: A Deep Dive
 
@@ -93,7 +93,7 @@ Consequentialism, often referred to as results-based ethics, posits that the mor
 
 4. **Handling Ethical Dilemmas:** When faced with moral challenges, a consequentialist worker evaluates the potential outcomes of their choices. They might choose an action that's ethically questionable if it leads to a better overall result for them or the company.
 
-In summary, consequentialism places emphasis on the results of actions. Whether one is a leader or a subordinate, this ethical approach evaluates the moral worth of an action based on the outcomes it produces, often striving for the greatest overall benefit.
+Consequentialism places emphasis on the results of actions. Whether one is a leader or a subordinate, this ethical approach evaluates the moral worth of an action based on the outcomes it produces, often striving for the greatest overall benefit.
 
 
 ## Virtue Ethics: A Deep Dive
@@ -126,7 +126,7 @@ Virtue ethics shifts the focus from the act itself or its consequences to the ch
 
 4. **Facing Ethical Dilemmas:** In situations of moral ambiguity, a virtue ethics worker will reflect on their virtues to guide their actions, rather than rigid rules or potential outcomes.
 
-In summary, virtue ethics emphasises the importance of moral character. Whether one is a leader or a subordinate, this ethical approach encourages individuals to cultivate virtuous traits, believing that right actions will naturally follow from a virtuous character.
+Virtue ethics emphasises the importance of moral character. Whether one is a leader or a subordinate, this ethical approach encourages individuals to cultivate virtuous traits, believing that right actions will naturally follow from a virtuous character.
 
 ## Rights-Based Ethics: A Deep Dive
 
@@ -160,7 +160,7 @@ Rights-based ethics, also known as deontological ethics, centres on the belief t
 
 4. **Handling Ethical Dilemmas:** When facing moral challenges, a rights-based worker will evaluate their options based on the rights involved. They'll choose actions that respect and protect these rights, even if it means facing personal or professional disadvantages.
 
-In summary, rights-based ethics focuses on the inherent rights of individuals. Whether one is a leader or a subordinate, this ethical approach emphasises the importance of respecting and protecting these rights in all actions and decisions.
+Rights-based ethics focuses on the inherent rights of individuals. Whether one is a leader or a subordinate, this ethical approach emphasises the importance of respecting and protecting these rights in all actions and decisions.
 
 
 ## Relativist Ethics: A Deep Dive
@@ -193,7 +193,7 @@ Relativist ethics posits that there are no absolute moral truths or universal pr
 
 4. **Feedback and Collaboration:** Understanding that what's considered effective or appropriate can vary, these workers might seek feedback from diverse sources or collaborate closely with local teams when working in different regions.
 
-In summary, relativist ethics emphasises the importance of context in ethical decision-making. Whether one is a leader or a subordinate, this ethical approach promotes adaptability and understanding, recognising that moral values can differ across cultures, societies, and individuals.
+Relativist ethics emphasises the importance of context in ethical decision-making. Whether one is a leader or a subordinate, this ethical approach promotes adaptability and understanding, recognising that moral values can differ across cultures, societies, and individuals.
 
 ## Egoism: A Deep Dive
 
@@ -227,7 +227,7 @@ Egoism is an ethical theory that posits that individuals should act in their own
 
 4. **Feedback and Collaboration:** While they might collaborate with others, the underlying motive would be to further their own interests. They might seek feedback that elevates their work or positions them favourably.
 
-In summary, egoism places the individual's self-interest at the centre of ethical decision-making. Whether one is a leader or a subordinate, this ethical approach prioritises personal benefits and outcomes, often overlooking the broader impacts on others or the community. It's worth noting that while egoism can drive ambition and achievement, it can also lead to conflicts and ethical quandaries if unchecked.
+Egoism places the individual's self-interest at the centre of ethical decision-making. Whether one is a leader or a subordinate, this ethical approach prioritises personal benefits and outcomes, often overlooking the broader impacts on others or the community. It's worth noting that while egoism can drive ambition and achievement, it can also lead to conflicts and ethical quandaries if unchecked.
 
 
 

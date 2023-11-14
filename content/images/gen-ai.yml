@@ -564,3 +564,23 @@ meetingDrawing20:
     medium: *meeting-drawing-20-url
     large: *meeting-drawing-20-url
     extra: *meeting-drawing-20-url
+businessEthics01:
+  id: business-ethics-01
+  src: &business-ethics-01-url /image/gen-ai/business-ethics-diesel-punk-01.png
+  alt: Here is a Diesel Punk-inspired panoramic image representing ethics and business. The scene showcases a futuristic cityscape with leaders and workers engaged in a discussion around a table, symbolising a harmonious leader-worker relationship, set against a vibrant business world background.
+  hover: "Source: DALLE-3"
+  paragraph: A Diesel Punk-inspired panoramic image representing ethics and business. The scene showcases a futuristic cityscape with leaders and workers engaged in a discussion around a table, symbolising a harmonious leader-worker relationship, set against a vibrant business world background.
+  source: DALLE-3 - ChatGPT 4.0
+  tags:
+    - Ethics
+    - Business
+    - DALL-E-3
+    - Diesel
+    - Punk
+  urls:
+    original: *business-ethics-01-url
+    thumbnail: *business-ethics-01-url
+    small: *business-ethics-01-url
+    medium: *business-ethics-01-url
+    large: *business-ethics-01-url
+    extra: *business-ethics-01-url

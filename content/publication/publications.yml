@@ -11,13 +11,15 @@ business-ethics-01:
   tags:
     - Business
     - Leadership
+    - Ethics
+    - Organisation
   authors:
     - $Ref: context.about.team.team.haraldbliko
   images:
     head:
-      $Ref: context.images.genAi.officeDrawing10
+      $Ref: context.images.genAi.businessEthics01
     thumbnail:
-      $Ref: context.images.genAi.officeDrawing10
+      $Ref: context.images.genAi.businessEthics01
   relatedArticles: []
 
 unlocking-digital-success-1:
